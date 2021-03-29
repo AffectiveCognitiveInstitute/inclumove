@@ -6255,12 +6255,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "invalid-tab-group"
+      ],
       "type": "Conceptual",
       "source_relative_path": "docs/schnellstart.md",
       "output": {
         ".html": {
           "relative_path": "docs/schnellstart.html",
-          "hash": "3OYMU1Dw5hf+/+2FebmW/Q=="
+          "hash": "gHrviPOh6Fs8Ms81r33C0A=="
         }
       },
       "is_incremental": false,
@@ -6314,22 +6317,22 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

@@ -304,24 +304,24 @@ Bei der Begrüßung werden die vom Nutzer gewählten Belohnungsanimationen abges
 <div class="tabGroup" id="tabgroup_CeZOj-G++Q">
 <ul role="tablist">
 <li role="presentation">
-<a href="#tabpanel_CeZOj-G++Q_pause-1" role="tab" aria-controls="tabpanel_CeZOj-G++Q_pause-1" data-tab="pause-1" tabindex="0" aria-selected="true">incluMOVE Light</a>
+<a href="#tabpanel_CeZOj-G++Q_application-1" role="tab" aria-controls="tabpanel_CeZOj-G++Q_application-1" data-tab="application-1" tabindex="0" aria-selected="true">incluMOVE Light</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_CeZOj-G++Q_pause-2" role="tab" aria-controls="tabpanel_CeZOj-G++Q_pause-2" data-tab="pause-2" tabindex="-1">incluMOVE Extended</a>
+<a href="#tabpanel_CeZOj-G++Q_application-2" role="tab" aria-controls="tabpanel_CeZOj-G++Q_application-2" data-tab="application-2" tabindex="-1">incluMOVE Extended</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_CeZOj-G++Q_steps-1" role="tab" aria-controls="tabpanel_CeZOj-G++Q_steps-1" data-tab="steps-1" tabindex="-1">incluMOVE Light</a>
+<a href="#tabpanel_CeZOj-G++Q_application-1" role="tab" aria-controls="tabpanel_CeZOj-G++Q_application-1" data-tab="application-1" tabindex="-1">incluMOVE Light</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_CeZOj-G++Q_steps-2" role="tab" aria-controls="tabpanel_CeZOj-G++Q_steps-2" data-tab="steps-2" tabindex="-1">incluMOVE Extended</a>
+<a href="#tabpanel_CeZOj-G++Q_application-2" role="tab" aria-controls="tabpanel_CeZOj-G++Q_application-2" data-tab="application-2" tabindex="-1">incluMOVE Extended</a>
 </li>
 </ul>
-<section id="tabpanel_CeZOj-G++Q_pause-1" role="tabpanel" data-tab="pause-1">
+<section id="tabpanel_CeZOj-G++Q_application-1" role="tabpanel" data-tab="application-1">
 
 <p>Der restliche Teil der Projektionsfläche ist Arbeitsfläche und wird mittels individualisierbarer Projektionselemente angereichert um zB. einzelne Bauteile, Montageposition, etc. zu markieren.
 Klickt der Nutzer hier mit der linken Maustaste wird einen Schritt weiter geschaltet. Klickt er mit der rechten Maustaste wird zurück geschaltet.</p>
 </section>
-<section id="tabpanel_CeZOj-G++Q_pause-2" role="tabpanel" data-tab="pause-2" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_CeZOj-G++Q_application-2" role="tabpanel" data-tab="application-2" aria-hidden="true" hidden="hidden">
 
 <p>Der restliche Teil der Projektionsfläche ist Arbeitsfläche und wird mittels individualisierbarer Projektionselemente angereichert um zB. einzelne Bauteile, Montageposition, etc. zu markieren.</p>
 <h3 id="pausen-screen">Pausen Screen</h3>
@@ -362,7 +362,7 @@ Das System leitet weiter auf den Idle Screen.</p>
 <h4 id="alt-text-schrittliste"><img src="https://fonts.gstatic.com/s/i/materialiconsround/looks_3/v10/24px.svg?download=true" alt="alt text"> Schrittliste</h4>
 <p>Hier werden alle Arbeitsschritte in ihrer Ablaufreihenfolge angezeigt. Mit dem Klick auf einen Arbeitsschritt werden alle seine Inhalte auf der Projektionsfläche angezeigt. Auf dem Schritt selbst können die verschiedenen Eigenschaten bearbeitet werden:</p>
 </section>
-<section id="tabpanel_CeZOj-G++Q_steps-1" role="tabpanel" data-tab="steps-1" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_CeZOj-G++Q_application-1" role="tabpanel" data-tab="application-1" aria-hidden="true" hidden="hidden">
 
 <ul>
 <li><strong>Schrittname</strong><br>
@@ -372,14 +372,23 @@ Bestimmt die Orientierungsdauer des jeweiligen Arbeitsschrittes für minimales H
 <li><strong>Einheitliche Dauer</strong><br>
 Benutzt die gleiche Dauer für alle Hilfslevel.</li>
 <li><strong>Wiederholungen</strong><br>
-Menge der Wiederholungen für diesen Schritt.
-[!NOTE]
-&lt;Schritte werden in Serie wiederholt. Bei aufeinanderfolgenden Schritten mit der gleichen Anzahl an Wiederholungen werden alle dieser Schritte bis zum letzten Schritt ausgeführt und dann wieder von vorne begonnen.\ Bsp.:\ Schritt 1 und 2 haben 0 Wiederholungen.\ Schritt 3, 4 und 5 haben 2 Wiederholungen.\ Schritt 6 und 7 haben wieder 0 Wiederholungen.\ Die Schritte werden also in folgender Abfolge ausgeführt:\ 1 - 2 - 3 - 4 - 5 - 3 - 4 - 5 - 3 - 4 - 5 - 6 - 7&gt;</li>
+Menge der Wiederholungen für diesen Schritt.</li>
+</ul>
+<pre><code>Schritte werden in Serie wiederholt. Bei aufeinanderfolgenden Schritten mit der gleichen Anzahl an Wiederholungen 
+werden alle dieser Schritte bis zum letzten Schritt ausgeführt und dann wieder von vorne begonnen.
+Bsp.:
+Schritt 1 und 2 haben 0 Wiederholungen.
+Schritt 3, 4 und 5 haben 2 Wiederholungen.
+Schritt 6 und 7 haben wieder 0 Wiederholungen.
+Die Schritte werden also in folgender Abfolge ausgeführt:
+1 - 2 - 3 - 4 - 5 - 3 - 4 - 5 - 3 - 4 - 5 - 6 - 7
+</code></pre>
+<ul>
 <li><strong>Zeitschritt/Kameraschritt</strong><br>
 Ein Zeitschritt ist ein Schritt der nach Ablauf der Orientierungsdauer automatisch beendet wird. Ein Kamerschritt kann in Verwendung mit einer externen Kamerasoftware verwendet werden die die QC_PASSED Netzwerknachricht für eine Montage-ID an die Software schickt. Dieses Softwarefeature muss entsprechend von nder Kamersoftware implementiert werden.</li>
 </ul>
 </section>
-<section id="tabpanel_CeZOj-G++Q_steps-2" role="tabpanel" data-tab="steps-2" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_CeZOj-G++Q_application-2" role="tabpanel" data-tab="application-2" aria-hidden="true" hidden="hidden">
 
 <ul>
 <li><strong>Schrittname</strong><br>
@@ -387,15 +396,18 @@ Die Bezeichnung des Montageschrittes.</li>
 <li><strong>Schrittdauer</strong><br>
 Bestimmt die Orientierungsdauer des jeweiligen Arbeitsschrittes für minimales Hilfslevel, normales Hilfslevel und maximales Hilfslevel.</li>
 <li><strong>Wiederholungen</strong><br>
-Menge der Wiederholungen für diesen Schritt.
-[!NOTE]
-&lt;Schritte werden in Serie wiederholt. Bei aufeinanderfolgenden Schritten mit der gleichen Anzahl an Wiederholungen werden alle dieser Schritte bis zum letzten Schritt ausgeführt und dann wieder von vorne begonnen.<br>
-Bsp.:<br>
-Schritt 1 und 2 haben 0 Wiederholungen.<br>
-Schritt 3, 4 und 5 haben 2 Wiederholungen.<br>
-Schritt 6 und 7 haben wieder 0 Wiederholungen.<br>
-Die Schritte werden also in folgender Abfolge ausgeführt:<br>
-1 - 2 - 3 - 4 - 5 - 3 - 4 - 5 - 3 - 4 - 5 - 6 - 7&gt;</li>
+Menge der Wiederholungen für diesen Schritt.</li>
+</ul>
+<pre><code>Schritte werden in Serie wiederholt. Bei aufeinanderfolgenden Schritten mit der gleichen Anzahl an Wiederholungen 
+werden alle dieser Schritte bis zum letzten Schritt ausgeführt und dann wieder von vorne begonnen.
+Bsp.:
+Schritt 1 und 2 haben 0 Wiederholungen.
+Schritt 3, 4 und 5 haben 2 Wiederholungen.
+Schritt 6 und 7 haben wieder 0 Wiederholungen.
+Die Schritte werden also in folgender Abfolge ausgeführt:
+1 - 2 - 3 - 4 - 5 - 3 - 4 - 5 - 3 - 4 - 5 - 6 - 7
+</code></pre>
+<ul>
 <li><strong>Schritt-typ</strong><br>
 Im Gegensatz zu incluMOVe Extended gibt es verschiedene Schritt-typen für die verschiedenen Systemabläufe.\
 <ul>
