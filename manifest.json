@@ -6118,6 +6118,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "docs/images/screens/workflow/workflow_overview.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/screens/workflow/workflow_overview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "docs/images/setup/build_location_selection.gif",
       "output": {
         "resource": {
@@ -6238,7 +6249,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/schnellstart.html",
-          "hash": "XOCxkkLoHeFlVN+mwIgZUw=="
+          "hash": "zfFDo9dj5yTVoAN/lbPo9A=="
         }
       },
       "is_incremental": false,
