@@ -6063,6 +6063,61 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "docs/images/screens/editor/editor_00.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/screens/editor/editor_00.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/screens/editor/editor_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/screens/editor/editor_01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/screens/greeting.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/screens/greeting.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/screens/idle.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/screens/idle.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/screens/registration.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/screens/registration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "docs/images/setup/build_location_selection.gif",
       "output": {
         "resource": {
@@ -6183,7 +6238,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/schnellstart.html",
-          "hash": "QCfy88Wyf7vleowbmdEvkQ=="
+          "hash": "IAuSruvF/tTkaHihrPPrvg=="
         }
       },
       "is_incremental": false,
@@ -6207,19 +6262,22 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "XevOfOpE3vPS4h19XnTr8A=="
+          "hash": "PpsP8ekoxKwSm4vu/whTKA=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "sWB0a8dR+Vpcty4pxDg+EQ=="
+          "hash": "6cnzrJj3rl2wRuFpH1SgoQ=="
         }
       },
       "is_incremental": false,
@@ -6239,11 +6297,11 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },

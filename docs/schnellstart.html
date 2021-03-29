@@ -72,7 +72,13 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="inclumove-schnellstart">incluMOVE Schnellstart</h1>
 
-<p>Hier gibt es grundsätzliche Informationen über Konfiguration, Ersteinrichtung und Benutzung der incluMOVE Software.</p>
+<p>Hier gibt es grundsätzliche Informationen über Konfiguration, Ersteinrichtung und Benutzung der incluMOVE Software.
+Die Software ist in zwei Versionen vorhanden:</p>
+<h4 id="inclumove-light">incluMOVE Light</h4>
+<p>Diese Version benötigt zusätzlich zum Installationsrechner in der Minimalkonfiguration nur einen Beamer. Hier gibt es dann keine automatisierte Überprüfung der Montageabläufe.
+Eine vereinfachte Überprüfung kann über ein simples MQTT-Netzwerkprotokoll hinzugefügt werden. Eine Softwarelösung für die Überprüfung ist nicht enthalten.</p>
+<h4 id="inclumove-extended">incluMOVE Extended</h4>
+<p>Diese Version ist in Verbindung mit dem im Projekt entstandenen Gesamttischsystem vorgesehen. Es besteht eine feste Abhängigkeit zu mehreren Systemkomponenten die Über MQTT miteinander kommunizieren.</p>
 <h2 id="konfiguration">Konfiguration</h2>
 <p>Hier gibts es eine Übersicht über Aufbau des Installationsordner und der wichtigen Konfigurationsdateien.</p>
 <h3 id="installationsordner">Installationsordner</h3>
@@ -273,11 +279,14 @@ In der Konfigurationsdatei müssen die korrekten Pfade für die Workflows und Wo
 <h2 id="user-interface-übersicht">User Interface Übersicht</h2>
 <p>Hier gibt es eine Erklärung der verschiedenen UI - Screens.</p>
 <h3 id="idle-screen">Idle Screen</h3>
-<p>Das System startet in den Idle Screen. Wird ein USB Stick eingesteckt, bzw. ist die Nutzung ausgestellt wird entweder auf den Registrierungs Screen oder auf den Begrüßungsscreen weitergeleitet. Nach Beendigung einer Arbeitssession wird wieder auf den Idle Screen zurück geleitet.</p>
+<p><img src="images/screens/idle.png" alt="Ansicht Idle Screen"><br>
+Das System startet in den Idle Screen. Wird ein USB Stick eingesteckt, bzw. ist die Nutzung ausgestellt wird entweder auf den Registrierungs Screen oder auf den Begrüßungsscreen weitergeleitet. Nach Beendigung einer Arbeitssession wird wieder auf den Idle Screen zurück geleitet.</p>
 <h3 id="registrierungs-screen">Registrierungs Screen</h3>
-<p>Neue Nutzer werden zur Wahl eines Nutzernamens aufgefordert. In der Mitte ist der Livefeed einer angeschlossenen Webcam zu sehen. Kann die Webcam nicht geladen werden wird ein Platzzhalter verwendet. Nach Bestätigung wird das Bild als Profilbild des Nutzers festgelegt und auf den Begrüßungsscreen weitergeleitet.</p>
+<p><img src="images/screens/registration.png" alt="Ansicht Registrierungs Screen"><br>
+Neue Nutzer werden zur Wahl eines Nutzernamens aufgefordert. In der Mitte ist der Livefeed einer angeschlossenen Webcam zu sehen. Kann die Webcam nicht geladen werden wird ein Platzzhalter verwendet. Nach Bestätigung wird das Bild als Profilbild des Nutzers festgelegt und auf den Begrüßungsscreen weitergeleitet.</p>
 <h3 id="begrüßungs-screen">Begrüßungs Screen</h3>
-<p>Bei der Begrüßung werden die vom Nutzer gewählten Belohnungsanimationen abgespielt. Danach wird der Nutzer durch Gregor begrüßt. Durch Drücken auf den Startknopf kann der Nutzer nun den freigeschalteten Workflow starten.</p>
+<p><img src="images/screens/greeting.png" alt="Ansicht Begrüßungs-Screen"><br>
+Bei der Begrüßung werden die vom Nutzer gewählten Belohnungsanimationen abgespielt. Danach wird der Nutzer durch Gregor begrüßt. Durch Drücken auf den Startknopf kann der Nutzer nun den freigeschalteten Workflow starten.</p>
 <h3 id="workflow-screen">Workflow Screen</h3>
 <p>Die Workflowansicht ist die Arbeitsansicht der incluMOVE Software.</p>
 <p>** Insert UI Picture **</p>
@@ -295,10 +304,94 @@ In der Konfigurationsdatei müssen die korrekten Pfade für die Workflows und Wo
 <h3 id="review-screen">Review Screen</h3>
 <p>Im Review Screen wird eine Zusammenfassung der Arbeitssession dargestellt.</p>
 <p>** INSERT Review Screen picture **</p>
-<p>Im Anschluss an die</p>
+<p>Im Anschluss an die Übersicht kann der nutzer seine Belohnung wählen und wird nach Speiuchern des Profils vom System abgemeldet.
+Das System leitet weiter auf den Idle Screen.</p>
 <h3 id="workflow-editor">Workflow Editor</h3>
+<p>Der WorkflowEditor ermöglicht das Editieren der vorhandenen Workflows.</p>
+<p><img src="images/screens/editor/editor_00.png" alt="Ansicht Workflow Editor"></p>
+<h4 id="alt-text-workflow-managment"><img src="https://fonts.gstatic.com/s/i/materialiconsround/looks_one/v10/24px.svg?download=true" alt="alt text"> Workflow Managment</h4>
+<p>Hier kann von links nach rechts</p>
+<ul>
+<li>Ein neuer Workflow angelegt werden</li>
+<li>Der aktuelle Workflow abgespeichert werden</li>
+<li>Ein Workflow geöffnet werden</li>
+<li>Der Editor verlassen werden</li>
+</ul>
+<h4 id="alt-text-neuer-arbeitsschritt"><img src="https://fonts.gstatic.com/s/i/materialiconsround/looks_two/v10/24px.svg?download=true" alt="alt text"> Neuer Arbeitsschritt</h4>
+<p>Hiermit kann einer neuer Arbeitsschritt hinzugefügt werden.</p>
+<h4 id="alt-text-schrittliste"><img src="https://fonts.gstatic.com/s/i/materialiconsround/looks_3/v10/24px.svg?download=true" alt="alt text"> Schrittliste</h4>
+<p>Hier werden alle Arbeitsschritte in ihrer Ablaufreihenfolge angezeigt. Mit dem Klick auf einen Arbeitsschritt werden alle seine Inhalte auf der Projektionsfläche angezeigt. Auf dem Schritt selbst können die verschiedenen Eigenschaten bearbeitet werden:</p>
+<h5 id="inclumove-light-1"><a href="#tab/steps_light">incluMOVE Light</a></h5>
+<ul>
+<li><strong>Schrittname</strong><br>
+Die Bezeichnung des Montageschrittes.</li>
+<li><strong>Schrittdauer</strong><br>
+Bestimmt die Orientierungsdauer des jeweiligen Arbeitsschrittes für minimales Hilfslevel, normales Hilfslevel und maximales Hilfslevel.</li>
+<li><strong>Einheitliche Dauer</strong><br>
+Benutzt die gleiche Dauer für alle Hilfslevel.</li>
+<li><strong>Wiederholungen</strong><br>
+Menge der Wiederholungen für diesen Schritt.
+[!NOTE]
+&lt;Schritte werden in Serie wiederholt. Bei aufeinanderfolgenden Schritten mit der gleichen Anzahl an Wiederholungen werden alle dieser Schritte bis zum letzten Schritt ausgeführt und dann wieder von vorne begonnen.<br>
+Bsp.:<br>
+Schritt 1 und 2 haben 0 Wiederholungen.<br>
+Schritt 3, 4 und 5 haben 2 Wiederholungen.<br>
+Schritt 6 und 7 haben wieder 0 Wiederholungen.<br>
+Die Schritte werden also in folgender Abfolge ausgeführt:<br>
+1 - 2 - 3 - 4 - 5 - 3 - 4 - 5 - 3 - 4 - 5 - 6 - 7&gt;</li>
+<li><strong>Zeitschritt/Kameraschritt</strong><br>
+Ein Zeitschritt ist ein Schritt der nach Ablauf der Orientierungsdauer automatisch beendet wird. Ein Kamerschritt kann in Verwendung mit einer externen Kamerasoftware verwendet werden die die QC_PASSED Netzwerknachricht für eine Montage-ID an die Software schickt. Dieses Softwarefeature muss entsprechend von nder Kamersoftware implementiert werden.</li>
+</ul>
+<div class="tabGroup" id="tabgroup_CeZOj-G++Q">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_steps-extended" role="tab" aria-controls="tabpanel_CeZOj-G++Q_steps-extended" data-tab="steps-extended" tabindex="0" aria-selected="true">incluMOVE Extended</a>
+</li>
+</ul>
+<section id="tabpanel_CeZOj-G++Q_steps-extended" role="tabpanel" data-tab="steps-extended">
+
+<ul>
+<li><strong>Schrittname</strong><br>
+Die Bezeichnung des Montageschrittes.</li>
+<li><strong>Schrittdauer</strong><br>
+Bestimmt die Orientierungsdauer des jeweiligen Arbeitsschrittes für minimales Hilfslevel, normales Hilfslevel und maximales Hilfslevel.</li>
+<li><strong>Wiederholungen</strong><br>
+Menge der Wiederholungen für diesen Schritt.
+[!NOTE]
+&lt;Schritte werden in Serie wiederholt. Bei aufeinanderfolgenden Schritten mit der gleichen Anzahl an Wiederholungen werden alle dieser Schritte bis zum letzten Schritt ausgeführt und dann wieder von vorne begonnen.<br>
+Bsp.:<br>
+Schritt 1 und 2 haben 0 Wiederholungen.<br>
+Schritt 3, 4 und 5 haben 2 Wiederholungen.<br>
+Schritt 6 und 7 haben wieder 0 Wiederholungen.<br>
+Die Schritte werden also in folgender Abfolge ausgeführt:<br>
+1 - 2 - 3 - 4 - 5 - 3 - 4 - 5 - 3 - 4 - 5 - 6 - 7&gt;</li>
+<li><strong>Schritt-typ</strong><br>
+Im Gegensatz zu incluMOVe Extended gibt es verschiedene Schritt-typen für die verschiedenen Systemabläufe.\
+<ul>
+<li>Automatisch<br>
+Ein automatischer Schritt wirdnach Ablauf der Orientierungsdauer automatisch beendet.</li>
+<li>Laden<br>
+Ein Ladeschritt dient zum Beladen des Tisches mit einem Objektträger.</li>
+<li>Entladen<br>
+Ein Entladeschritt dient zum Entnehmen des Objektträger aus dem Tisch.</li>
+<li>Endkontrolle<br>
+Ist ein Schritt zur zusätzlichen Endkontrolle der Platine.</li>
+<li>Montage<br>
+Ein Montageschritt dient der Montage eines spezifischen Bauteils. Die Greifer-ID spezifiziert den Greifer der verwendet werden soll. Soll kein Greifer verwendet werden sollte diese den Wert '-1' haben. Die Bauteil ID spezifiert welches Bauteil montiert werden soll.</li>
+</ul>
+</li>
+</ul>
+<h4 id="alt-text-toolbox"><img src="https://fonts.gstatic.com/s/i/materialiconsround/looks_4/v10/24px.svg?download=true" alt="alt text"> Toolbox</h4>
+<p>Über die Toolbox können neue Elemente zu einzelnen Schritten hinzugefügt werden. Sie können einfach über Drag&amp;Drop auf die Projektionsoberfläche gezogen werden.</p>
+<h4 id="alt-text-workflowbezeichnung"><img src="https://fonts.gstatic.com/s/i/materialiconsround/looks_5/v10/24px.svg?download=true" alt="alt text"> Workflowbezeichnung</h4>
+<p>Der Workflowname kann über die Kopfleiste geändert werden. Damit ändert sich sowohl der Dateiname als auch der Unterordner für die verwendeten zusätzlichen Mediendateien.</p>
+<h4 id="schrittelemente-bearbeiten">Schrittelemente bearbeiten</h4>
+<p>Jedes Schrittelement kann über Linksklick in der Szene verschoben werden. Zusätzlich können über das Editor Tool verschiedene Eigenschaften der einzelnen Elemente nach belieben geändert werden.
+<img src="images/screens/editor/editor_01.png" alt="Ansicht Editor Tool"></p>
 <h2 id="benutzung">Benutzung</h2>
 <p>Nach dem Start der Anwendung wird der idleScreen mit dem incluMOVE Logo angezeigt. Wird nun ein USB Stick eingesteckt wird entweder die Nutzerregistrierung gestartet oder direkt in die Begrüßung weitergeleitet.</p>
+</section>
+</div>
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
