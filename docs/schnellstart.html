@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>incluMOVE Schnellstart </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="incluMOVE Schnellstart ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../docs/images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../docs/images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="inclumove-schnellstart">incluMOVE Schnellstart</h1>
+
+<p>Hier gibt es grundsätzliche Informationen über Konfiguration, Ersteinrichtung und Benutzung der incluMOVE Software.</p>
+<h2 id="konfiguration">Konfiguration</h2>
+<p>Hier gibts es eine Übersicht über Aufbau des Installationsordner und der wichtigen Konfigurationsdateien.</p>
+<h3 id="installationsordner">Installationsordner</h3>
+<p>Im gewählten Installationsordner befinden sich folgende Ordner und Dateien:</p>
+<table>
+<thead>
+<tr>
+<th>Pfad</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>incluMOVE_Data/</td>
+<td>Anwendungsdaten</td>
+</tr>
+<tr>
+<td>MonoBleedingEdge/</td>
+<td>Scriptbibliotheken</td>
+</tr>
+<tr>
+<td>workflows/</td>
+<td>Standard Workflow Ordner</td>
+</tr>
+<tr>
+<td>config.json</td>
+<td>incluMOVE Konfigurationsdatei</td>
+</tr>
+<tr>
+<td>incluMOVE.exe</td>
+<td>Anwendungs-executable</td>
+</tr>
+<tr>
+<td>UnityCrashhandler64.exe</td>
+<td>Absturzmanager</td>
+</tr>
+<tr>
+<td>UnityPlayer.dll</td>
+<td>Unity-Engine Bibliothek</td>
+</tr>
+<tr>
+<td>user.prf</td>
+<td>Beispiel Nutzerdatei</td>
+</tr>
+</tbody>
+</table>
+<h3 id="konfigurationsdatei">Konfigurationsdatei</h3>
+<p>Über die diese Datei werden bestimmte Einstellungen der incluMOVE Software konfiguriert.</p>
+<table>
+<thead>
+<tr>
+<th>Konfigurationswert</th>
+<th>Werte</th>
+<th>Beispiel/ <em>Zulässige Werte</em></th>
+<th>Funktion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>webcamDevice</td>
+<td>Textstring</td>
+<td>&quot;Logitech C920&quot;</td>
+<td>Name des Webcam-Device</td>
+</tr>
+<tr>
+<td>resolutionWidth</td>
+<td>Ganzzahl</td>
+<td>1280</td>
+<td>Webcam Auflösung Breite (Geräteabhängig)</td>
+</tr>
+<tr>
+<td>resolutionHeight</td>
+<td>Ganzzahl</td>
+<td>720</td>
+<td>Webcam Auflösung Höhe (Geräteabhängig)</td>
+</tr>
+<tr>
+<td>fps</td>
+<td>Ganzzahl</td>
+<td>30</td>
+<td>Webcam Bildwiederholrate (Geräteabhängig)</td>
+</tr>
+<tr>
+<td>assetsUrl</td>
+<td>Textstring</td>
+<td>&quot;D://incluMove/workflows/workflow-files&quot;</td>
+<td>Absoluter Pfad zum Standardassetordner</td>
+</tr>
+<tr>
+<td>workflowDirectory</td>
+<td>Textstring</td>
+<td>&quot;D://incluMove/workflows&quot;</td>
+<td>Absoluter Pfad zum Workflowordner</td>
+</tr>
+<tr>
+<td>mode</td>
+<td>Textstring</td>
+<td><em>&quot;kiosk&quot;, &quot;guest&quot;</em></td>
+<td>Betriebsmodus (kiosk = Standard, guest = Modus ohne Nutzerprofile)</td>
+</tr>
+<tr>
+<td>UseUsbProfile</td>
+<td>boolean</td>
+<td><em>true, false</em></td>
+<td>Nutzerprofile über USB-Stick (Nutzt ansonsten user.prf Datei im Installationsordner)</td>
+</tr>
+<tr>
+<td>SkipIntro</td>
+<td>boolean</td>
+<td><em>true, false</em></td>
+<td>Springt direkt in Workflow ohne Begrüßung</td>
+</tr>
+<tr>
+<td>adaptivityTimeThreshold</td>
+<td>Gleitkommazahl</td>
+<td>30.75</td>
+<td>Mindestdauer zwischen Chatbot-Anfragen zur Änderung der Adaptivität in Sekunden</td>
+</tr>
+<tr>
+<td>adaptivityRepeatThreshold</td>
+<td>Ganzzahl</td>
+<td>2</td>
+<td>Mindestschritte über dem Grenzwert bevor eine Adaptivitäts-Änderung vorgschlagen wird</td>
+</tr>
+<tr>
+<td>standardWorkflow</td>
+<td>Textstring</td>
+<td>&quot;example.work&quot;</td>
+<td>Dateiname des Worfklows der bei neuen Nutzern standardmäßig hinzugefügt wird</td>
+</tr>
+</tbody>
+</table>
+<p>Um die Konfigurationsdatei zurückzusetzen kann sie einfach aus dem Ordner gelöscht werden. Die Software generiert dann automatisch eine neue Datei.</p>
+<h3 id="nutzerdateien">Nutzerdateien</h3>
+<p>Nutzerdateien speichern den Arbeitsverlauf von Nutzern und legen fest welchen Workflow sie bearbeiten können.</p>
+<table>
+<thead>
+<tr>
+<th>Konfigurationswert</th>
+<th>Werte</th>
+<th>Beispiel/ <em>Zulässige Werte</em></th>
+<th>Funktion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>Textstring</td>
+<td>&quot;Musterperson&quot;</td>
+<td>Anzeigename des Nutzers</td>
+</tr>
+<tr>
+<td>profilePicture</td>
+<td>Bytearray</td>
+<td>[140,138,142,255,...]</td>
+<td>Profilbilddaten</td>
+</tr>
+<tr>
+<td>isAdmin</td>
+<td>boolean</td>
+<td><em>true, false</em></td>
+<td>Adminutzer (Schaltet Workfloweditor frei)</td>
+</tr>
+<tr>
+<td>workflows</td>
+<td>Textstring Array</td>
+<td>[&quot;example.work&quot;]</td>
+<td>Workflows auf die der Nutzer Zugriff hat</td>
+</tr>
+<tr>
+<td>badgeHistory</td>
+<td>Verlaufsdaten</td>
+<td>--------------</td>
+<td>Verlaufsdaten des Nutzers</td>
+</tr>
+<tr>
+<td>adaptivityLevel</td>
+<td>Ganzahl</td>
+<td><em>0,1,2</em></td>
+<td>Letzter gewählter Adaptivitätslevel des Nutzers</td>
+</tr>
+<tr>
+<td>selectedReward</td>
+<td>Textstring</td>
+<td>&quot;Balloons&quot;</td>
+<td>Letzte gewählte Belohnung des Nutzers</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ersteinrichtung">Ersteinrichtung</h2>
+<p>Um die incluMOVE Software für den Betrieb startklar zu machen müssen einige Werte in den Konfigurationsdateien angelegt werden.
+In der Konfigurationsdatei müssen die korrekten Pfade für die Workflows und Workflow Assets gesetzt werden. Standardmäßig ist der Workflow Ordner mit Beispielen im Installationsordner beigefügt.</p>
+<pre><code class="lang-json">...
+&quot;assetsUrl&quot;: &quot;D://incluMOVE/workflows/workflow-files&quot;
+&quot;workflowDirectory&quot;: &quot;D://incluMOVE/workflows&quot;
+...
+</code></pre>
+<h2 id="user-interface-übersicht">User Interface Übersicht</h2>
+<p>Hier gibt es eine Erklärung der verschiedenen UI - Screens.</p>
+<h3 id="idle-screen">Idle Screen</h3>
+<p>Das System startet in den Idle Screen. Wird ein USB Stick eingesteckt, bzw. ist die Nutzung ausgestellt wird entweder auf den Registrierungs Screen oder auf den Begrüßungsscreen weitergeleitet. Nach Beendigung einer Arbeitssession wird wieder auf den Idle Screen zurück geleitet.</p>
+<h3 id="registrierungs-screen">Registrierungs Screen</h3>
+<p>Neue Nutzer werden zur Wahl eines Nutzernamens aufgefordert. In der Mitte ist der Livefeed einer angeschlossenen Webcam zu sehen. Kann die Webcam nicht geladen werden wird ein Platzzhalter verwendet. Nach Bestätigung wird das Bild als Profilbild des Nutzers festgelegt und auf den Begrüßungsscreen weitergeleitet.</p>
+<h3 id="begrüßungs-screen">Begrüßungs Screen</h3>
+<p>Bei der Begrüßung werden die vom Nutzer gewählten Belohnungsanimationen abgespielt. Danach wird der Nutzer durch Gregor begrüßt. Durch Drücken auf den Startknopf kann der Nutzer nun den freigeschalteten Workflow starten.</p>
+<h3 id="workflow-screen">Workflow Screen</h3>
+<p>Die Workflowansicht ist die Arbeitsansicht der incluMOVE Software.</p>
+<p>** Insert UI Picture **</p>
+<p>Auf der linken Seite der Projektion ist das Workflowinterface zu sehen. Hierüber hat der Nutzer Übersicht über den aktuellen Workflowfortschritt mittels Montagezähler, Abzeichenanzeige und Timeline. Über den Chatbot gibt es Hilfsanweisungen zum aktuellen Arbeitsablauf. Mittels Pausebutton kann der Nutzer die Arbeit unterbrechen.</p>
+<p>Der restliche Teil der Projektionsfläche ist Arbeitsfläche und wird mittels individualisierbarer Projektionselemente angereichert um zB. einzelne Bauteile, Montageposition, etc. zu markieren.</p>
+<p>Auf dem Pausenbildschirm bekommt der Nutzer eine ausführlichere Übersicht über den aktuellen Arbeitsfortschritt. Während der Pause läuft die Zeit in den Arbeitsschritten nicht weiter.</p>
+<p>** Insert Pause Screen Picture **</p>
+<p>Dieser Abschnitt gibt einen Überblick über den Fortschritt zu den nächsten Abzeichen.</p>
+<p>** Insert Badge Overview Picture **</p>
+<p>Der Workflowverlauf gibt einen Überblick über die letzen Sessions des Nutzers. Angegeben ist die Gesamtmenge der Abzeichen die der Nutzer erreicht hat.</p>
+<p>** Insert Workflow History Picture **</p>
+<p>Über den Meilensteinknopf kommt man zur Übersicht der bereits erreichten und noch nicht erreichten Meilensteine. Hier kann der Fortschritt zu verschiedenen Meilensteinen überprüft werden und welche freischaltbaren Elemente und Belohnungen über einen Meilenstein erreicht werden können.</p>
+<p>** Insert Milestone Screen + Milestone Picture **</p>
+<p>Über den Beenden Knopf kann die Arbeitssession beendet werden. Der Nutzer wird danach auf den Review Screen weitergeleitet.</p>
+<h3 id="review-screen">Review Screen</h3>
+<p>Im Review Screen wird eine Zusammenfassung der Arbeitssession dargestellt.</p>
+<p>** INSERT Review Screen picture **</p>
+<p>Im Anschluss an die</p>
+<h3 id="workflow-editor">Workflow Editor</h3>
+<h2 id="benutzung">Benutzung</h2>
+<p>Nach dem Start der Anwendung wird der idleScreen mit dem incluMOVE Logo angezeigt. Wird nun ein USB Stick eingesteckt wird entweder die Nutzerregistrierung gestartet oder direkt in die Begrüßung weitergeleitet.</p>
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-left">Generated by <strong>DocFX</strong></span>
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>
+                      <span class="fas fa-copyright"></span>
+                      2019, Affective & Cognitive Institute</span>
+                      <a href="https://affective-lab.org" class="fas fa-home"></a>
+                      <a href="https://www.researchgate.net/lab/Affective-and-Cognitive-Institute-Affective-Lab-Oliver-Korn" class="fab fa-researchgate"></a>
+                      <a href="https://www.linkedin.com/company/affective-cognitive-institute/" class="fab fa-linkedin"></a>
+                      <a href="https://twitter.com/aci_research" class="fab fa-twitter"></a>
+                      <a href="https://www.youtube.com/channel/UCYetO2MEXJ0KMVWyxLXMS1g" class="fab fa-youtube"></a>
+                      <a href="https://github.com/AffectiveCognitiveInstitute" class="fab fa-github"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
