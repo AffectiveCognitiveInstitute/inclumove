@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c74802e1a43e44a84530bdcb1a7615, type: 3}
+  m_Name: so_StudyMilestonesCollection
+  m_EditorClassIdentifier: 
+  m_Milestones:
+  - {fileID: 11400000, guid: 9bffe72db6c829a4e8bfbbce11f1d2e9, type: 2}
+  - {fileID: 11400000, guid: a9e283b63e105c746a439134ac97dfbc, type: 2}
+  - {fileID: 11400000, guid: 39be74f6e4714004fa93290649b8c438, type: 2}
+  - {fileID: 11400000, guid: f88265e7c429f3d4780aafb5a6f19b8d, type: 2}
+  - {fileID: 11400000, guid: d78c24d2c1b4dd3408fff7efa33e69bb, type: 2}
+  - {fileID: 11400000, guid: 04a541345ade2bf47af798c63f6edeac, type: 2}
+  - {fileID: 11400000, guid: 1451a75d5a5cc6740a0c7975a4a06547, type: 2}
+  - {fileID: 11400000, guid: 7ef1a11f93156f141a82adc6f381c1a1, type: 2}
+  - {fileID: 11400000, guid: 3366034904ed01d4f82c52d6788ab764, type: 2}
+  - {fileID: 11400000, guid: f47ecad640b081640bccd18bc64a3f0b, type: 2}
+  - {fileID: 11400000, guid: 4edbbf24243ae244ba2ae4a728f9a86d, type: 2}
+  - {fileID: 11400000, guid: 64f9a32ad55ff20479199cbad49c2c62, type: 2}

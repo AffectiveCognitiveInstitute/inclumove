@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6703020796978706173
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26459bfd74175b4a854f1516e5dbae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MilestoneData: {fileID: 11400000, guid: 9bffe72db6c829a4e8bfbbce11f1d2e9, type: 2}
+--- !u!114 &-2667389746688553961
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25d101749193154f88b7219377ba91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: target
+  m_Value: 1
+--- !u!114 &-1160005390807666100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6477784c589d2458d6ed561379c163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CounterId: current
+  m_RequiredCountId: target
+  m_Type: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1550a023f4a75e44da0dff2e57cc88f8, type: 3}
+  m_Name: so_qst_badge_1
+  m_EditorClassIdentifier: 
+  m_Id: BadgeQuest_1
+  m_QuestNode:
+    m_ConditionMode: 1
+    m_Conditions:
+    - {fileID: -1160005390807666100}
+    m_SuccessTriggers:
+    - {fileID: -6703020796978706173}
+    m_FailedTriggers: []
+    m_MinimumNumberOfConditions: 0
+  m_QuestCounters:
+    m_QuestCounters:
+    - {fileID: -2667389746688553961}
+    - {fileID: 2535606395927100794}
+  m_QuestContent:
+    m_Content:
+    - {fileID: 5319206494503131535}
+--- !u!114 &2535606395927100794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d4b9c69213d37c41a0cbaa9015ff6dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: current
+  m_Value: 0
+--- !u!114 &5319206494503131535
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e93b56344fb9e94bab9e06f52478ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TitleKey: 'Abzeichen '
+  m_CurrentCounterId: current
+  m_TargetCounterId: target

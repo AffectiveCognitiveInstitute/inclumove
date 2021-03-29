@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 72a87210d42dc9a42a2d64636cf1d17e
+timeCreated: 1517302570
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rectangle: {fileID: 1660788411683560, guid: 6fcc14d29ddb1d74da440f4eed057dfb,
+      type: 2}
+  - activeStep: {fileID: 1608358559312176, guid: aaad2ef2aae4ea443821d804153bca6e,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

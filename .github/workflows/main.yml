@@ -1,0 +1,26 @@
+name: GitHub Pages Documentation
+
+on:
+  push:
+    branches:
+      - fb/extended
+      
+jobs:
+  publishToPages:
+    name: Publish to Pages
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout branch
+      uses: actions/checkout@v2
+      with:
+        ref: fb/extended
+        lfs: true
+    - name: Run docFX
+      uses: ./Actions/docfx
+    - name: Publish
+      uses: ./Actions/publish-gh-pages
+      env:
+        CONTENT: _site
+        GH_EMAIL: moritz.umfahrer@hs-offenburg.de
+        GH_USER: Moritz Umfahrer
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

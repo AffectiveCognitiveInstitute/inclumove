@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e0d0c923825c742a696094d9e07619, type: 3}
+  m_Name: so_RewardParticleSystems
+  m_EditorClassIdentifier: 
+  m_ParticleSystems:
+  - reward: {fileID: 11400000, guid: 1a3202d4523279445b7b249707b522fe, type: 2}
+    amountPrefabs:
+      tier1Prefab: {fileID: 3970827149924959605, guid: 2f0f6596b7423b34ba7b2589bdee3a35,
+        type: 3}
+      tier2Prefab: {fileID: 7762880019589956794, guid: 6018c4f8feb96814e89e0b93d4883b4a,
+        type: 3}
+      tier3Prefab: {fileID: 7762880019589956794, guid: b358f9b54aa0ac54492df06c3e2ea5df,
+        type: 3}
+    speedPrefabs:
+      tier1Prefab: {fileID: 3686748448961295124, guid: 17a7e11536396434b864bb4a146524cc,
+        type: 3}
+      tier2Prefab: {fileID: 3970827149924959605, guid: 35b96b232017a504c82e9a31f52266ee,
+        type: 3}
+      tier3Prefab: {fileID: 3970827149924959605, guid: 3528d56e79fe1624c866e09568ba848f,
+        type: 3}
+    streakPrefabs:
+      tier1Prefab: {fileID: 2120431199323068960, guid: b4249523bdda0d249b0101ad2bd1e9bb,
+        type: 3}
+      tier2Prefab: {fileID: 3970827149924959605, guid: 4e7b0abb11df03c458f2ad1b235da5ee,
+        type: 3}
+      tier3Prefab: {fileID: 3970827149924959605, guid: 5a4d5c587bf67a54c99317b0949e029c,
+        type: 3}
+  - reward: {fileID: 11400000, guid: 49fae84c60ee0da41900e6bcf29af3df, type: 2}
+    amountPrefabs:
+      tier1Prefab: {fileID: 3472959011795492696, guid: e232e688f37007d4da1fb9e128e09c87,
+        type: 3}
+      tier2Prefab: {fileID: 4137743278944842734, guid: 6f2ed704ae85ac7439668d718dbc5060,
+        type: 3}
+      tier3Prefab: {fileID: 4137743278944842734, guid: 9d5340190b2eab249b73e7751b177ff3,
+        type: 3}
+    speedPrefabs:
+      tier1Prefab: {fileID: 1642174910598316909, guid: ea6cdd63f7bc35747af12f11d440fb9f,
+        type: 3}
+      tier2Prefab: {fileID: 7762880019589956794, guid: 166ca9d0f87267b4d9441ea93d83d356,
+        type: 3}
+      tier3Prefab: {fileID: 7762880019589956794, guid: c98f9ce6ec90830429c43efe38733ceb,
+        type: 3}
+    streakPrefabs:
+      tier1Prefab: {fileID: 4137743278944842734, guid: 4e744b106cb1d1c4e8e8bb8b5fe7447b,
+        type: 3}
+      tier2Prefab: {fileID: 7762880019589956794, guid: 16ee734c44199e24aaf74cef97d9dab0,
+        type: 3}
+      tier3Prefab: {fileID: 7762880019589956794, guid: 8d224cac8c438f54f8183b6de442ccc8,
+        type: 3}
+  - reward: {fileID: 11400000, guid: bd6103620667ae847ba6bb7fba1b1bc5, type: 2}
+    amountPrefabs:
+      tier1Prefab: {fileID: 4033260145435791493, guid: f6b8c2943d3ce97448bb785205271a50,
+        type: 3}
+      tier2Prefab: {fileID: 7762880019589956794, guid: 32a87cad1ba7a724fa324c0b9cdf6575,
+        type: 3}
+      tier3Prefab: {fileID: 7762880019589956794, guid: 5acd2b945d5adf34691af3bcfb2c6109,
+        type: 3}
+    speedPrefabs:
+      tier1Prefab: {fileID: 3441785000223534760, guid: c4e29447fe2b1da4f97f4fbdd2ecbb84,
+        type: 3}
+      tier2Prefab: {fileID: 4033260145435791493, guid: e0f9fd506c400fa4d9f3a5727654a529,
+        type: 3}
+      tier3Prefab: {fileID: 4033260145435791493, guid: cab5eeeff7489eb4aa11cc7d5a14f88d,
+        type: 3}
+    streakPrefabs:
+      tier1Prefab: {fileID: 4133577537917427289, guid: 4f65dc1aafb2c2545a0c3f8bdc0969ca,
+        type: 3}
+      tier2Prefab: {fileID: 4033260145435791493, guid: 0775c96b86b2ec5408e9ababeb5b4809,
+        type: 3}
+      tier3Prefab: {fileID: 4033260145435791493, guid: c9cfe4b9bb95feb4996f29410e9470cd,
+        type: 3}
+  - reward: {fileID: 11400000, guid: d65aca03f9b985e43b42620cae467d06, type: 2}
+    amountPrefabs:
+      tier1Prefab: {fileID: 2523915067161434365, guid: e31b44946ee30b643bc7dc5f3fee1dc3,
+        type: 3}
+      tier2Prefab: {fileID: 4033260145435791493, guid: bc49ade027ccdcc429e73ab6e8b95cfd,
+        type: 3}
+      tier3Prefab: {fileID: 4033260145435791493, guid: d4db3b505126a4c42aae754d5af14f5a,
+        type: 3}
+    speedPrefabs:
+      tier1Prefab: {fileID: 8074200484388048207, guid: a459de8cc5743d341bbf09117efcd82f,
+        type: 3}
+      tier2Prefab: {fileID: 2523915067161434365, guid: 0f0c1d98e5326344fac0c9626b6dea3c,
+        type: 3}
+      tier3Prefab: {fileID: 2523915067161434365, guid: 1aeed6c34e3d494488baedf69fdf5256,
+        type: 3}
+    streakPrefabs:
+      tier1Prefab: {fileID: 881410401400079904, guid: 341a3d80ae2fe5b469aa3328c11c1292,
+        type: 3}
+      tier2Prefab: {fileID: 8074200484388048207, guid: ddfbda827deaf334a8d0c76e40f884d5,
+        type: 3}
+      tier3Prefab: {fileID: 8074200484388048207, guid: ec100729970237f49957d399c856468f,
+        type: 3}
+  - reward: {fileID: 11400000, guid: 1207840b39758bd498f104b82ccdef69, type: 2}
+    amountPrefabs:
+      tier1Prefab: {fileID: 2629611125515188727, guid: 277769ee549e2d44e91bdd7d47642a67,
+        type: 3}
+      tier2Prefab: {fileID: 2523915067161434365, guid: 96624f6d486626d4c82ed5ceb4c7a84d,
+        type: 3}
+      tier3Prefab: {fileID: 2523915067161434365, guid: ab17a0aa39f9c81428c122187da274ae,
+        type: 3}
+    speedPrefabs:
+      tier1Prefab: {fileID: 1888235578749813395, guid: 4a71596bc70acba4eaffdfd744eb20d4,
+        type: 3}
+      tier2Prefab: {fileID: 2629611125515188727, guid: 055d6cd81df1afd4d898eca838a28364,
+        type: 3}
+      tier3Prefab: {fileID: 2629611125515188727, guid: 29a95df9b0d91864bba1b8e199ba24e8,
+        type: 3}
+    streakPrefabs:
+      tier1Prefab: {fileID: 6752250530199181575, guid: 0b01c060815f48f4f864d1d805c1c7e7,
+        type: 3}
+      tier2Prefab: {fileID: 2629611125515188727, guid: febf2f6ccafeae74088f768c6e22bc37,
+        type: 3}
+      tier3Prefab: {fileID: 2629611125515188727, guid: 2ee02ced4870c5749bce7dc5bd5002e6,
+        type: 3}
+  - reward: {fileID: 11400000, guid: f60031a08845f6b43ba97f0ca1cc1b2c, type: 2}
+    amountPrefabs:
+      tier1Prefab: {fileID: 6111725086918654819, guid: a05ae076655d8e346a7aca2cc3f6fd45,
+        type: 3}
+      tier2Prefab: {fileID: 2523915067161434365, guid: e0b80f6b71a1ead48bdceef5d18e8442,
+        type: 3}
+      tier3Prefab: {fileID: 2523915067161434365, guid: 726c2360f69be2d438962ee9a93c7a48,
+        type: 3}
+    speedPrefabs:
+      tier1Prefab: {fileID: 7650162745344802034, guid: da5dd08a452fa764f84e595acf3e4f6b,
+        type: 3}
+      tier2Prefab: {fileID: 6111725086918654819, guid: 758dfa5a81e3e0643b607223af414bb7,
+        type: 3}
+      tier3Prefab: {fileID: 6111725086918654819, guid: 435c37bba5e721248a8e2b22f7950745,
+        type: 3}
+    streakPrefabs:
+      tier1Prefab: {fileID: 8410365048747537484, guid: 8521bd78cc42a7f46bec03392c91207a,
+        type: 3}
+      tier2Prefab: {fileID: 7650162745344802034, guid: 540c3642043dcce4b81d825475d736dd,
+        type: 3}
+      tier3Prefab: {fileID: 7650162745344802034, guid: 49c6e737d7939754fb37a8efb0d20c05,
+        type: 3}

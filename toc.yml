@@ -1,0 +1,10 @@
+
+- name: Schnellstart
+  href: docs/schnellstart.md
+- name: Anwendungsübersicht
+  href: docs/anwendungsuebersicht.md
+- name: Entwicklung
+  href: docs/entwicklung.md
+- name: API Documentation
+  href: docs/api/
+  homepage: docs/api/index.md

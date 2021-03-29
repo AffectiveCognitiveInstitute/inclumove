@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" /-->
+    <link href="http://127.0.0.1:8000/botchat.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+</head>
+
+<body class="standalone">
+    <div id="root">
+        <div class="App">
+            <div class="conversation">
+                <div class="conversation-inner">
+                    <div id="cui"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script-->
+    <script src="http://127.0.0.1:8000/botchat.js"></script>
+    <script>
+        let lastBotAvatar = null;
+        let lastUserAvatar = null;
+
+        const botConnection = new BotChat.DirectLine({
+            secret: 'beRJHgK1jKQ.cwA.Syk.7XB5a9_HeVVgFEHqFfDJQZGtcjOJG2jzT2W00KzuTfo'
+        });
+
+        BotChat.App({
+            botConnection: botConnection,
+            user: {
+                id: 'userid'
+            },
+            bot: {
+                id: 'botid'
+            },
+            resize: 'detect'
+        }, document.getElementById("cui"));
+
+        botConnection.activity$
+            .subscribe(activity => {
+                //console.log('activity ::', activity);
+
+                updateAvatars(activity);
+                styleUnityMessage(activity);
+
+                removeStyles();
+                animScroll();
+            })
+
+        document.addEventListener('click', removeStyles);
+
+
+
+
+        /**
+         * animScroll
+         * scroll to the bottom of the CUI container
+         */
+        function animScroll() {
+            const outer = document.querySelector('.conversation'),
+                {
+                    clientHeight,
+                    scrollHeight,
+                    scrollTop
+                } = outer;;
+
+            outer.scrollTo(0, scrollHeight);
+        }
+
+
+        /**
+         * updateAvatars
+         * update the avatar visibility when a new message arrives
+         */
+        function updateAvatars(activity) {
+            if (activity && activity.from && activity.from.id) {
+
+                const message = document.querySelector(`div[data-activity-id="${activity.id}"]`);
+
+                //bot avatar
+                if (activity.from.id === 'showmetest') {
+
+                    if (lastBotAvatar) {
+                        lastBotAvatar.classList.remove('avatar-in');
+                        lastBotAvatar.classList.add('avatar-out');
+                    }
+
+                    lastBotAvatar = message.querySelector('.avatar');
+
+                    //user avatar
+                } else if (activity.from.id === 'unitygui') {
+
+                    if (lastUserAvatar) {
+                        lastUserAvatar.classList.remove('avatar-in');
+                        lastUserAvatar.classList.add('avatar-out');
+                    }
+
+                    lastUserAvatar = message.querySelector('.avatar');
+                }
+            }
+        }
+
+
+        /**
+         * removeStyles
+         * remove inline style attributes from markup (coming from bot backend)
+         */
+        function removeStyles() {
+            const styledElements = document
+                .querySelector('#cui')
+                .querySelectorAll('[style]');
+
+            [].forEach.call(styledElements, (elem) => {
+                elem.removeAttribute('style');
+            });
+        }
+
+
+        /**
+         * styleUnityMessage
+         * messages from "unitygui" will look like user messages
+         */
+        function styleUnityMessage(activity) {
+            if (activity && activity.from && activity.from.id) {
+                if (activity.from.id === 'unitygui') {
+
+                    const message = document.querySelector(`div[data-activity-id="${activity.id}"]`);
+                    if (message) {
+                        const msg = message.querySelector('.wc-message-from-bot');
+                        msg.classList.remove('wc-message-from-bot');
+                        msg.classList.add('wc-message-from-me');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

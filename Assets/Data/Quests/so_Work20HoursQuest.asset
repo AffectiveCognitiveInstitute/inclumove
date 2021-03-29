@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6666259469891816329
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd894aed2e451844ea46f365d1b3d200, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 
+  m_Value: 0
+  m_MessageId: 
+  m_Behaviour: 0
+--- !u!114 &-6473428432079768751
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd894aed2e451844ea46f365d1b3d200, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: AnotherCounter
+  m_Value: 0
+  m_MessageId: 
+  m_Behaviour: 0
+--- !u!114 &-6327993156262001484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e93b56344fb9e94bab9e06f52478ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TitleKey: Stunden gearbeitet
+  m_CurrentCounterId: 20Hours
+  m_TargetCounterId: TargetCount
+--- !u!114 &-4278702175757283300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d5565fa38aed3409c2e6caa6c34e5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 20Hours
+  m_Value: 0
+--- !u!114 &-1675920122767466875
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47fea728271a0ef4cb3f2398f8a3790e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Message: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1550a023f4a75e44da0dff2e57cc88f8, type: 3}
+  m_Name: so_Work20HoursQuest
+  m_EditorClassIdentifier: 
+  m_Id: Work20Hours
+  m_QuestNode:
+    m_ConditionMode: 1
+    m_Conditions:
+    - {fileID: 4484366309641855802}
+    m_SuccessTriggers:
+    - {fileID: 3845262366345324939}
+    - {fileID: -1675920122767466875}
+    m_FailedTriggers: []
+    m_MinimumNumberOfConditions: 0
+  m_QuestCounters:
+    m_QuestCounters:
+    - {fileID: -4278702175757283300}
+    - {fileID: 1528682698976812538}
+  m_QuestContent:
+    m_Content:
+    - {fileID: -6327993156262001484}
+--- !u!114 &1528682698976812538
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25d101749193154f88b7219377ba91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: TargetCount
+  m_Value: 20
+--- !u!114 &3845262366345324939
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26459bfd74175b4a854f1516e5dbae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MilestoneData: {fileID: 0}
+--- !u!114 &4484366309641855802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6477784c589d2458d6ed561379c163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CounterId: 20Hours
+  m_RequiredCountId: 20
+  m_Type: 0

@@ -1,0 +1,5062 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+  m_Name: EmojiOne_Fallback
+  m_EditorClassIdentifier: 
+  hashCode: 1781666081
+  material: {fileID: 21001974900199708}
+  materialHashCode: 0
+  m_Version: 1.1.0
+  spriteSheet: {fileID: 2800000, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  m_SpriteCharacterTable:
+  - m_ElementType: 2
+    m_Unicode: 128646
+    m_GlyphIndex: 0
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_0
+    m_HashCode: -1090856722
+  - m_ElementType: 2
+    m_Unicode: 128647
+    m_GlyphIndex: 1
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_1
+    m_HashCode: -1090856721
+  - m_ElementType: 2
+    m_Unicode: 128648
+    m_GlyphIndex: 2
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_2
+    m_HashCode: -1090856724
+  - m_ElementType: 2
+    m_Unicode: 128649
+    m_GlyphIndex: 3
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_3
+    m_HashCode: -1090856723
+  - m_ElementType: 2
+    m_Unicode: 128656
+    m_GlyphIndex: 4
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_4
+    m_HashCode: -1090856726
+  - m_ElementType: 2
+    m_Unicode: 128657
+    m_GlyphIndex: 5
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_5
+    m_HashCode: -1090856725
+  - m_ElementType: 2
+    m_Unicode: 128658
+    m_GlyphIndex: 6
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_6
+    m_HashCode: -1090856728
+  - m_ElementType: 2
+    m_Unicode: 128659
+    m_GlyphIndex: 7
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_7
+    m_HashCode: -1090856727
+  - m_ElementType: 2
+    m_Unicode: 128660
+    m_GlyphIndex: 8
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_8
+    m_HashCode: -1090856730
+  - m_ElementType: 2
+    m_Unicode: 128661
+    m_GlyphIndex: 9
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_9
+    m_HashCode: -1090856729
+  - m_ElementType: 2
+    m_Unicode: 128662
+    m_GlyphIndex: 10
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_10
+    m_HashCode: -1638533377
+  - m_ElementType: 2
+    m_Unicode: 128663
+    m_GlyphIndex: 11
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_11
+    m_HashCode: -1638533378
+  - m_ElementType: 2
+    m_Unicode: 128663
+    m_GlyphIndex: 12
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_12
+    m_HashCode: -1638533379
+  - m_ElementType: 2
+    m_Unicode: 128664
+    m_GlyphIndex: 13
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_13
+    m_HashCode: -1638533380
+  - m_ElementType: 2
+    m_Unicode: 11035
+    m_GlyphIndex: 14
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_14
+    m_HashCode: -1638533381
+  - m_ElementType: 2
+    m_Unicode: 11036
+    m_GlyphIndex: 15
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_15
+    m_HashCode: -1638533382
+  - m_ElementType: 2
+    m_Unicode: 11013
+    m_GlyphIndex: 16
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_16
+    m_HashCode: -1638533383
+  - m_ElementType: 2
+    m_Unicode: 11014
+    m_GlyphIndex: 17
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_17
+    m_HashCode: -1638533384
+  - m_ElementType: 2
+    m_Unicode: 11015
+    m_GlyphIndex: 18
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_18
+    m_HashCode: -1638533385
+  - m_ElementType: 2
+    m_Unicode: 11088
+    m_GlyphIndex: 19
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_19
+    m_HashCode: -1638533386
+  - m_ElementType: 2
+    m_Unicode: 11093
+    m_GlyphIndex: 20
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_20
+    m_HashCode: -1638533540
+  - m_ElementType: 2
+    m_Unicode: 8617
+    m_GlyphIndex: 21
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_21
+    m_HashCode: -1638533539
+  - m_ElementType: 2
+    m_Unicode: 8618
+    m_GlyphIndex: 22
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_22
+    m_HashCode: -1638533538
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 23
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_23
+    m_HashCode: -1638533537
+  - m_ElementType: 2
+    m_Unicode: 9193
+    m_GlyphIndex: 24
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_24
+    m_HashCode: -1638533544
+  - m_ElementType: 2
+    m_Unicode: 9194
+    m_GlyphIndex: 25
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_25
+    m_HashCode: -1638533543
+  - m_ElementType: 2
+    m_Unicode: 9195
+    m_GlyphIndex: 26
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_26
+    m_HashCode: -1638533542
+  - m_ElementType: 2
+    m_Unicode: 9196
+    m_GlyphIndex: 27
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_27
+    m_HashCode: -1638533541
+  - m_ElementType: 2
+    m_Unicode: 9200
+    m_GlyphIndex: 28
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_28
+    m_HashCode: -1638533548
+  - m_ElementType: 2
+    m_Unicode: 9203
+    m_GlyphIndex: 29
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_29
+    m_HashCode: -1638533547
+  - m_ElementType: 2
+    m_Unicode: 9410
+    m_GlyphIndex: 30
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_30
+    m_HashCode: -1638533443
+  - m_ElementType: 2
+    m_Unicode: 9724
+    m_GlyphIndex: 31
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_31
+    m_HashCode: -1638533444
+  - m_ElementType: 2
+    m_Unicode: 9723
+    m_GlyphIndex: 32
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_32
+    m_HashCode: -1638533441
+  - m_ElementType: 2
+    m_Unicode: 9654
+    m_GlyphIndex: 33
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_33
+    m_HashCode: -1638533442
+  - m_ElementType: 2
+    m_Unicode: 9664
+    m_GlyphIndex: 34
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_34
+    m_HashCode: -1638533447
+  - m_ElementType: 2
+    m_Unicode: 9723
+    m_GlyphIndex: 35
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_35
+    m_HashCode: -1638533448
+  - m_ElementType: 2
+    m_Unicode: 9724
+    m_GlyphIndex: 36
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_36
+    m_HashCode: -1638533445
+  - m_ElementType: 2
+    m_Unicode: 9725
+    m_GlyphIndex: 37
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_37
+    m_HashCode: -1638533446
+  - m_ElementType: 2
+    m_Unicode: 9726
+    m_GlyphIndex: 38
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_38
+    m_HashCode: -1638533451
+  - m_ElementType: 2
+    m_Unicode: 9888
+    m_GlyphIndex: 39
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_39
+    m_HashCode: -1638533452
+  - m_ElementType: 2
+    m_Unicode: 9889
+    m_GlyphIndex: 40
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_40
+    m_HashCode: -1638533606
+  - m_ElementType: 2
+    m_Unicode: 9898
+    m_GlyphIndex: 41
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_41
+    m_HashCode: -1638533605
+  - m_ElementType: 2
+    m_Unicode: 9899
+    m_GlyphIndex: 42
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_42
+    m_HashCode: -1638533608
+  - m_ElementType: 2
+    m_Unicode: 9917
+    m_GlyphIndex: 43
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_43
+    m_HashCode: -1638533607
+  - m_ElementType: 2
+    m_Unicode: 9918
+    m_GlyphIndex: 44
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_44
+    m_HashCode: -1638533602
+  - m_ElementType: 2
+    m_Unicode: 9924
+    m_GlyphIndex: 45
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_45
+    m_HashCode: -1638533601
+  - m_ElementType: 2
+    m_Unicode: 9925
+    m_GlyphIndex: 46
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_46
+    m_HashCode: -1638533604
+  - m_ElementType: 2
+    m_Unicode: 9934
+    m_GlyphIndex: 47
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_47
+    m_HashCode: -1638533603
+  - m_ElementType: 2
+    m_Unicode: 9940
+    m_GlyphIndex: 48
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_48
+    m_HashCode: -1638533614
+  - m_ElementType: 2
+    m_Unicode: 9962
+    m_GlyphIndex: 49
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_49
+    m_HashCode: -1638533613
+  - m_ElementType: 2
+    m_Unicode: 9970
+    m_GlyphIndex: 50
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_50
+    m_HashCode: -1638533509
+  - m_ElementType: 2
+    m_Unicode: 9971
+    m_GlyphIndex: 51
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_51
+    m_HashCode: -1638533510
+  - m_ElementType: 2
+    m_Unicode: 9973
+    m_GlyphIndex: 52
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_52
+    m_HashCode: -1638533511
+  - m_ElementType: 2
+    m_Unicode: 9978
+    m_GlyphIndex: 53
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_53
+    m_HashCode: -1638533512
+  - m_ElementType: 2
+    m_Unicode: 9981
+    m_GlyphIndex: 54
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_54
+    m_HashCode: -1638533505
+  - m_ElementType: 2
+    m_Unicode: 10145
+    m_GlyphIndex: 55
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_55
+    m_HashCode: -1638533506
+  - m_ElementType: 2
+    m_Unicode: 10160
+    m_GlyphIndex: 56
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_56
+    m_HashCode: -1638533507
+  - m_ElementType: 2
+    m_Unicode: 10175
+    m_GlyphIndex: 57
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_57
+    m_HashCode: -1638533508
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 58
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_58
+    m_HashCode: -1638533517
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 59
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_59
+    m_HashCode: -1638533518
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 60
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_60
+    m_HashCode: -1638533672
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 61
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_61
+    m_HashCode: -1638533671
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 62
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_62
+    m_HashCode: -1638533670
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 63
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_63
+    m_HashCode: -1638533669
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 64
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_64
+    m_HashCode: -1638533668
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 65
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_65
+    m_HashCode: -1638533667
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 66
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_66
+    m_HashCode: -1638533666
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 67
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_67
+    m_HashCode: -1638533665
+  - m_ElementType: 2
+    m_Unicode: 8252
+    m_GlyphIndex: 68
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_68
+    m_HashCode: -1638533680
+  - m_ElementType: 2
+    m_Unicode: 8986
+    m_GlyphIndex: 69
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_69
+    m_HashCode: -1638533679
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 70
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_70
+    m_HashCode: -1638533575
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 71
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_71
+    m_HashCode: -1638533576
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 72
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_72
+    m_HashCode: -1638533573
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 73
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_73
+    m_HashCode: -1638533574
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 74
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_74
+    m_HashCode: -1638533571
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 75
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_75
+    m_HashCode: -1638533572
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 76
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_76
+    m_HashCode: -1638533569
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 77
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_77
+    m_HashCode: -1638533570
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 78
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_78
+    m_HashCode: -1638533583
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 79
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_79
+    m_HashCode: -1638533584
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 80
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_80
+    m_HashCode: -1638533738
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 81
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_81
+    m_HashCode: -1638533737
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 82
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_82
+    m_HashCode: -1638533740
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 83
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_83
+    m_HashCode: -1638533739
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 84
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_84
+    m_HashCode: -1638533742
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 85
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_85
+    m_HashCode: -1638533741
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 86
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_86
+    m_HashCode: -1638533744
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 87
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_87
+    m_HashCode: -1638533743
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 88
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_88
+    m_HashCode: -1638533730
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 89
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_89
+    m_HashCode: -1638533729
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 90
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_90
+    m_HashCode: -1638533641
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 91
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_91
+    m_HashCode: -1638533642
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 92
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_92
+    m_HashCode: -1638533643
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 93
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_93
+    m_HashCode: -1638533644
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 94
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_94
+    m_HashCode: -1638533645
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 95
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_95
+    m_HashCode: -1638533646
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 96
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_96
+    m_HashCode: -1638533647
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 97
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_97
+    m_HashCode: -1638533648
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 98
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_98
+    m_HashCode: -1638533633
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 99
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_99
+    m_HashCode: -1638533634
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 100
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_100
+    m_HashCode: 1762973423
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 101
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_101
+    m_HashCode: 1762973422
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 102
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_102
+    m_HashCode: 1762973421
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 103
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_103
+    m_HashCode: 1762973420
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 104
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_104
+    m_HashCode: 1762973419
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 105
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_105
+    m_HashCode: 1762973418
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 106
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_106
+    m_HashCode: 1762973417
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 107
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_107
+    m_HashCode: 1762973416
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 108
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_108
+    m_HashCode: 1762973415
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 109
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_109
+    m_HashCode: 1762973414
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 110
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_110
+    m_HashCode: 1762973326
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 111
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_111
+    m_HashCode: 1762973327
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 112
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_112
+    m_HashCode: 1762973324
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 113
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_113
+    m_HashCode: 1762973325
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 114
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_114
+    m_HashCode: 1762973322
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 115
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_115
+    m_HashCode: 1762973323
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 116
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_116
+    m_HashCode: 1762973320
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 117
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_117
+    m_HashCode: 1762973321
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 118
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_118
+    m_HashCode: 1762973318
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 119
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_119
+    m_HashCode: 1762973319
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 120
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_120
+    m_HashCode: 1762973357
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 121
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_121
+    m_HashCode: 1762973356
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 122
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_122
+    m_HashCode: 1762973359
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 123
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_123
+    m_HashCode: 1762973358
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 124
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_124
+    m_HashCode: 1762973353
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 125
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_125
+    m_HashCode: 1762973352
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 126
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_126
+    m_HashCode: 1762973355
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 127
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_127
+    m_HashCode: 1762973354
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 128
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_128
+    m_HashCode: 1762973349
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 129
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_129
+    m_HashCode: 1762973348
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 130
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_130
+    m_HashCode: 1762973260
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 131
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_131
+    m_HashCode: 1762973261
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 132
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_132
+    m_HashCode: 1762973262
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 133
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_133
+    m_HashCode: 1762973263
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 134
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_134
+    m_HashCode: 1762973256
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 135
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_135
+    m_HashCode: 1762973257
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 136
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_136
+    m_HashCode: 1762973258
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 137
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_137
+    m_HashCode: 1762973259
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 138
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_138
+    m_HashCode: 1762973252
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 139
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_139
+    m_HashCode: 1762973253
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 140
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_140
+    m_HashCode: 1762973291
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 141
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_141
+    m_HashCode: 1762973290
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 142
+    m_Scale: 1
+    m_Name: tex_EmojiOneSpriteSheet1_142
+    m_HashCode: 1762973289
+  m_SpriteGlyphTable:
+  - m_Index: 0
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300000, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 1
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300002, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 2
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300004, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 3
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300006, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 4
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300008, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 5
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300010, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 6
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300012, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 7
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300014, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 8
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300016, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 9
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300018, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 10
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300020, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 11
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300022, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 12
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 952
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300024, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 13
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300026, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 14
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300028, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 15
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300030, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 16
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300032, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 17
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300034, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 18
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300036, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 19
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300038, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 20
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300040, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 21
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300042, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 22
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300044, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 23
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300046, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 24
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300048, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 25
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 878
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300050, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 26
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300052, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 27
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300054, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 28
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300056, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 29
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300058, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 30
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300060, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 31
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300062, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 32
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300064, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 33
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300066, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 34
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300068, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 35
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300070, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 36
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300072, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 37
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300074, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 38
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 804
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300076, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 39
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300078, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 40
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300080, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 41
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300082, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 42
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300084, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 43
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300086, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 44
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300088, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 45
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300090, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 46
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300092, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 47
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300094, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 48
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300096, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 49
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300098, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 50
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300100, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 51
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 730
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300102, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 52
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300104, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 53
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300106, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 54
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300108, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 55
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300110, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 56
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300112, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 57
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300114, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 58
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300116, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 59
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300118, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 60
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300120, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 61
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300122, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 62
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300124, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 63
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300126, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 64
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 656
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300128, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 65
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300130, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 66
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300132, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 67
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300134, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 68
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300136, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 69
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300138, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 70
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300140, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 71
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300142, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 72
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300144, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 73
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300146, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 74
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300148, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 75
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300150, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 76
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300152, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 77
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 582
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300154, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 78
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300156, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 79
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300158, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 80
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300160, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 81
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300162, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 82
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300164, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 83
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300166, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 84
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300168, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 85
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300170, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 86
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300172, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 87
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300174, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 88
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300176, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 89
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300178, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 90
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 508
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300180, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 91
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300182, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 92
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300184, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 93
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300186, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 94
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300188, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 95
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300190, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 96
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300192, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 97
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300194, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 98
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300196, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 99
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300198, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 100
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300200, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 101
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300202, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 102
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300204, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 103
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 434
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300206, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 104
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300208, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 105
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300210, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 106
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300212, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 107
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300214, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 108
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300216, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 109
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300218, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 110
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300220, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 111
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300222, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 112
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300224, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 113
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300226, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 114
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300228, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 115
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300230, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 116
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 360
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300232, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 117
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300234, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 118
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300236, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 119
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300238, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 120
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300240, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 121
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300242, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 122
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300244, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 123
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300246, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 124
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300248, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 125
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300250, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 126
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300252, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 127
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300254, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 128
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300256, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 129
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 286
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300258, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 130
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300260, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 131
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 74
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300262, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 132
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 148
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300264, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 133
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 222
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300266, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 134
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 296
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300268, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 135
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 370
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300270, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 136
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 444
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300272, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 137
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 518
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300274, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 138
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 592
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300276, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 139
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 666
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300278, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 140
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 740
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300280, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 141
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300282, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - m_Index: 142
+    m_Metrics:
+      m_Width: 72
+      m_Height: 72
+      m_HorizontalBearingX: -36
+      m_HorizontalBearingY: 36
+      m_HorizontalAdvance: 72
+    m_GlyphRect:
+      m_X: 888
+      m_Y: 212
+      m_Width: 72
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300284, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 0
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_0
+    hashCode: -1090856722
+    unicode: 128646
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300000, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 1
+    x: 74
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_1
+    hashCode: -1090856721
+    unicode: 128647
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300002, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 2
+    x: 148
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_2
+    hashCode: -1090856724
+    unicode: 128648
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300004, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 3
+    x: 222
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_3
+    hashCode: -1090856723
+    unicode: 128649
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300006, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 4
+    x: 296
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_4
+    hashCode: -1090856726
+    unicode: 128656
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300008, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 5
+    x: 370
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_5
+    hashCode: -1090856725
+    unicode: 128657
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300010, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 6
+    x: 444
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_6
+    hashCode: -1090856728
+    unicode: 128658
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300012, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 7
+    x: 518
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_7
+    hashCode: -1090856727
+    unicode: 128659
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300014, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 8
+    x: 592
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_8
+    hashCode: -1090856730
+    unicode: 128660
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300016, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 9
+    x: 666
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_9
+    hashCode: -1090856729
+    unicode: 128661
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300018, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 10
+    x: 740
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_10
+    hashCode: -1638533377
+    unicode: 128662
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300020, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 11
+    x: 814
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_11
+    hashCode: -1638533378
+    unicode: 128663
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300022, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 12
+    x: 888
+    y: 952
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_12
+    hashCode: -1638533379
+    unicode: 128663
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300024, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 13
+    x: 0
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_13
+    hashCode: -1638533380
+    unicode: 128664
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300026, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 14
+    x: 74
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_14
+    hashCode: -1638533381
+    unicode: 11035
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300028, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 15
+    x: 148
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_15
+    hashCode: -1638533382
+    unicode: 11036
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300030, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 16
+    x: 222
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_16
+    hashCode: -1638533383
+    unicode: 11013
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300032, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 17
+    x: 296
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_17
+    hashCode: -1638533384
+    unicode: 11014
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300034, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 18
+    x: 370
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_18
+    hashCode: -1638533385
+    unicode: 11015
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300036, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 19
+    x: 444
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_19
+    hashCode: -1638533386
+    unicode: 11088
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300038, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 20
+    x: 518
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_20
+    hashCode: -1638533540
+    unicode: 11093
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300040, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 21
+    x: 592
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_21
+    hashCode: -1638533539
+    unicode: 8617
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300042, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 22
+    x: 666
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_22
+    hashCode: -1638533538
+    unicode: 8618
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300044, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 23
+    x: 740
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_23
+    hashCode: -1638533537
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300046, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 24
+    x: 814
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_24
+    hashCode: -1638533544
+    unicode: 9193
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300048, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 25
+    x: 888
+    y: 878
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_25
+    hashCode: -1638533543
+    unicode: 9194
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300050, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 26
+    x: 0
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_26
+    hashCode: -1638533542
+    unicode: 9195
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300052, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 27
+    x: 74
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_27
+    hashCode: -1638533541
+    unicode: 9196
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300054, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 28
+    x: 148
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_28
+    hashCode: -1638533548
+    unicode: 9200
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300056, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 29
+    x: 222
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_29
+    hashCode: -1638533547
+    unicode: 9203
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300058, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 30
+    x: 296
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_30
+    hashCode: -1638533443
+    unicode: 9410
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300060, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 31
+    x: 370
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_31
+    hashCode: -1638533444
+    unicode: 9724
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300062, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 32
+    x: 444
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_32
+    hashCode: -1638533441
+    unicode: 9723
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300064, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 33
+    x: 518
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_33
+    hashCode: -1638533442
+    unicode: 9654
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300066, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 34
+    x: 592
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_34
+    hashCode: -1638533447
+    unicode: 9664
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300068, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 35
+    x: 666
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_35
+    hashCode: -1638533448
+    unicode: 9723
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300070, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 36
+    x: 740
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_36
+    hashCode: -1638533445
+    unicode: 9724
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300072, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 37
+    x: 814
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_37
+    hashCode: -1638533446
+    unicode: 9725
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300074, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 38
+    x: 888
+    y: 804
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_38
+    hashCode: -1638533451
+    unicode: 9726
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300076, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 39
+    x: 0
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_39
+    hashCode: -1638533452
+    unicode: 9888
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300078, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 40
+    x: 74
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_40
+    hashCode: -1638533606
+    unicode: 9889
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300080, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 41
+    x: 148
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_41
+    hashCode: -1638533605
+    unicode: 9898
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300082, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 42
+    x: 222
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_42
+    hashCode: -1638533608
+    unicode: 9899
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300084, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 43
+    x: 296
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_43
+    hashCode: -1638533607
+    unicode: 9917
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300086, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 44
+    x: 370
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_44
+    hashCode: -1638533602
+    unicode: 9918
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300088, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 45
+    x: 444
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_45
+    hashCode: -1638533601
+    unicode: 9924
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300090, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 46
+    x: 518
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_46
+    hashCode: -1638533604
+    unicode: 9925
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300092, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 47
+    x: 592
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_47
+    hashCode: -1638533603
+    unicode: 9934
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300094, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 48
+    x: 666
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_48
+    hashCode: -1638533614
+    unicode: 9940
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300096, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 49
+    x: 740
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_49
+    hashCode: -1638533613
+    unicode: 9962
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300098, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 50
+    x: 814
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_50
+    hashCode: -1638533509
+    unicode: 9970
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300100, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 51
+    x: 888
+    y: 730
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_51
+    hashCode: -1638533510
+    unicode: 9971
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300102, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 52
+    x: 0
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_52
+    hashCode: -1638533511
+    unicode: 9973
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300104, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 53
+    x: 74
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_53
+    hashCode: -1638533512
+    unicode: 9978
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300106, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 54
+    x: 148
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_54
+    hashCode: -1638533505
+    unicode: 9981
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300108, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 55
+    x: 222
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_55
+    hashCode: -1638533506
+    unicode: 10145
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300110, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 56
+    x: 296
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_56
+    hashCode: -1638533507
+    unicode: 10160
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300112, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 57
+    x: 370
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_57
+    hashCode: -1638533508
+    unicode: 10175
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300114, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 58
+    x: 444
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_58
+    hashCode: -1638533517
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300116, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 59
+    x: 518
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_59
+    hashCode: -1638533518
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300118, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 60
+    x: 592
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_60
+    hashCode: -1638533672
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300120, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 61
+    x: 666
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_61
+    hashCode: -1638533671
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300122, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 62
+    x: 740
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_62
+    hashCode: -1638533670
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300124, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 63
+    x: 814
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_63
+    hashCode: -1638533669
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300126, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 64
+    x: 888
+    y: 656
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_64
+    hashCode: -1638533668
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300128, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 65
+    x: 0
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_65
+    hashCode: -1638533667
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300130, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 66
+    x: 74
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_66
+    hashCode: -1638533666
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300132, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 67
+    x: 148
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_67
+    hashCode: -1638533665
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300134, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 68
+    x: 222
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_68
+    hashCode: -1638533680
+    unicode: 8252
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300136, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 69
+    x: 296
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_69
+    hashCode: -1638533679
+    unicode: 8986
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300138, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 70
+    x: 370
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_70
+    hashCode: -1638533575
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300140, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 71
+    x: 444
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_71
+    hashCode: -1638533576
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300142, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 72
+    x: 518
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_72
+    hashCode: -1638533573
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300144, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 73
+    x: 592
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_73
+    hashCode: -1638533574
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300146, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 74
+    x: 666
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_74
+    hashCode: -1638533571
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300148, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 75
+    x: 740
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_75
+    hashCode: -1638533572
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300150, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 76
+    x: 814
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_76
+    hashCode: -1638533569
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300152, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 77
+    x: 888
+    y: 582
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_77
+    hashCode: -1638533570
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300154, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 78
+    x: 0
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_78
+    hashCode: -1638533583
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300156, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 79
+    x: 74
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_79
+    hashCode: -1638533584
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300158, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 80
+    x: 148
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_80
+    hashCode: -1638533738
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300160, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 81
+    x: 222
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_81
+    hashCode: -1638533737
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300162, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 82
+    x: 296
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_82
+    hashCode: -1638533740
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300164, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 83
+    x: 370
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_83
+    hashCode: -1638533739
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300166, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 84
+    x: 444
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_84
+    hashCode: -1638533742
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300168, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 85
+    x: 518
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_85
+    hashCode: -1638533741
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300170, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 86
+    x: 592
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_86
+    hashCode: -1638533744
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300172, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 87
+    x: 666
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_87
+    hashCode: -1638533743
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300174, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 88
+    x: 740
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_88
+    hashCode: -1638533730
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300176, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 89
+    x: 814
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_89
+    hashCode: -1638533729
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300178, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 90
+    x: 888
+    y: 508
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_90
+    hashCode: -1638533641
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300180, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 91
+    x: 0
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_91
+    hashCode: -1638533642
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300182, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 92
+    x: 74
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_92
+    hashCode: -1638533643
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300184, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 93
+    x: 148
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_93
+    hashCode: -1638533644
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300186, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 94
+    x: 222
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_94
+    hashCode: -1638533645
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300188, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 95
+    x: 296
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_95
+    hashCode: -1638533646
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300190, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 96
+    x: 370
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_96
+    hashCode: -1638533647
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300192, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 97
+    x: 444
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_97
+    hashCode: -1638533648
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300194, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 98
+    x: 518
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_98
+    hashCode: -1638533633
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300196, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 99
+    x: 592
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_99
+    hashCode: -1638533634
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300198, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 100
+    x: 666
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_100
+    hashCode: 1762973423
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300200, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 101
+    x: 740
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_101
+    hashCode: 1762973422
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300202, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 102
+    x: 814
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_102
+    hashCode: 1762973421
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300204, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 103
+    x: 888
+    y: 434
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_103
+    hashCode: 1762973420
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300206, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 104
+    x: 0
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_104
+    hashCode: 1762973419
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300208, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 105
+    x: 74
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_105
+    hashCode: 1762973418
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300210, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 106
+    x: 148
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_106
+    hashCode: 1762973417
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300212, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 107
+    x: 222
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_107
+    hashCode: 1762973416
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300214, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 108
+    x: 296
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_108
+    hashCode: 1762973415
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300216, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 109
+    x: 370
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_109
+    hashCode: 1762973414
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300218, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 110
+    x: 444
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_110
+    hashCode: 1762973326
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300220, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 111
+    x: 518
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_111
+    hashCode: 1762973327
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300222, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 112
+    x: 592
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_112
+    hashCode: 1762973324
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300224, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 113
+    x: 666
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_113
+    hashCode: 1762973325
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300226, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 114
+    x: 740
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_114
+    hashCode: 1762973322
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300228, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 115
+    x: 814
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_115
+    hashCode: 1762973323
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300230, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 116
+    x: 888
+    y: 360
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_116
+    hashCode: 1762973320
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300232, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 117
+    x: 0
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_117
+    hashCode: 1762973321
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300234, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 118
+    x: 74
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_118
+    hashCode: 1762973318
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300236, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 119
+    x: 148
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_119
+    hashCode: 1762973319
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300238, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 120
+    x: 222
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_120
+    hashCode: 1762973357
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300240, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 121
+    x: 296
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_121
+    hashCode: 1762973356
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300242, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 122
+    x: 370
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_122
+    hashCode: 1762973359
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300244, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 123
+    x: 444
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_123
+    hashCode: 1762973358
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300246, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 124
+    x: 518
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_124
+    hashCode: 1762973353
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300248, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 125
+    x: 592
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_125
+    hashCode: 1762973352
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300250, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 126
+    x: 666
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_126
+    hashCode: 1762973355
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300252, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 127
+    x: 740
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_127
+    hashCode: 1762973354
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300254, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 128
+    x: 814
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_128
+    hashCode: 1762973349
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300256, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 129
+    x: 888
+    y: 286
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_129
+    hashCode: 1762973348
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300258, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 130
+    x: 0
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_130
+    hashCode: 1762973260
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300260, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 131
+    x: 74
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_131
+    hashCode: 1762973261
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300262, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 132
+    x: 148
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_132
+    hashCode: 1762973262
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300264, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 133
+    x: 222
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_133
+    hashCode: 1762973263
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300266, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 134
+    x: 296
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_134
+    hashCode: 1762973256
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300268, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 135
+    x: 370
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_135
+    hashCode: 1762973257
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300270, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 136
+    x: 444
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_136
+    hashCode: 1762973258
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300272, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 137
+    x: 518
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_137
+    hashCode: 1762973259
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300274, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 138
+    x: 592
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_138
+    hashCode: 1762973252
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300276, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 139
+    x: 666
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_139
+    hashCode: 1762973253
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300278, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 140
+    x: 740
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_140
+    hashCode: 1762973291
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300280, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 141
+    x: 814
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_141
+    hashCode: 1762973290
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300282, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  - id: 142
+    x: 888
+    y: 212
+    width: 72
+    height: 72
+    xOffset: -36
+    yOffset: 36
+    xAdvance: 72
+    scale: 1
+    name: tex_EmojiOneSpriteSheet1_142
+    hashCode: 1762973289
+    unicode: 0
+    pivot: {x: -36, y: 36}
+    sprite: {fileID: 21300284, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+  fallbackSpriteAssets: []
+--- !u!21 &21001974900199708
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 8a16916541fe7c24d842d5964753bdfe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 147590455ba92a043a504eac2c9ed3e9, type: 3}
+  m_Name: so_Feedback_de
+  m_EditorClassIdentifier: 
+  internalStringData:
+    keys:
+    - Fdbck_Neutral01
+    - Fdbck_Neutral02
+    - Fdbck_Assertive01
+    - Fdbck_Assertive02
+    - Fdbck_Supportive01
+    - Fdbck_Supportive02
+    - Fdbck_Amount01
+    - Fdbck_Amount02
+    - Fdbck_Amount03
+    - Fdbck_Streak01
+    - Fdbck_Streak02
+    - Fdbck_Streak03
+    - Fdbck_Fast01
+    - Fdbck_Fast02
+    - Fdbck_Fast03
+    values:
+    - Ja super! Weiter so!
+    - "Wunderbar. Weiter zum n\xE4chsten Bauteil!"
+    - Klasse Zeit, Super!
+    - Erste Sahne!
+    - "Macht nichts, weiter zum n\xE4chsten Schritt!"
+    - Weiter geht's. Wir kriegen das hin!
+    - Sehr gut gemacht!
+    - Klasse, du schaffst heute richtig viel!
+    - Wow, so viel hast du schon geschafft!
+    - "Gro\xDFartig, sehr gut gemacht!"
+    - Genial, einwandfrei gearbeitet!
+    - Wahnsinn, absolut perfekt gemacht!
+    - Prima, in der Zeit!
+    - Spitze, richtig schnell!
+    - Unglaublich, schnell wie der Wind!
+  languageDescriptor: deu
+  languageIETF: de

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e09139b75e3a4f42b2b0085f42e04ec, type: 3}
+  m_Name: DefaultTheme
+  m_EditorClassIdentifier: 
+  BotActivity: {fileID: 1673291016728478, guid: fb20149ff1ae7ce448e490ed8a5bc987,
+    type: 2}
+  UserActivity: {fileID: 1308920193805092, guid: 2f0d664fb6a72684089bcf85098ca9d1,
+    type: 2}
+  attachments:
+  - Template: {fileID: 1722909605691202, guid: 9f43ade7255c4fe4c86feabeb0395b0f, type: 2}
+    ContentType: application/vnd.microsoft.card.hero
+  - Template: {fileID: 1482050519377664, guid: 60d6f60bb3088dd499d66e1e080bcfff, type: 2}
+    ContentType: application/vnd.microsoft.card.thumbnail
+  Button: {fileID: 1721426606230660, guid: 1f6e9935623910440b80822cf9e0c980, type: 2}
+  SuggestedAction: {fileID: 0}
+  Carousel: {fileID: 0}
+  List: {fileID: 0}
+  Separator: {fileID: 0}

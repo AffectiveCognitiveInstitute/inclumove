@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867f47dc2fddb1046a4930219a4267ac, type: 3}
+  m_Name: so_50BadgeMilestone
+  m_EditorClassIdentifier: 
+  m_Id: 50BadgeMilestone
+  m_Icon: {fileID: 21300000, guid: c07fdbfdca9216440a211991ced701d9, type: 3}
+  m_Title: 'Abzeichen '
+  m_Subtitle: 100
+  m_ColorScheme: {fileID: 11400000, guid: da6b2ceba35401d4c89d61b2d7e81f0f, type: 2}
+  m_RequiredQuest: {fileID: 11400000, guid: f27b1f498efbeb1458e7df06c1e11948, type: 2}
+  m_HasUnlockableContent: 0
+  m_UnlockablePreview: {fileID: 0}
+  m_Command: {fileID: 0}

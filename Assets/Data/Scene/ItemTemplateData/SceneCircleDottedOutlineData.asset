@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743f2dde98dfda743937721958ec814f, type: 3}
+  m_Name: SceneCircleDottedOutlineData
+  m_EditorClassIdentifier: 
+  payloadType: 0
+  itemName: circleDottedOutline
+  placeholderIcon: {fileID: 21300000, guid: b6000e0b19d784347898f75f49cadea8, type: 3}
+  sceneItemPrefab: {fileID: 4594445605199586349, guid: 4d511c4deba3a9844ac2d4f66597d9d9,
+    type: 3}

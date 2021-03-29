@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9623295fb5f7665428e7b4dab420303f, type: 3}
+  m_Name: so_FeedbackActivities
+  m_EditorClassIdentifier: 
+  m_Activities:
+  - m_FeedbackType: 0
+    m_Tier: 0
+    m_AudioClip: fdb_assertive_01.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: c74ba625bbce2f44e915f41bef8016d9,
+      type: 2}
+  - m_FeedbackType: 0
+    m_Tier: 0
+    m_AudioClip: fdb_assertive_02.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: 506bfc44dbf709b4a93c362f3f8a65a4,
+      type: 2}
+  - m_FeedbackType: 1
+    m_Tier: 0
+    m_AudioClip: fdb_supportive_01.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: 14beaa845f0b188488b99d0907986ef7,
+      type: 2}
+  - m_FeedbackType: 1
+    m_Tier: 0
+    m_AudioClip: fdb_supportive_02.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: 38e86ed27bc81334ca638d904a785808,
+      type: 2}
+  - m_FeedbackType: 2
+    m_Tier: 0
+    m_AudioClip: fdb_neutral_01.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: 18c9014306a567544b2a569b2d70805f,
+      type: 2}
+  - m_FeedbackType: 2
+    m_Tier: 0
+    m_AudioClip: fdb_neutral_02.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: 8ee769c1883fecf4bb11b954407aa0b0,
+      type: 2}
+  - m_FeedbackType: 3
+    m_Tier: 0
+    m_AudioClip: fdb_badge_amount_01.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: abb7b1433fcdbd24496bebe88ea6718d,
+      type: 2}
+  - m_FeedbackType: 3
+    m_Tier: 1
+    m_AudioClip: fdb_badge_amount_02.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: f025d45f32408bb409faef5e292ea2a0,
+      type: 2}
+  - m_FeedbackType: 3
+    m_Tier: 2
+    m_AudioClip: fdb_badge_amount_03.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: 919d0026ff8794e42b44b9b926a7a958,
+      type: 2}
+  - m_FeedbackType: 4
+    m_Tier: 0
+    m_AudioClip: fdb_badge_fast_01.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: 802a73c4aad6f2d41a37e7e8bec3733f,
+      type: 2}
+  - m_FeedbackType: 4
+    m_Tier: 1
+    m_AudioClip: fdb_badge_fast_02.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: af1b9e04c06a99a469f66d7a297df625,
+      type: 2}
+  - m_FeedbackType: 4
+    m_Tier: 2
+    m_AudioClip: fdb_badge_fast_03.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: bde3a024ef0dd90408bc7108f5f0ebd6,
+      type: 2}
+  - m_FeedbackType: 5
+    m_Tier: 0
+    m_AudioClip: fdb_badge_streak_01.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: 0a4a117516d01da4b87808e0b13241a7,
+      type: 2}
+  - m_FeedbackType: 5
+    m_Tier: 1
+    m_AudioClip: fdb_badge_streak_02.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: f553dc3aaac798e4cad44be88e48638c,
+      type: 2}
+  - m_FeedbackType: 5
+    m_Tier: 2
+    m_AudioClip: fdb_badge_streak_03.wav
+    m_PredefinedActivity: {fileID: 11400000, guid: 3a27a0cd092e5a34a8fa61567eebce27,
+      type: 2}

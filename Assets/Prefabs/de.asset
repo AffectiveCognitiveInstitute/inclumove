@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 147590455ba92a043a504eac2c9ed3e9, type: 3}
+  m_Name: de
+  m_EditorClassIdentifier: 
+  internalStringData:
+    keys:
+    - login
+    - login_guest
+    - new_user
+    - LOGOUT
+    - load_continue
+    - load_local
+    - load
+    - pause
+    - continue
+    - cancel
+    - restart
+    - help
+    - MUTE
+    - ADAPTIVITY
+    - AVATAR_CHANGE
+    - quit
+    - imBack
+    - workflow_completed
+    - SUCCESS
+    - speed_achievement_01
+    - speed_achievement_desc_01
+    - speed_achievement_02
+    - speed_achievement_desc_02
+    - speed_achievement_03
+    - speed_achievement_desc_03
+    - figure_achievement_01
+    - figure_achievement_desc_01
+    - figure_achievement_02
+    - figure_achievement_desc_02
+    - figure_achievement_03
+    - figure_achievement_desc_03
+    - ifa_achievement_01
+    - ifa_achievement_desc_01
+    - ifa_achievement_02
+    - ifa_achievement_desc_02
+    - ifa_achievement_03
+    - ifa_achievement_desc_03
+    - about_me
+    - bot_start_01
+    - bot_start_02
+    - bot_start_03
+    - imdone
+    - snapshot_greeting
+    - increase_adaptivity
+    - decrease_adaptivity
+    - yes
+    - no
+    - milestone_achieved
+    values:
+    - Anmelden
+    - Als Gast Anmelden
+    - Neuer Benutzer
+    - Abmelden
+    - "Letzte \xDCbung Laden"
+    - "\xDCbungsdatei Laden"
+    - "Neue \xDCbung"
+    - Pause
+    - Fortfahren
+    - Abbrechen
+    - Neustart
+    - Hilfe
+    - Stumm
+    - "Adaptivit\xE4tslevel"
+    - "Avatar \xE4ndern"
+    - Verlassen
+    - Ja, Lass uns anfangen!
+    - Abgeschlossen
+    - Geschafft !
+    - Mehr Tempo!
+    - Immerhin ist's fertig
+    - Zack-Zack!
+    - Fertig unter 10:30 Minuten
+    - Schnell wie der Wind!
+    - Fertig unter 9 Minuten
+    - Fertig gebaut
+    - 
+    - Perfekt gebaut
+    - 
+    - Deluxe Bau-Action!
+    - 
+    - ELE Futurist
+    - 
+    - ELE Early Adopter
+    - 
+    - ELE Pionier
+    - 
+    - Was kannst du alles?
+    - Auf geht's!
+    - Ja, lass uns loslegen!
+    - Lass uns anfangen.
+    - Alles platziert!
+    - Lass uns ein Foto machen!
+    - "M\xF6chtest du mehr Hilfe bekommen?"
+    - "M\xF6chtest du weniger Hilfe bekommen?"
+    - Ja
+    - Nein
+    - Klasse! Du hast einen Meilenstein erreicht!
+  languageDescriptor: deu
+  languageIETF: de

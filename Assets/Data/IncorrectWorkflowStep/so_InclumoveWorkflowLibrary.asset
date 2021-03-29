@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61012bd69b8afa14c85e55bf5f391d33, type: 3}
+  m_Name: so_InclumoveWorkflowLibrary
+  m_EditorClassIdentifier: 
+  m_Activities:
+  - m_WorkStepIndex: 1
+    m_PredefinedActivity: {fileID: 11400000, guid: 63529c4ccfdae9a4aaeef50bfe0397f6,
+      type: 2}
+  - m_WorkStepIndex: 3
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 6
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 8
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 11
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 13
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 16
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 18
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 21
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 23
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 26
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 28
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 31
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 33
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 36
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}
+  - m_WorkStepIndex: 38
+    m_PredefinedActivity: {fileID: 11400000, guid: b4014d28e778f934a90a94151537911d,
+      type: 2}

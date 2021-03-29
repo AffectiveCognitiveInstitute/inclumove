@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbf63499f554e144a60adae0bbced88, type: 3}
+  m_Name: so_QuestContentFactoryInstaller
+  m_EditorClassIdentifier: 
+  m_ProgressPrefab: {fileID: 6066630680903268870, guid: 6f5e5cad57da896499361a4d798c8564,
+    type: 3}
+  m_HasCompletedQuestPrefab: {fileID: 4040782661316798736, guid: f308e37ea04d75140a1bea6876bf565f,
+    type: 3}

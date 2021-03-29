@@ -1,0 +1,94 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "Assets/Scripts",
+          "files": [
+            "**.cs"
+          ]
+        }
+      ],
+      "dest": "docs/api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "docs/api/**.yml",
+          "docs/api/index.md",
+          "docs/manual/index.md"
+        ]
+      },
+      {
+        "files": [
+          "docs/manual/**.md",
+          "docs/manual/**/toc.yml",
+          "docs/*.md",
+          "toc.yml",
+          "*.md"
+        ],
+        "exclude": [
+          "README.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "docs/images/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "docs/apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadata" : {
+      "_appFooter": "<span>
+                      <span class=\"fas fa-copyright\"></span>
+                      2019, Affective & Cognitive Institute</span>
+                      <a href=\"https://affective-lab.org\" class=\"fas fa-home\"></a>
+                      <a href=\"https://www.researchgate.net/lab/Affective-and-Cognitive-Institute-Affective-Lab-Oliver-Korn\" class=\"fab fa-researchgate\"></a>
+                      <a href=\"https://www.linkedin.com/company/affective-cognitive-institute/\" class=\"fab fa-linkedin\"></a>
+                      <a href=\"https://twitter.com/aci_research\" class=\"fab fa-twitter\"></a>
+                      <a href=\"https://www.youtube.com/channel/UCYetO2MEXJ0KMVWyxLXMS1g\" class=\"fab fa-youtube\"></a>
+                      <a href=\"https://github.com/AffectiveCognitiveInstitute\" class=\"fab fa-github\"></a>",
+      "_appFaviconPath": "docs/images/favicon.ico",
+      "_appLogoPath" : "docs/images/logo.png",
+      "_enableSearch": "true",
+      "_gitContribute": {
+        "repo": "https://github.com/AffectiveCognitiveInstitute/kobelu-gui.git",
+        "branch": "develop",
+        "apiSpecFolder": "apidoc"
+      },
+      "_gitUrlPattern": "github",
+      "newFileRepository": {
+        "branch": "develop"
+      }
+    },
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "docs/templates/aci"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

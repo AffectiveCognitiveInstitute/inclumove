@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a6a421738c4504a93b532cc09991cf, type: 3}
+  m_Name: IFADemoFigurAchievement
+  m_EditorClassIdentifier: 
+  achievementPrefab: {fileID: 1445845175386120, guid: 23504cfed389ebc4d914371831b058b8,
+    type: 2}
+  tierDurationLimits:
+  - 9999999
+  - 630
+  - 540
+  tierColors:
+  - {r: 0.85, g: 0.6941667, b: 0.476, a: 1}
+  - {r: 0.85, g: 0.85, b: 0.85, a: 1}
+  - {r: 1, g: 0.8333334, b: 0, a: 1}
+  tierIcons:
+  - {fileID: 21300000, guid: 6ab0a9a23d2bae741acfda31a93b0206, type: 3}
+  - {fileID: 21300000, guid: 6ab0a9a23d2bae741acfda31a93b0206, type: 3}
+  - {fileID: 21300000, guid: 6ab0a9a23d2bae741acfda31a93b0206, type: 3}
+  tierSubTitles:
+  - '{{figure_achievement_desc_01}}'
+  - '{{figure_achievement_desc_02}}'
+  - '{{figure_achievement_desc_03}}'
+  tierTitles:
+  - '{{figure_achievement_01}}'
+  - '{{figure_achievement_02}}'
+  - '{{figure_achievement_03}}'

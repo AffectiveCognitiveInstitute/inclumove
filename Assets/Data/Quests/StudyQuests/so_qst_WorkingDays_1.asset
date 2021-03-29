@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4780308455530627239
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7642249ce77ea304e93e53340d83cb7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: current
+  m_Value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1550a023f4a75e44da0dff2e57cc88f8, type: 3}
+  m_Name: so_qst_WorkingDays_1
+  m_EditorClassIdentifier: 
+  m_Id: WorkingDayQuest_1
+  m_QuestNode:
+    m_ConditionMode: 1
+    m_Conditions:
+    - {fileID: 9085111436183540899}
+    m_SuccessTriggers:
+    - {fileID: 6869427481377021008}
+    m_FailedTriggers: []
+    m_MinimumNumberOfConditions: 0
+  m_QuestCounters:
+    m_QuestCounters:
+    - {fileID: 2389495703244140787}
+    - {fileID: -4780308455530627239}
+  m_QuestContent:
+    m_Content:
+    - {fileID: 7578447039715622614}
+--- !u!114 &2389495703244140787
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25d101749193154f88b7219377ba91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: target
+  m_Value: 1
+--- !u!114 &6869427481377021008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26459bfd74175b4a854f1516e5dbae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MilestoneData: {fileID: 11400000, guid: d78c24d2c1b4dd3408fff7efa33e69bb, type: 2}
+--- !u!114 &7578447039715622614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e93b56344fb9e94bab9e06f52478ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TitleKey: Arbeitstage
+  m_CurrentCounterId: current
+  m_TargetCounterId: target
+--- !u!114 &9085111436183540899
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6477784c589d2458d6ed561379c163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CounterId: current
+  m_RequiredCountId: target
+  m_Type: 0

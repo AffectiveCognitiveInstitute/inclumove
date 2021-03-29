@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867f47dc2fddb1046a4930219a4267ac, type: 3}
+  m_Name: so_mls_badges_final
+  m_EditorClassIdentifier: 
+  m_Id: BadgeCollectorFinal
+  m_Icon: {fileID: 21300000, guid: dedda62520a43314786bf0f98e62c8bd, type: 3}
+  m_Title: Hochdekoriert
+  m_Subtitle: 200 Abzeichen gesammelt
+  m_ColorScheme: {fileID: 11400000, guid: f7bc6cd16d67a7e4ab7d36a7b83e12d9, type: 2}
+  m_RequiredQuest: {fileID: 11400000, guid: 0eed0ada349d7fc4bae9f3fb1e489479, type: 2}
+  m_Unlockable:
+    m_MilestonesToDeactivate: []
+    m_Command: {fileID: 0}
+    m_Preview: {fileID: 0}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867f47dc2fddb1046a4930219a4267ac, type: 3}
+  m_Name: so_mls_workingHours_medium
+  m_EditorClassIdentifier: 
+  m_Id: WorkingHoursMedium
+  m_Icon: {fileID: 21300000, guid: bfc1ef58dfc0c184d9587caab4300087, type: 3}
+  m_Title: Sprinter
+  m_Subtitle: 3 Stunden mit incluMove gearbeitet
+  m_ColorScheme: {fileID: 11400000, guid: da6b2ceba35401d4c89d61b2d7e81f0f, type: 2}
+  m_RequiredQuest: {fileID: 11400000, guid: f3e31d55e19959b45bfaf3369545632c, type: 2}
+  m_Unlockable:
+    m_MilestonesToDeactivate: []
+    m_Command: {fileID: 0}
+    m_Preview: {fileID: 0}

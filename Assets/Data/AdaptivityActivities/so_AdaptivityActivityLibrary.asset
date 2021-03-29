@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f298aa097d6db034abca2918a594917d, type: 3}
+  m_Name: so_AdaptivityActivityLibrary
+  m_EditorClassIdentifier: 
+  m_IncreaseAdaptivityLevelMessages:
+  - activity: {fileID: 11400000, guid: f426ca0c4a2d512469c473894b8d26e1, type: 2}
+    audioClip: 
+  m_DecreaseAdaptivityLevelMessages:
+  - activity: {fileID: 11400000, guid: 9d926851af8eedc40a367a475f209096, type: 2}
+    audioClip: 

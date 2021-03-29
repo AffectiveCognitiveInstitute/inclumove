@@ -1,0 +1,2586 @@
+{
+    "name": "exampleWorkflow",
+    "steps": [
+        {
+            "id": "71cf7bb467db432d9bf1eb6ee09e0aaf",
+            "name": "introduction",
+            "automatic": true,
+            "triggerId": -1,
+            "levels": 6,
+            "durations": [
+                34.0,
+                34.0,
+                34.0
+            ],
+            "items": [
+                {
+                    "id": 10,
+                    "levels": 6,
+                    "position": {
+                        "x": 393.51416015625,
+                        "y": 990.2952270507813,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Wir werden jetzt der Reihe nach die Bauteile bestücken.\",\n    \"speechFilePath\": \"exampleWorkflow/01_wir_werden_jetzt.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 0.0
+                },
+                {
+                    "id": 11,
+                    "levels": 6,
+                    "position": {
+                        "x": 1282.0003662109375,
+                        "y": 1000.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 11.076924324035645,
+                        "y": 2.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectDottedOutline",
+                    "delay": 23.0
+                },
+                {
+                    "id": 12,
+                    "levels": 6,
+                    "position": {
+                        "x": 1039.7330322265625,
+                        "y": 127.45721435546875,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Okay, los geht's. Wenn du möchtest, kannst du für die Bestückung die Pinzette zum Greifen verwenden.\",\n    \"speechFilePath\": \"exampleWorkflow/3_Okay los gehts.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 28.0
+                },
+                {
+                    "id": 13,
+                    "levels": 6,
+                    "position": {
+                        "x": 1490.999267578125,
+                        "y": 353.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 6.199999809265137,
+                        "y": 3.299999952316284,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSemiSolid",
+                    "delay": 0.0
+                },
+                {
+                    "id": 69,
+                    "levels": 6,
+                    "position": {
+                        "x": 715.9998779296875,
+                        "y": 747.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 2.1710524559020998,
+                        "y": 2.200000047683716,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "circleSemiSolid",
+                    "delay": 13.0
+                },
+                {
+                    "id": 70,
+                    "levels": 6,
+                    "position": {
+                        "x": 392.2950744628906,
+                        "y": 792.8098754882813,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Wir werden jetzt der Reihe nach die Bauteile bestücken.\",\n    \"speechFilePath\": \"exampleWorkflow/02_achte_bei_den.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 3.0
+                },
+                {
+                    "id": 71,
+                    "levels": 6,
+                    "position": {
+                        "x": 393.514404296875,
+                        "y": 600.2001342773438,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Ich zeige dir bei bestimmten Bauteilen auch, in welcher Richtung sie bestückt werden müssen.\",\n    \"speechFilePath\": \"exampleWorkflow/03_ich_zeige_dir.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 8.0
+                },
+                {
+                    "id": 72,
+                    "levels": 6,
+                    "position": {
+                        "x": 392.29541015625,
+                        "y": 427.0953369140625,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Solltest du ein falsches oder verbogenes Bauteil sehen, kannst du es in diese Box werfen.\",\n    \"speechFilePath\": \"exampleWorkflow/04_solltest_du_ein_falsches.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 13.0
+                },
+                {
+                    "id": 73,
+                    "levels": 6,
+                    "position": {
+                        "x": 391.0762939453125,
+                        "y": 228.390625,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Die Lichter zeigen dir alle Positionen an, an die das Bauteil gesetzt wird.\",\n    \"speechFilePath\": \"exampleWorkflow/05_die_lichter_zeigen.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 18.0
+                },
+                {
+                    "id": 74,
+                    "levels": 6,
+                    "position": {
+                        "x": 630.0095825195313,
+                        "y": 204.00970458984376,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Die notwendigen Bauteile findest du hier.\",\n    \"speechFilePath\": \"exampleWorkflow/06_die_notwendigen_bauteile.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 23.0
+                }
+            ],
+            "repetitions": 0,
+            "currentRepetitions": 0
+        },
+        {
+            "id": "8cbd7c33b84b4f0ea532c8ead98658a1",
+            "name": "newpcb",
+            "automatic": false,
+            "triggerId": -1,
+            "levels": 7,
+            "durations": [
+                20.0,
+                30.0,
+                45.0
+            ],
+            "items": [
+                {
+                    "id": 66,
+                    "levels": 7,
+                    "position": {
+                        "x": 452.9999084472656,
+                        "y": 922.2190551757813,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Links von dir findest du eine neue Leiterplatte. Diese kannst du nun einspannen und wir können wieder mit der Bestückung beginnen.\",\n    \"speechFilePath\": \"exampleWorkflow/21_links_von_dir_findest_du.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 0.0
+                },
+                {
+                    "id": 67,
+                    "levels": 6,
+                    "position": {
+                        "x": 771.9998779296875,
+                        "y": 77.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.7000000476837159,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 123.72314453125
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 1,
+                    "payload": "workflow-files/spr_table_proj__0001_triangle.png",
+                    "delay": 0.0
+                },
+                {
+                    "id": 68,
+                    "levels": 6,
+                    "position": {
+                        "x": 849.9998779296875,
+                        "y": 130.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.7692307829856873,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 304.3640441894531
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 0.0
+                }
+            ],
+            "repetitions": 10,
+            "currentRepetitions": 10
+        },
+        {
+            "id": "34f978f739dd4bb0917c0dd86d061342",
+            "name": "resistor",
+            "automatic": false,
+            "triggerId": -1,
+            "levels": 7,
+            "durations": [
+                60.0,
+                80.0,
+                120.0
+            ],
+            "items": [
+                {
+                    "id": 14,
+                    "levels": 7,
+                    "position": {
+                        "x": 464.9999084472656,
+                        "y": 928.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Beginnen wir mit dem Widerstand.\",\n    \"speechFilePath\": \"exampleWorkflow/08_widerstand.wav\",\n    \"mediaFilePath\": \"exampleWorkflow/part01.jpg\",\n    \"contentType\": \"application/vnd.microsoft.card.materialcard\"\n}",
+                    "delay": 0.0
+                },
+                {
+                    "id": 15,
+                    "levels": 6,
+                    "position": {
+                        "x": 475.0000305175781,
+                        "y": 601.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Nimm die Widerstände aus der markierten Box und setze sie auf alle beleuchteten Stellen der Leiterplatte.\",\n    \"speechFilePath\": \"exampleWorkflow/09_nimm_die_widerstaende_aus.wav\",\n    \"mediaFilePath\": \"exampleWorkflow/part01_assembly.jpg\",\n    \"contentType\": \"application/vnd.microsoft.card.materialcard\"\n}",
+                    "delay": 2.0
+                },
+                {
+                    "id": 16,
+                    "levels": 4,
+                    "position": {
+                        "x": 890.9999389648438,
+                        "y": 1004.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.899999976158142,
+                        "y": 2.5999999046325685,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 0.0
+                },
+                {
+                    "id": 17,
+                    "levels": 6,
+                    "position": {
+                        "x": 1339.9996337890625,
+                        "y": 365.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.3030303120613098,
+                        "y": 0.14705882966518403,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 2.0
+                },
+                {
+                    "id": 18,
+                    "levels": 6,
+                    "position": {
+                        "x": 1515.9996337890625,
+                        "y": 367.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.3030303120613098,
+                        "y": 0.14705882966518403,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 2.0
+                },
+                {
+                    "id": 19,
+                    "levels": 6,
+                    "position": {
+                        "x": 1427.999755859375,
+                        "y": 266.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.3030303120613098,
+                        "y": 0.14705882966518403,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 2.0
+                },
+                {
+                    "id": 20,
+                    "levels": 6,
+                    "position": {
+                        "x": 1428.9996337890625,
+                        "y": 366.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.3030303120613098,
+                        "y": 0.14705882966518403,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 2.0
+                },
+                {
+                    "id": 21,
+                    "levels": 6,
+                    "position": {
+                        "x": 1340.9996337890625,
+                        "y": 265.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.3030303120613098,
+                        "y": 0.14705882966518403,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 2.0
+                },
+                {
+                    "id": 22,
+                    "levels": 6,
+                    "position": {
+                        "x": 1603.9996337890625,
+                        "y": 367.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.3030303120613098,
+                        "y": 0.14705882966518403,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 2.0
+                },
+                {
+                    "id": 23,
+                    "levels": 6,
+                    "position": {
+                        "x": 1693.99951171875,
+                        "y": 366.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.3030303120613098,
+                        "y": 0.14705882966518403,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 2.0
+                },
+                {
+                    "id": 24,
+                    "levels": 6,
+                    "position": {
+                        "x": 1603.9996337890625,
+                        "y": 267.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.3030303120613098,
+                        "y": 0.14705882966518403,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 2.0
+                },
+                {
+                    "id": 25,
+                    "levels": 6,
+                    "position": {
+                        "x": 1693.9996337890625,
+                        "y": 267.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.3030303120613098,
+                        "y": 0.14705882966518403,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 2.0
+                },
+                {
+                    "id": 26,
+                    "levels": 6,
+                    "position": {
+                        "x": 1516.999755859375,
+                        "y": 267.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.3030303120613098,
+                        "y": 0.14705882966518403,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 2.0
+                }
+            ],
+            "repetitions": 10,
+            "currentRepetitions": 10
+        },
+        {
+            "id": "231b30219d514a16a870495a706f9bcc",
+            "name": "potentiometer",
+            "automatic": false,
+            "triggerId": 1,
+            "levels": 7,
+            "durations": [
+                60.0,
+                80.0,
+                120.0
+            ],
+            "items": [
+                {
+                    "id": 27,
+                    "levels": 7,
+                    "position": {
+                        "x": 442.9998779296875,
+                        "y": 955.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Machen wir weiter mit den Potentiometern.\",\n    \"speechFilePath\": \"exampleWorkflow/10_potentimeter.wav\",\n    \"mediaFilePath\": \"exampleWorkflow/part02.jpg\",\n    \"contentType\": \"application/vnd.microsoft.card.materialcard\"\n}",
+                    "delay": 0.0
+                },
+                {
+                    "id": 28,
+                    "levels": 6,
+                    "position": {
+                        "x": 453.9998474121094,
+                        "y": 655.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Auch das Potentiometer findest du in der markierten Box und kannst es dann auf die Leiterplatte setzen. Beachte die Richtung des Bauteils.\",\n    \"speechFilePath\": \"exampleWorkflow/11_auch_das_potentiometer.wav\",\n    \"mediaFilePath\": \"exampleWorkflow/video_step1.mp4\",\n    \"contentType\": \"application/vnd.microsoft.card.video\"\n}",
+                    "delay": 3.0
+                },
+                {
+                    "id": 29,
+                    "levels": 4,
+                    "position": {
+                        "x": 1091.0001220703125,
+                        "y": 991.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 2.0999999046325685,
+                        "y": 1.7999999523162842,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 0.0
+                },
+                {
+                    "id": 30,
+                    "levels": 6,
+                    "position": {
+                        "x": 1341.999755859375,
+                        "y": 380.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.32258063554763796,
+                        "y": 0.25,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 31,
+                    "levels": 6,
+                    "position": {
+                        "x": 1429.9998779296875,
+                        "y": 381.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.32258063554763796,
+                        "y": 0.25,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 32,
+                    "levels": 6,
+                    "position": {
+                        "x": 1515.9996337890625,
+                        "y": 382.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.32258063554763796,
+                        "y": 0.25,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 33,
+                    "levels": 6,
+                    "position": {
+                        "x": 1605.9998779296875,
+                        "y": 380.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.32258063554763796,
+                        "y": 0.25,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 34,
+                    "levels": 6,
+                    "position": {
+                        "x": 1694.9996337890625,
+                        "y": 382.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.32258063554763796,
+                        "y": 0.25,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 35,
+                    "levels": 6,
+                    "position": {
+                        "x": 1341.999755859375,
+                        "y": 281.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.32258063554763796,
+                        "y": 0.25,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 36,
+                    "levels": 6,
+                    "position": {
+                        "x": 1428.9998779296875,
+                        "y": 281.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.32258063554763796,
+                        "y": 0.25,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 37,
+                    "levels": 6,
+                    "position": {
+                        "x": 1515.9998779296875,
+                        "y": 282.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.32258063554763796,
+                        "y": 0.25,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 38,
+                    "levels": 6,
+                    "position": {
+                        "x": 1603.999755859375,
+                        "y": 283.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.32258063554763796,
+                        "y": 0.25,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 39,
+                    "levels": 6,
+                    "position": {
+                        "x": 1693.0,
+                        "y": 284.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.32258063554763796,
+                        "y": 0.25,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                }
+            ],
+            "repetitions": 10,
+            "currentRepetitions": 10
+        },
+        {
+            "id": "0b36fc2e57c74a44b0373e08bf29f037",
+            "name": "ntc",
+            "automatic": false,
+            "triggerId": -1,
+            "levels": 7,
+            "durations": [
+                60.0,
+                80.0,
+                120.0
+            ],
+            "items": [
+                {
+                    "id": -1,
+                    "levels": 7,
+                    "position": {
+                        "x": 456.218994140625,
+                        "y": 921.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Jetzt ist der NTC Widerstand dran.\",\n    \"speechFilePath\": \"exampleWorkflow/12_ntc.wav\",\n    \"mediaFilePath\": \"exampleWorkflow/part03.jpg\",\n    \"contentType\": \"application/vnd.microsoft.card.materialcard\"\n}",
+                    "delay": 0.0
+                },
+                {
+                    "id": 0,
+                    "levels": 6,
+                    "position": {
+                        "x": 466.99993896484377,
+                        "y": 549.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Setze es an die angezeigten Stellen. Achte darauf, dass die Biegung and den Beinchen nicht durch das Loch dürfen. Auf dem Bild siehst du wie es aussehen muss.\",\n    \"speechFilePath\": \"exampleWorkflow/13_setze_es_an_die_angezeigten.wav\",\n    \"mediaFilePath\": \"exampleWorkflow/part03_assembly.jpg\",\n    \"contentType\": \"application/vnd.microsoft.card.materialcard\"\n}",
+                    "delay": 3.0
+                },
+                {
+                    "id": 1,
+                    "levels": 4,
+                    "position": {
+                        "x": 1293.9996337890625,
+                        "y": 1006.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 2.0999999046325685,
+                        "y": 1.7999999523162842,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 0.0
+                },
+                {
+                    "id": 2,
+                    "levels": 6,
+                    "position": {
+                        "x": 1522.99951171875,
+                        "y": 357.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 3,
+                    "levels": 6,
+                    "position": {
+                        "x": 1611.99951171875,
+                        "y": 257.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 4,
+                    "levels": 6,
+                    "position": {
+                        "x": 1524.99951171875,
+                        "y": 257.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 5,
+                    "levels": 6,
+                    "position": {
+                        "x": 1612.9993896484375,
+                        "y": 356.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 6,
+                    "levels": 6,
+                    "position": {
+                        "x": 1702.99951171875,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 7,
+                    "levels": 6,
+                    "position": {
+                        "x": 1436.99951171875,
+                        "y": 356.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 8,
+                    "levels": 6,
+                    "position": {
+                        "x": 1346.99951171875,
+                        "y": 355.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 9,
+                    "levels": 6,
+                    "position": {
+                        "x": 1436.9996337890625,
+                        "y": 256.0000305175781,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 44,
+                    "levels": 6,
+                    "position": {
+                        "x": 1699.99951171875,
+                        "y": 357.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 45,
+                    "levels": 6,
+                    "position": {
+                        "x": 1348.9993896484375,
+                        "y": 256.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 46,
+                    "levels": 6,
+                    "position": {
+                        "x": 1346.99951171875,
+                        "y": 355.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 47,
+                    "levels": 6,
+                    "position": {
+                        "x": 1346.99951171875,
+                        "y": 355.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                },
+                {
+                    "id": 48,
+                    "levels": 6,
+                    "position": {
+                        "x": 1346.99951171875,
+                        "y": 355.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.2857142984867096,
+                        "y": 0.12987013161182404,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 3.0
+                }
+            ],
+            "repetitions": 10,
+            "currentRepetitions": 10
+        },
+        {
+            "id": "087788fccf4746aa8f3753d0f0530511",
+            "name": "pinheader",
+            "automatic": false,
+            "triggerId": -1,
+            "levels": 7,
+            "durations": [
+                60.0,
+                80.0,
+                120.0
+            ],
+            "items": [
+                {
+                    "id": 49,
+                    "levels": 7,
+                    "position": {
+                        "x": 461.9999084472656,
+                        "y": 932.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Nun ist die Stiftleiste an der Reihe. Beachte dass die langen Seiten oben sein müssen.\",\n    \"speechFilePath\": \"exampleWorkflow/14_stiftleiste.wav\",\n    \"mediaFilePath\": \"exampleWorkflow/part04.jpg\",\n    \"contentType\": \"application/vnd.microsoft.card.materialcard\"\n}",
+                    "delay": 0.0
+                },
+                {
+                    "id": 50,
+                    "levels": 6,
+                    "position": {
+                        "x": 493.99993896484377,
+                        "y": 544.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Die Lichter auf der Leiterplatte zeigen dir wo die Stiftleiste hingehört.\",\n    \"speechFilePath\": \"exampleWorkflow/15_die_lichter_auf_der_leiterplatte.wav\",\n    \"mediaFilePath\": \"exampleWorkflow/part04_assembly.jpg\",\n    \"contentType\": \"application/vnd.microsoft.card.materialcard\"\n}",
+                    "delay": 6.0
+                },
+                {
+                    "id": 51,
+                    "levels": 4,
+                    "position": {
+                        "x": 1488.999755859375,
+                        "y": 1026.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.9999998807907105,
+                        "y": 2.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 0.0
+                },
+                {
+                    "id": 52,
+                    "levels": 6,
+                    "position": {
+                        "x": 1396.99951171875,
+                        "y": 351.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.08525148779153824,
+                        "y": 0.14492753148078919,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 6.0
+                },
+                {
+                    "id": 53,
+                    "levels": 6,
+                    "position": {
+                        "x": 1308.99951171875,
+                        "y": 249.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.08525148779153824,
+                        "y": 0.14492753148078919,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 6.0
+                },
+                {
+                    "id": 54,
+                    "levels": 6,
+                    "position": {
+                        "x": 1572.99951171875,
+                        "y": 251.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.08525148779153824,
+                        "y": 0.14492753148078919,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 6.0
+                },
+                {
+                    "id": 55,
+                    "levels": 6,
+                    "position": {
+                        "x": 1484.9993896484375,
+                        "y": 351.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.08525148779153824,
+                        "y": 0.14492753148078919,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 6.0
+                },
+                {
+                    "id": 56,
+                    "levels": 6,
+                    "position": {
+                        "x": 1396.99951171875,
+                        "y": 251.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.08525148779153824,
+                        "y": 0.14492753148078919,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 6.0
+                },
+                {
+                    "id": 57,
+                    "levels": 6,
+                    "position": {
+                        "x": 1660.999267578125,
+                        "y": 250.00003051757813,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.08525148779153824,
+                        "y": 0.14492753148078919,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 6.0
+                },
+                {
+                    "id": 58,
+                    "levels": 6,
+                    "position": {
+                        "x": 1572.99951171875,
+                        "y": 350.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.08525148779153824,
+                        "y": 0.14492753148078919,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 6.0
+                },
+                {
+                    "id": 59,
+                    "levels": 6,
+                    "position": {
+                        "x": 1483.99951171875,
+                        "y": 251.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.08525148779153824,
+                        "y": 0.14492753148078919,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 6.0
+                },
+                {
+                    "id": 60,
+                    "levels": 6,
+                    "position": {
+                        "x": 1308.99951171875,
+                        "y": 348.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.08525148779153824,
+                        "y": 0.14492753148078919,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 6.0
+                },
+                {
+                    "id": 61,
+                    "levels": 6,
+                    "position": {
+                        "x": 1660.999267578125,
+                        "y": 350.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.08525148779153824,
+                        "y": 0.14492753148078919,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 6.0
+                }
+            ],
+            "repetitions": 10,
+            "currentRepetitions": 10
+        },
+        {
+            "id": "e741393e63f04d498c55779f9edfc7e1",
+            "name": "cableconnector",
+            "automatic": false,
+            "triggerId": 4,
+            "levels": 7,
+            "durations": [
+                60.0,
+                80.0,
+                120.0
+            ],
+            "items": [
+                {
+                    "id": 40,
+                    "levels": 7,
+                    "position": {
+                        "x": 422.0,
+                        "y": 964.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Das letzte Teil ist der graue Kabelanschluss. Beachte die Richtung!\",\n    \"speechFilePath\": \"exampleWorkflow/16_kabelanschluss.wav\",\n    \"mediaFilePath\": \"exampleWorkflow/part05.jpg\",\n    \"contentType\": \"application/vnd.microsoft.card.materialcard\"\n}",
+                    "delay": 0.0
+                },
+                {
+                    "id": 41,
+                    "levels": 6,
+                    "position": {
+                        "x": 464.9998779296875,
+                        "y": 662.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Greif dir die Teile aus der Box und setze sie an die markierten Stellen.\",\n    \"speechFilePath\": \"exampleWorkflow/17_greif_dir_die_teile_aus_der.wav\",\n    \"mediaFilePath\": \"exampleWorkflow/video_step2.mp4\",\n    \"contentType\": \"application/vnd.microsoft.card.video\"\n}",
+                    "delay": 5.0
+                },
+                {
+                    "id": 42,
+                    "levels": 4,
+                    "position": {
+                        "x": 1664.0,
+                        "y": 989.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.2000000476837159,
+                        "y": 1.899999976158142,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 0.0
+                },
+                {
+                    "id": 43,
+                    "levels": 6,
+                    "position": {
+                        "x": 1310.0,
+                        "y": 371.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.20408163964748383,
+                        "y": 0.3333333432674408,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 5.0
+                },
+                {
+                    "id": 78,
+                    "levels": 6,
+                    "position": {
+                        "x": 1398.0,
+                        "y": 371.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.20408163964748383,
+                        "y": 0.3333333432674408,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 5.0
+                },
+                {
+                    "id": 79,
+                    "levels": 6,
+                    "position": {
+                        "x": 1486.999755859375,
+                        "y": 372.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.20408163964748383,
+                        "y": 0.3333333432674408,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 5.0
+                },
+                {
+                    "id": 80,
+                    "levels": 6,
+                    "position": {
+                        "x": 1573.999755859375,
+                        "y": 372.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.20408163964748383,
+                        "y": 0.3333333432674408,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 5.0
+                },
+                {
+                    "id": 81,
+                    "levels": 6,
+                    "position": {
+                        "x": 1661.9996337890625,
+                        "y": 371.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.20408163964748383,
+                        "y": 0.3333333432674408,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 5.0
+                },
+                {
+                    "id": 82,
+                    "levels": 6,
+                    "position": {
+                        "x": 1311.9998779296875,
+                        "y": 272.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.20408163964748383,
+                        "y": 0.3333333432674408,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 5.0
+                },
+                {
+                    "id": 83,
+                    "levels": 6,
+                    "position": {
+                        "x": 1399.9998779296875,
+                        "y": 272.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.20408163964748383,
+                        "y": 0.3333333432674408,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 5.0
+                },
+                {
+                    "id": 84,
+                    "levels": 6,
+                    "position": {
+                        "x": 1485.999755859375,
+                        "y": 274.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.20408163964748383,
+                        "y": 0.3333333432674408,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 5.0
+                },
+                {
+                    "id": 85,
+                    "levels": 6,
+                    "position": {
+                        "x": 1572.9998779296875,
+                        "y": 275.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.20408163964748383,
+                        "y": 0.3333333432674408,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 5.0
+                },
+                {
+                    "id": 86,
+                    "levels": 6,
+                    "position": {
+                        "x": 1660.999755859375,
+                        "y": 274.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.20408163964748383,
+                        "y": 0.3333333432674408,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 5.0
+                }
+            ],
+            "repetitions": 10,
+            "currentRepetitions": 10
+        },
+        {
+            "id": "cc554c22eb0c4a5fafd096cbb26cfc35",
+            "name": "partfinished",
+            "automatic": false,
+            "triggerId": -1,
+            "levels": 7,
+            "durations": [
+                20.0,
+                30.0,
+                45.0
+            ],
+            "items": [
+                {
+                    "id": 87,
+                    "levels": 6,
+                    "position": {
+                        "x": 472.9998779296875,
+                        "y": 923.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Und schon ist die komplette Leiterplatte bestückt. Super Arbeit!\",\n    \"speechFilePath\": \"exampleWorkflow/18_und_schon_is_die_komplette.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 0.0
+                },
+                {
+                    "id": 62,
+                    "levels": 6,
+                    "position": {
+                        "x": 482.9998779296875,
+                        "y": 693.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Du kannst die Leiterplatte nun vorsichtig herausnehmen. Hier siehst du wie du die Befestigung lösen kannst.\",\n    \"speechFilePath\": \"exampleWorkflow/19_du_kannst_die_leiterplatte.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 4.0
+                },
+                {
+                    "id": 63,
+                    "levels": 7,
+                    "position": {
+                        "x": 476.99993896484377,
+                        "y": 431.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Lege die bestückte Leiterplatte rechts von dir auf die Ablagefläche.\",\n    \"speechFilePath\": \"exampleWorkflow/20_lege_die_bestueckte_leiterplatte.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 11.0
+                },
+                {
+                    "id": 64,
+                    "levels": 6,
+                    "position": {
+                        "x": 1872.0,
+                        "y": 44.000091552734378,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.399999976158142,
+                        "y": 1.2000000476837159,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 227.2366180419922
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 1,
+                    "payload": "workflow-files/spr_table_proj__0001_triangle.png",
+                    "delay": 11.0
+                },
+                {
+                    "id": 65,
+                    "levels": 6,
+                    "position": {
+                        "x": 1798.9996337890625,
+                        "y": 108.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 0.5,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 49.75075149536133
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 0,
+                    "payload": "rectSolid",
+                    "delay": 11.0
+                }
+            ],
+            "repetitions": 10,
+            "currentRepetitions": 10
+        },
+        {
+            "id": "734dd9eb2cf442eea563b7e0338fb778",
+            "name": "finalization",
+            "automatic": true,
+            "triggerId": -1,
+            "levels": 6,
+            "durations": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "items": [
+                {
+                    "id": 88,
+                    "levels": 6,
+                    "position": {
+                        "x": 491.99993896484377,
+                        "y": 892.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "payloadType": 5,
+                    "payload": "{\n    \"message\": \"Prima!\",\n    \"speechFilePath\": \"exampleWorkflow/finish.wav\",\n    \"mediaFilePath\": \"\",\n    \"contentType\": \"Default\"\n}",
+                    "delay": 0.0
+                }
+            ],
+            "repetitions": 0,
+            "currentRepetitions": 0
+        }
+    ],
+    "numTotalSteps": 79
+}

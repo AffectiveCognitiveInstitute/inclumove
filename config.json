@@ -1,0 +1,16 @@
+﻿{
+  "DebugMode": false,
+  "ShowResultScreen": false,
+  "webcamDevice": "Logitech C920",
+  "resolutionWidth": 1280,
+  "resolutionHeight": 720,
+  "fps": 30,
+  "assetsUrl": "<insert-path-here>/workflows/workflow-files",
+  "workflowDirectory": "<insert-path-here>/workflows",
+  "mode": "kiosk",
+  "UseUsbProfile": true,
+  "SkipIntro": false,
+  "adaptivityTimeThreshold": 30.0,
+  "adaptivityRepeatThreshold": 2,
+  "standardWorkflow": "exampleWorkflow.work"
+}
