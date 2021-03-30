@@ -108,6 +108,51 @@
   </h3>
   
   
+  <a id="Aci_Unity_Networking_MQTTConnector_GetNewRequestId_" data-uid="Aci.Unity.Networking.MQTTConnector.GetNewRequestId*"></a>
+  
+  <h4 id="Aci_Unity_Networking_MQTTConnector_GetNewRequestId" data-uid="Aci.Unity.Networking.MQTTConnector.GetNewRequestId"><a href="#collapsible-Aci_Unity_Networking_MQTTConnector_GetNewRequestId" class="expander" data-toggle="collapse">GetNewRequestId()</a></h4>
+  
+  <div id="collapsible-Aci_Unity_Networking_MQTTConnector_GetNewRequestId" class="collapse in">
+  <div class="markdown level1 summary"><p>Returns a new unique request id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GetNewRequestId()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.UInt32</span>
+        <p><p>The new unsigned int request id.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="Aci_Unity_Networking_MQTTConnector_GetNewRequestId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The first 3 bits are reserved for preventing duplicate ids between different system components.
+This makes it possible to use up to 8 different system components.
+The max amount of unique identifiers per system is 536870912.
+The value will reset if reaching the max value.
+The amount should prevent having duplicate values in the system anywhere.</p>
+</div>
+  
+  
+  
+  </div>
+  
+  
   <a id="Aci_Unity_Networking_MQTTConnector_HandleApplicationMessageReceivedAsync_" data-uid="Aci.Unity.Networking.MQTTConnector.HandleApplicationMessageReceivedAsync*"></a>
   
   <h4 id="Aci_Unity_Networking_MQTTConnector_HandleApplicationMessageReceivedAsync_MqttApplicationMessageReceivedEventArgs_" data-uid="Aci.Unity.Networking.MQTTConnector.HandleApplicationMessageReceivedAsync(MqttApplicationMessageReceivedEventArgs)"><a href="#collapsible-Aci_Unity_Networking_MQTTConnector_HandleApplicationMessageReceivedAsync_MqttApplicationMessageReceivedEventArgs_" class="expander" data-toggle="collapse">HandleApplicationMessageReceivedAsync(MqttApplicationMessageReceivedEventArgs)</a></h4>
@@ -233,6 +278,57 @@
       </td>
     </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_Networking_MQTTConnector_SendMessage_" data-uid="Aci.Unity.Networking.MQTTConnector.SendMessage*"></a>
+  
+  <h4 id="Aci_Unity_Networking_MQTTConnector_SendMessage_System_String_System_String_System_String_" data-uid="Aci.Unity.Networking.MQTTConnector.SendMessage(System.String,System.String,System.String)"><a href="#collapsible-Aci_Unity_Networking_MQTTConnector_SendMessage_System_String_System_String_System_String_" class="expander" data-toggle="collapse">SendMessage(String, String, String)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_Networking_MQTTConnector_SendMessage_System_String_System_String_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendMessage(string component, string topic, string payload)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">component</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">topic</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">payload</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
   
   
   

@@ -897,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Data.JsonModel.WorkflowData.html",
-          "hash": "uA2+bn+kG9Uk9DgFGpCOyg=="
+          "hash": "6id+x8KYr0KvMDxjPIuUOQ=="
         }
       },
       "is_incremental": false,
@@ -910,6 +910,18 @@
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Data.JsonModel.WorkflowDataFactory.html",
           "hash": "O8KZEP/QKnoocyF85Wz2nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Data.JsonModel.WorkflowPartData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Data.JsonModel.WorkflowPartData.html",
+          "hash": "CnhBDW1gy9VmpX6WHJg/GA=="
         }
       },
       "is_incremental": false,
@@ -933,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Data.JsonModel.WorkflowStepData.html",
-          "hash": "lf4id0pol9aIXDNk6cKshA=="
+          "hash": "HAa3+zB3XVAC5zwKrZKrvQ=="
         }
       },
       "is_incremental": false,
@@ -957,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Data.JsonModel.html",
-          "hash": "W6biq2+JLpfyGQfHIgeWXw=="
+          "hash": "eq7cMQcSoo0Hi2acI9cibQ=="
         }
       },
       "is_incremental": false,
@@ -1121,6 +1133,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Data.UIntIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Data.UIntIdentifier.html",
+          "hash": "9XhozJMH0GtX1KqfgxcvuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/api/Aci.Unity.Data.VariableReferenceBase.yml",
       "output": {
         ".html": {
@@ -1149,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Data.html",
-          "hash": "ONjRTCUZbbecdspWUz1osQ=="
+          "hash": "K/LvC/IWqHWKp0d5QpPGeQ=="
         }
       },
       "is_incremental": false,
@@ -2081,6 +2105,186 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_done_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_done_ack.html",
+          "hash": "hpMbIrYhmtCJagrOpLet4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_done_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_done_req.html",
+          "hash": "xAue7eHANi6/pSaAxUFXXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_done_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_done_res.html",
+          "hash": "ng7jTmDAzFGdo2j/oew/2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_end_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_end_ack.html",
+          "hash": "bYc85haVieWxn6ipUpIrhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_end_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_end_req.html",
+          "hash": "HIHw1bicpHuVfIUTMKBmig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_end_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_end_res.html",
+          "hash": "oytREOrvmZavWTVf2Bs5eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_order_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_order_ack.html",
+          "hash": "24/YAPCtrJCnqySs6B+kXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_order_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_order_req.html",
+          "hash": "e0CID1uB61LvouSDDlSiqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_order_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_order_res.html",
+          "hash": "lw8X1LxWJit4cRZAuTVpzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_part_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_part_ack.html",
+          "hash": "TznO3thCMs8RY4NxpTCZCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_part_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_part_req.html",
+          "hash": "dqsjjtqiF5bY4/QXEabtlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_part_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_part_res.html",
+          "hash": "Kn2gOExX6U5eSQxPMpjTBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_step_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_step_ack.html",
+          "hash": "L5XkZvbLSu+eyGnfZfuWAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_step_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_step_req.html",
+          "hash": "aP3r30wsv5i37Q26BOuUZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Assembly_step_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Assembly_step_res.html",
+          "hash": "lGo75p4g5sIfaJrJtlwUFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/api/Aci.Unity.Models.BotAction.yml",
       "output": {
         ".html": {
@@ -2141,6 +2345,510 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_assembly_position_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_assembly_position_ack.html",
+          "hash": "IInbw2gJQ/xRJQLqn63SJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_assembly_position_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_assembly_position_req.html",
+          "hash": "AgWJHR5EMiHEVR+lKunpEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_assembly_position_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_assembly_position_res.html",
+          "hash": "mreaEgwRr1rSVyeZrIHy7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_gripper_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_gripper_ack.html",
+          "hash": "Flo6j9f9W2BCT9HyHdSXjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_gripper_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_gripper_req.html",
+          "hash": "dLOp5tbeZnQjRPqPeh/T0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_gripper_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_gripper_res.html",
+          "hash": "1+Wd3dUMzigBVfLbgo8fFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_part_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_part_ack.html",
+          "hash": "hiRbDhOwL3O81GvScE7euA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_part_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_part_req.html",
+          "hash": "Xt9+3fcXnXq74I/rI0PXTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_part_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_part_res.html",
+          "hash": "AmDsNyt0kEOh239+hiIPrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_reference_mark_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_reference_mark_ack.html",
+          "hash": "mA+sU2bzB/UOdW7VXX2dYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_reference_mark_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_reference_mark_req.html",
+          "hash": "jwR+clLdD8zb3wb32MUS3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Detect_reference_mark_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Detect_reference_mark_res.html",
+          "hash": "qoekpjzQd7HN7em4jLR+CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Gripper_offset_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Gripper_offset_ack.html",
+          "hash": "1NUsa1qgZeLAAw+jPTrGhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Gripper_offset_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Gripper_offset_req.html",
+          "hash": "AfaIBVmuC0Hk6gly5NU7Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Gripper_offset_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Gripper_offset_res.html",
+          "hash": "PnoCsak6xa9oxSn5KYRfSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Gripper_ready_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Gripper_ready_ack.html",
+          "hash": "T6SQqUbcRWqt/iZXALuM0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Gripper_ready_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Gripper_ready_req.html",
+          "hash": "0unSNxwDOd5UDtDw/u5K8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Gripper_ready_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Gripper_ready_res.html",
+          "hash": "MftI1DUM23cHWCFwlWkieQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_drop_off_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_drop_off_ack.html",
+          "hash": "S0XMPkeJGkpfhhY6eKViXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_drop_off_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_drop_off_req.html",
+          "hash": "cZFs94qcDC+IQ1mYG/viqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_drop_off_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_drop_off_res.html",
+          "hash": "t7RrUrI45VUnVHgPOfMNZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_pick_up_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_pick_up_ack.html",
+          "hash": "lWtMIH5LbyK8oHSXKciCyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_pick_up_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_pick_up_req.html",
+          "hash": "EAvtfCba1nbdu8GEfMrO3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_pick_up_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Guide_gripper_pick_up_res.html",
+          "hash": "ProrUwSTBy+b4cLygEOXpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Heading_angle_psi_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Heading_angle_psi_ack.html",
+          "hash": "7R23AZJ5f/oKlUCoO6HIKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Heading_angle_psi_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Heading_angle_psi_req.html",
+          "hash": "att1jeBH0Mv+6lKN3pqxuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Heading_angle_psi_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Heading_angle_psi_res.html",
+          "hash": "4jOtonuJi/Zz0gywemHUdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.In_position_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.In_position_ack.html",
+          "hash": "vdCb/vWlg7XEiQ6dB50L5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.In_position_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.In_position_req.html",
+          "hash": "7hQaFgzRlpEIHRK7aJ3qSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.In_position_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.In_position_res.html",
+          "hash": "gvFbJi84FgbYSWdiNHlVHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Insert_board_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Insert_board_ack.html",
+          "hash": "PbBjfr9pD6l30EiblBITqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Insert_board_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Insert_board_req.html",
+          "hash": "qD+sYXusOo7IznKjVw7IMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Insert_board_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Insert_board_res.html",
+          "hash": "dqmOLnqr0z305fyj/AmGPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Inspect_assembly_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Inspect_assembly_ack.html",
+          "hash": "hfPtR0SQjO0TsWBmQt0RYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Inspect_assembly_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Inspect_assembly_req.html",
+          "hash": "55mgnkYiaDZI4K53N30dvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Inspect_assembly_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Inspect_assembly_res.html",
+          "hash": "0ZjZn+kBE1FcgJWWW7RgfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Inspect_single_part_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Inspect_single_part_ack.html",
+          "hash": "JRkY+LNmK2nahVw7X2mDeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Inspect_single_part_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Inspect_single_part_req.html",
+          "hash": "S3JOfC3czbz/z9kLk6qZ8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Inspect_single_part_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Inspect_single_part_res.html",
+          "hash": "x2ZSgYlLpNbMGGI/qEqYRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Inspection_loop_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Inspection_loop_ack.html",
+          "hash": "iUkpmuGwyBXC/qnomdze5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Inspection_loop_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Inspection_loop_req.html",
+          "hash": "WRSRHMdy/KI6NbizrbJo0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Inspection_loop_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Inspection_loop_res.html",
+          "hash": "GajoAQVhZZYAm2TQo5+BKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/api/Aci.Unity.Models.Material.yml",
       "output": {
         ".html": {
@@ -2165,11 +2873,167 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.PCB_Position.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.PCB_Position.html",
+          "hash": "d1w2XVtkjsEMQDiFALKqWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Part_picked_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Part_picked_ack.html",
+          "hash": "M8RcokYayvd0saIP+K5S4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Part_picked_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Part_picked_req.html",
+          "hash": "VJEkQqDam0t4Gs6F9nHM8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Part_picked_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Part_picked_res.html",
+          "hash": "bcMmhbT9xiXCSbgaPZ9vDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Position.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Position.html",
+          "hash": "xXrb3vMVcVs/4lNXyjFn9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Pressured_air_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Pressured_air_ack.html",
+          "hash": "UrXLQNLc0PorVhz892cINg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Pressured_air_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Pressured_air_req.html",
+          "hash": "Eqzcu0nWO4Wp8vdtcNNwIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Pressured_air_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Pressured_air_res.html",
+          "hash": "TkyruMAJGGo9eALEYBRreg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Reset_ack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Reset_ack.html",
+          "hash": "Vexq3FlnMlPXUZM6+13Umg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Reset_req.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Reset_req.html",
+          "hash": "pu+OIbSth/LoRy7vpufGzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Reset_res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Reset_res.html",
+          "hash": "5MzefyhVEpO1uKtBjUFgTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Models.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Models.Status.html",
+          "hash": "ITzl8KCuDmeJI2WrqK6Vog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/api/Aci.Unity.Models.yml",
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Models.html",
-          "hash": "o9h+PsVSRIZFH8r+pPnPaQ=="
+          "hash": "CFcqjrEt9ol5YovMniGtpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Networking.MQTTComponents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Networking.MQTTComponents.html",
+          "hash": "5i0rWvDqkF8c8U21zWq6Ew=="
         }
       },
       "is_incremental": false,
@@ -2181,7 +3045,31 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Networking.MQTTConnector.html",
-          "hash": "yoqnGIxZAcn2ATL7AbrKUw=="
+          "hash": "UcldRVplmGv3kH1jHpNxDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Networking.MQTTStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Networking.MQTTStatus.html",
+          "hash": "AFr/qUS58bc6woZOydRIbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Networking.MQTTTopics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Networking.MQTTTopics.html",
+          "hash": "soNA0IRut0jTew2jq8DLtw=="
         }
       },
       "is_incremental": false,
@@ -2205,7 +3093,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Networking.html",
-          "hash": "ujnEGiXkdhyqbAw6PXh7Tg=="
+          "hash": "i1htmZg2sw9h4FBOI0k6bw=="
         }
       },
       "is_incremental": false,
@@ -2901,7 +3789,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Scene.SceneItems.IStepItem.html",
-          "hash": "oFyWo7UGJlWwtvQshkCPnw=="
+          "hash": "xv4nEDo4xMpnNf/8bAF7Pw=="
         }
       },
       "is_incremental": false,
@@ -3009,7 +3897,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Scene.SceneItems.StepItem.html",
-          "hash": "QjEODbpQM6NARKxqUWHVXA=="
+          "hash": "U3wsW91LAHUF8dj8APkN7w=="
         }
       },
       "is_incremental": false,
@@ -3057,7 +3945,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Scene.WorkflowLoader.html",
-          "hash": "nG87LCs48fKoqrXFpHlF7w=="
+          "hash": "RlK6gOSOQrLT1b5nCXQdoA=="
         }
       },
       "is_incremental": false,
@@ -5097,7 +5985,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Util.IIdDisposalService.html",
-          "hash": "z+/8PBsyLllcYkO2PAow+Q=="
+          "hash": "8LNGvUAaVq22+Pd2I1IckA=="
         }
       },
       "is_incremental": false,
@@ -5121,7 +6009,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Util.IdDisposalService.html",
-          "hash": "0Jro5s6I1yd1ZzCLT4vt2A=="
+          "hash": "qwoMcjHuCJUcNTqGuMQnlQ=="
         }
       },
       "is_incremental": false,
@@ -5381,11 +6269,59 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Workflow.Conditions.EndAssemblyCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Workflow.Conditions.EndAssemblyCondition.html",
+          "hash": "VT98hsZG/AhmEiIgpivXYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Workflow.Conditions.GripperPartCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Workflow.Conditions.GripperPartCondition.html",
+          "hash": "QzlcJ4naXsRSyPYk/BujYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Workflow.Conditions.ManualPartCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Workflow.Conditions.ManualPartCondition.html",
+          "hash": "68VQkgv66oCp6xcKH3T5Wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Aci.Unity.Workflow.Conditions.MountCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Aci.Unity.Workflow.Conditions.MountCondition.html",
+          "hash": "eyrYBTIYtXDB+SMPHzl4Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/api/Aci.Unity.Workflow.Conditions.QCCondition.yml",
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Workflow.Conditions.QCCondition.html",
-          "hash": "Y20OrecSidX7mDJCEW4fow=="
+          "hash": "sECykXcwTc8PqYLe+ee5vw=="
         }
       },
       "is_incremental": false,
@@ -5409,7 +6345,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Workflow.Conditions.html",
-          "hash": "WvL+5Eeafk9ljoalRHmApg=="
+          "hash": "YgfF48IUR3H+Pm3YnhqHDw=="
         }
       },
       "is_incremental": false,
@@ -5469,7 +6405,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Workflow.Triggers.WorkflowStepTrigger.Factory.html",
-          "hash": "Zet3UaNDBX8wv+qPaHBZcw=="
+          "hash": "znwPnUn2LdnZjyIz5Cx9JA=="
         }
       },
       "is_incremental": false,
@@ -5493,7 +6429,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Workflow.Triggers.WorkflowStepTriggerFactory.html",
-          "hash": "TylhrZYhvFI1eXJTOfSpZA=="
+          "hash": "geM4SiI1KS4K1SDIKeMItA=="
         }
       },
       "is_incremental": false,
@@ -5865,7 +6801,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/Aci.Unity.Workflow.WorkflowEditor.StepItemElementViewController.html",
-          "hash": "cDH0fAiL4HcT9pjiJPpYNA=="
+          "hash": "2XnCu0PikHMpmVkN+1kHLg=="
         }
       },
       "is_incremental": false,
@@ -6045,7 +6981,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/toc.html",
-          "hash": "bGOxPX83vwRRHvoIWPzGzw=="
+          "hash": "liZunTtN1KbD/ukXZ3TqfQ=="
         }
       },
       "is_incremental": false,
