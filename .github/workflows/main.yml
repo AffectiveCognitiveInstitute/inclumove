@@ -3,7 +3,7 @@ name: GitHub Pages Documentation
 on:
   push:
     branches:
-      - fb/extended
+      - main
       
 jobs:
   publishToPages:
@@ -13,7 +13,7 @@ jobs:
     - name: Checkout branch
       uses: actions/checkout@v2
       with:
-        ref: fb/extended
+        ref: main
         lfs: true
     - name: Run docFX
       uses: ./Actions/docfx
