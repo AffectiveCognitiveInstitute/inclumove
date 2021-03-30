@@ -13,6 +13,7 @@ using Aci.Unity.Gamification;
 using Aci.Unity.Logging;
 using Aci.Unity.Models;
 using Aci.Unity.Network;
+using Aci.Unity.Networking;
 using Aci.Unity.Scene;
 using Aci.Unity.Sensor;
 using Aci.Unity.Util;
@@ -130,7 +131,7 @@ namespace Aci.Unity.Workflow
         }
 
         /// <inheritdoc />
-        public void StartWork()
+        public async void StartWork()
         {
             // don't bother if started or no workflow loaded
             if (m_IsRunning || m_CurrentWorkflowData == WorkflowData.Empty)
@@ -147,7 +148,7 @@ namespace Aci.Unity.Workflow
                 newStep = m_CurrentStep,
                 newDataStep = m_CurrentDataStep
             });
-            m_StepTriggerFactory.Create(m_CurrentWorkflowData.steps[currentDataStep]);
+            m_StepTriggerFactory.Create(m_CurrentWorkflowData.steps[currentDataStep], m_CurrentWorkflowData.parts);
             AciLog.Log("WorkflowManager", "Started Workflow");
         }
 
@@ -253,7 +254,7 @@ namespace Aci.Unity.Workflow
             if(m_LastDataStep != -1)
                 m_DisposalService.Dispose(m_CurrentWorkflowData.steps[m_LastDataStep].id);
 
-            m_StepTriggerFactory.Create(m_CurrentWorkflowData.steps[currentDataStep]);
+            m_StepTriggerFactory.Create(m_CurrentWorkflowData.steps[currentDataStep], m_CurrentWorkflowData.parts);
 
             // invoke step event
             m_EventBroker?.Invoke(new WorkflowStepFinalizedArgs()
@@ -364,7 +365,7 @@ namespace Aci.Unity.Workflow
         public void OnEvent(AdaptivityLevelChangedEventArgs arg)
         {
             m_DisposalService.Dispose(m_CurrentWorkflowData.steps[currentDataStep].id);
-            m_StepTriggerFactory.Create(m_CurrentWorkflowData.steps[currentDataStep]);
+            m_StepTriggerFactory.Create(m_CurrentWorkflowData.steps[currentDataStep], m_CurrentWorkflowData.parts);
         }
     }
 }

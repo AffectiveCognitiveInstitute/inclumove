@@ -18,16 +18,20 @@ namespace Aci.Unity.Scene.SceneItems
         private List<ISceneItem> m_SceneItems = new List<ISceneItem>();
         public IReadOnlyList<ISceneItem> sceneItems => m_SceneItems;
 
-        private IIdentifiable<Guid> m_Identifiable;
-        public IIdentifiable<Guid> identifiable => m_Identifiable;
+        private IIdentifiable<uint> m_Identifiable;
+        public IIdentifiable<uint> identifiable => m_Identifiable;
         public float3 duration { get; set; }
         public int repetitions { get; set; }
         public bool automatic { get; set; }
+        public bool mount { get; set; }
+        public bool unmount { get; set; }
+        public bool control { get; set; }
         public string name { get; set; }
-        public int triggerId { get; set; }
+        public int partId { get; set; }
+        public int gripperId { get; set; }
 
         [Zenject.Inject]
-        private void Construct(IIdentifiable<Guid> identifiable, ISceneItemRegistry itemRegistry)
+        private void Construct(IIdentifiable<uint> identifiable, ISceneItemRegistry itemRegistry)
         {
             m_Identifiable = identifiable;
             m_ItemRegistry = itemRegistry;

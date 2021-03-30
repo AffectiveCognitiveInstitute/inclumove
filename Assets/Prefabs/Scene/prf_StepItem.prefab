@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8281235352085348201}
   - component: {fileID: 4435627571637540674}
-  - component: {fileID: 1677526198050041798}
+  - component: {fileID: 8854330025570878414}
   - component: {fileID: 4176528687971146381}
   - component: {fileID: 106015937783720473}
   m_Layer: 0
-  m_Name: StepItem
+  m_Name: prf_StepItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7614334fe4c9942883d08027c7aef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1677526198050041798
+--- !u!114 &8854330025570878414
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,9 +55,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2822513780684956084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49d6ef4f5e7c4635a86068cd657e80d8, type: 3}
+  m_Script: {fileID: 11500000, guid: cf022483eb9699b41ab3987b7c7bca45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Id: 0
 --- !u!114 &4176528687971146381
 MonoBehaviour:
   m_ObjectHideFlags: 0

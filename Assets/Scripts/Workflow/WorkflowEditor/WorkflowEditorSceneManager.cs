@@ -43,9 +43,10 @@ namespace Aci.Unity.Workflow.WorkflowEditor
 
         [SerializeField] private GameObject m_StepItemPrefab;
 
-        private readonly List<IStepItem>      m_StepItems = new List<IStepItem>();
-        private          WorkflowData.Factory m_WorkflowDataFactory;
-        private          string               m_CurrentWorkflow;
+        private readonly List<WorkflowPartData> m_PartData = new List<WorkflowPartData>();
+        private readonly List<IStepItem>        m_StepItems = new List<IStepItem>();
+        private          WorkflowData.Factory   m_WorkflowDataFactory;
+        private          string                 m_CurrentWorkflow;
 
         [ConfigValue("workflowDirectory")]
         public string workflowDirectory { get; set; } = "";
@@ -176,6 +177,7 @@ namespace Aci.Unity.Workflow.WorkflowEditor
                     string previousAssetDirectory = Path.Combine(Path.GetDirectoryName(previousPath),previousName);
                     Directory.Move(previousAssetDirectory, workflowAssetDirectory);
                     File.Move(previousPath, filePath);
+                    workflowLoaded.Invoke();
                     return true;
                 }
             }
@@ -187,6 +189,7 @@ namespace Aci.Unity.Workflow.WorkflowEditor
         {
             string workflowFilePath = Path.Combine(workflowDirectory, CurrentWorkflow + ".work");
             WorkflowData data = m_WorkflowDataFactory.Create(m_StepItems);
+            data.parts = m_PartData.ToArray();
             string jsonData = JsonUtility.ToJson(data, true);
             File.WriteAllText(workflowFilePath, jsonData);
         }
@@ -204,6 +207,7 @@ namespace Aci.Unity.Workflow.WorkflowEditor
 
             string stringData = File.ReadAllText(filePath);
             WorkflowData data = JsonUtility.FromJson<WorkflowData>(stringData);
+            m_PartData.AddRange(data.parts);
 
             foreach (WorkflowStepData stepData in data.steps)
             {
@@ -232,7 +236,7 @@ namespace Aci.Unity.Workflow.WorkflowEditor
                 m_StepItems.RemoveAt(0);
                 item.Dispose();
             }
-
+            m_PartData.Clear();
             stepsChanged.Invoke(m_StepItems);
         }
 

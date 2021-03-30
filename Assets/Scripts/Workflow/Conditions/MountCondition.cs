@@ -24,8 +24,11 @@
 
 using System;
 using Aci.Unity.Events;
+using Aci.Unity.Models;
 using Aci.Unity.Networking;
 using Aci.Unity.Util;
+using BotConnector.Unity;
+using Microsoft.Bot.Connector.DirectLine;
 using UnityEngine;
 using UnityEngine.Events;
 using Zenject;
@@ -35,21 +38,21 @@ namespace Aci.Unity.Workflow.Conditions
     /// <summary>
     ///     Condition that triggers on a specific qc step being true.
     /// </summary>
-    public class QCCondition : ITriggerCondition, IAciEventHandler<CVTriggerArgs>, ITickable
+    public class MountCondition : ITriggerCondition, IAciEventHandler<Insert_board_ack>, IAciEventHandler<Insert_board_res>, IAciEventHandler<Status>
     {
-        private TickableManager m_TickableManager;
         private IAciEventManager m_EventManager;
+        private IBot m_Bot;
         private MQTTConnector m_MqttConnector;
-        private float m_Delta = 0;
-        
-        public QCCondition(TickableManager tickableManager, IAciEventManager eventManager, MQTTConnector mqttConnector)
+
+        private uint m_requestId = 0;
+
+        public MountCondition(IAciEventManager eventManager, MQTTConnector mqttConnector, IBot bot)
         {
-            m_TickableManager = tickableManager;
             m_EventManager = eventManager;
+            m_Bot = bot;
             m_MqttConnector = mqttConnector;
 
-            m_TickableManager.Add(this);
-            RegisterForEvents();
+            MountProcedure();
         }
 
         /// <inheritdoc />
@@ -59,19 +62,8 @@ namespace Aci.Unity.Workflow.Conditions
         public bool state { get; private set; }
 
         /// <inheritdoc />
-        public bool reevaluate => false;
+        public bool reevaluate => true;
 
-        /// <inheritdoc />
-        public int partId { get; set; }
-
-        public void Tick()
-        {
-            m_Delta += Time.deltaTime;
-            if (m_Delta < 1f)
-                return;
-            m_Delta = 0;
-            m_MqttConnector.SendQCMessage(partId);
-        }
 
         /// <inheritdoc />
         public void Dispose()
@@ -82,28 +74,66 @@ namespace Aci.Unity.Workflow.Conditions
         /// <inheritdoc />
         public void RegisterForEvents()
         {
-            m_EventManager.AddHandler(this);
         }
 
         /// <inheritdoc />
         public void UnregisterFromEvents()
         {
-            m_EventManager.RemoveHandler(this);
         }
 
         /// <inheritdoc />
-        public void OnEvent(CVTriggerArgs arg)
+        public void OnEvent(Insert_board_ack arg)
         {
-            if (arg.okay)
+            if (arg.req_id != m_requestId || arg.ack == false)
+                return;
+            m_EventManager.RemoveHandler<Insert_board_ack>(this);
+            m_EventManager.AddHandler<Status>(this);
+            // send chatbot message
+        }
+
+        /// <inheritdoc />
+        public void OnEvent(Status arg)
+        {
+            if (arg.state != 2 || arg.error != "Waiting for operator to insert board")
+                return;
+
+            // send chatbot message
+            Activity activity = new Activity();
+
+            activity.Id = Guid.NewGuid().ToString();
+            activity.Type = "message";
+            activity.Text = $"Lege nun die Platine in die Halterung ein und schliesse danach die Abdeckung.";
+            activity.Timestamp = DateTime.UtcNow;
+
+            m_Bot.SimulateMessageReceived(activity);
+
+            m_EventManager.RemoveHandler<Status>(this);
+            m_EventManager.AddHandler<Insert_board_res>(this);
+        }
+
+        /// <inheritdoc />
+        public void OnEvent(Insert_board_res arg)
+        {
+            if (arg.req_id != m_requestId || arg.result == false)
+                return;
+            // send chatbot message
+            // wait a bit
+            // set state true
+            state = true;
+            conditionStateChanged.Invoke();
+            m_EventManager.RemoveHandler<Insert_board_res>(this);
+        }
+
+        private void MountProcedure()
+        {
+            m_requestId = m_MqttConnector.GetNewRequestId();
+            // send insert board req
+            Insert_board_req request = new Insert_board_req()
             {
-                state = true;
-                conditionStateChanged.Invoke();
-                m_TickableManager.Remove(this);
-            }
-            else
-            {
-                state = false;
-            }
+                req_id = m_requestId
+            };
+            m_EventManager.AddHandler<Insert_board_ack>(this);
+            m_MqttConnector.SendMessage(MQTTComponents.Table, $"{MQTTTopics.Request}/insert_board_req", JsonUtility.ToJson(request));
         }
     }
 }

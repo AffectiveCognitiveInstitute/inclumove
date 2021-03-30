@@ -9,7 +9,7 @@ namespace Aci.Unity.Scene.SceneItems
         public override void InstallBindings()
         {
             Container.Bind<IStepItem>().FromComponentInHierarchy().AsSingle();
-            Container.Bind<IIdentifiable<Guid>>().FromComponentInHierarchy().AsSingle();
+            Container.Bind<IIdentifiable<uint>>().FromComponentInHierarchy().AsSingle();
         }
     }
 }

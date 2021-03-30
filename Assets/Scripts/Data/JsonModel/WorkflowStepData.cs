@@ -11,10 +11,14 @@ namespace Aci.Unity.Data.JsonModel
 
         public static WorkflowStepData Empty = new WorkflowStepData()
         {
-            id = Guid.Empty.ToString("N"),
+            id = 0,
             name = "NewStep",
             automatic = false,
-            triggerId = -1,
+            mount = false,
+            unmount = false,
+            control = false,
+            partId = -1,
+            gripperId = -1,
             levels = 0,
             durations = new float[] {0, 0, 0},
             items = new SceneItemData[] {},
@@ -22,10 +26,14 @@ namespace Aci.Unity.Data.JsonModel
             currentRepetitions = 0
         };
 
-        public string id;
+        public uint id;
         public string name;
         public bool automatic;
-        public int triggerId;
+        public bool mount;
+        public bool unmount;
+        public bool control;
+        public int partId;
+        public int gripperId;
         public byte levels;
         public float[] durations;
         public SceneItemData[] items;

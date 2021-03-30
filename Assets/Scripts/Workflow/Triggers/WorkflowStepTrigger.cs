@@ -31,7 +31,7 @@ namespace Aci.Unity.Workflow.Triggers
 {
     public class WorkflowStepTrigger : AbstractTrigger
     {
-        public class Factory : PlaceholderFactory<WorkflowStepData, List<ITrigger>>
+        public class Factory : PlaceholderFactory<WorkflowStepData, WorkflowPartData[], List<ITrigger>>
         {
         }
 

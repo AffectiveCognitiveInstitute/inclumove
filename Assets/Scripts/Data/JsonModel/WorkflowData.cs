@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Aci.Unity.Models;
 using Aci.Unity.Scene.SceneItems;
 using Zenject;
 
@@ -12,7 +13,10 @@ namespace Aci.Unity.Data.JsonModel
 
         public static WorkflowData Empty = new WorkflowData() {name = "", numTotalSteps = 0, steps = null};
         public string name;
+        public int orderId;
+        public Position[] referenceMarks;
         public WorkflowStepData[] steps;
+        public WorkflowPartData[] parts;
         public int numTotalSteps;
 
         public bool Equals(WorkflowData other) => this.name == other.name &&

@@ -9,6 +9,7 @@ namespace Aci.Unity.Data
         {
             Container.Bind<IIdProviderService<int>>().To<IntegerIncrementService>().AsSingle();
             Container.Bind<IIdProviderService<Guid>>().To<GuidService>().AsSingle();
+            Container.Bind<IIdProviderService<uint>>().To<UIntService>().AsSingle();
         }
     }
 }

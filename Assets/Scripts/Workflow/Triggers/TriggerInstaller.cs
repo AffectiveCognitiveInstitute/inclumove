@@ -10,7 +10,7 @@ namespace Aci.Unity.Workflow.Triggers
     {
         public override void InstallBindings()
         {
-            Container.BindFactory<WorkflowStepData, List<ITrigger>, WorkflowStepTrigger.Factory>()
+            Container.BindFactory<WorkflowStepData, WorkflowPartData[], List<ITrigger>, WorkflowStepTrigger.Factory>()
                      .FromFactory<WorkflowStepTriggerFactory>();
         }
     }

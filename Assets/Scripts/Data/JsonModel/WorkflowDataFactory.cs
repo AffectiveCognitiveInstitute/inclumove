@@ -54,6 +54,12 @@ namespace Aci.Unity.Data.JsonModel
             }
             data.numTotalSteps = totalSteps;
             data.name = "";
+            data.orderId = 0;
+            data.referenceMarks = new Models.Position[]
+            {
+                new Models.Position() { X = 0, Y = 0 },
+                new Models.Position() { X = 0, Y = 0 }
+            };
             return data;
         }
     }

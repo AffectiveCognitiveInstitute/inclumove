@@ -48,11 +48,15 @@ namespace Aci.Unity.Scene.SceneItems
         {
             IStepItem item = m_Instantiator.InstantiatePrefab(prefab).GetComponent<IStepItem>();
 
-            item.identifiable.identifier = Guid.ParseExact(param.id, "N");
+            item.identifiable.identifier = param.id;
             item.duration = param.durations[0];
             item.repetitions = param.repetitions;
             item.automatic = param.automatic;
-            item.triggerId = param.triggerId;
+            item.mount = param.mount;
+            item.unmount = param.unmount;
+            item.control = param.control;
+            item.partId = param.partId;
+            item.gripperId = param.gripperId;
             item.name = param.name;
 
             byte levels = 0;

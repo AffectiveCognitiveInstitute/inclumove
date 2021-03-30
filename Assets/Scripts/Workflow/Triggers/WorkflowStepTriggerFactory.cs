@@ -24,15 +24,17 @@
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Aci.Unity.Data.JsonModel;
 using Aci.Unity.Events;
+using Aci.Unity.Models;
 using Aci.Unity.Util;
 using Aci.Unity.Workflow.Conditions;
 using Zenject;
 
 namespace Aci.Unity.Workflow.Triggers
 {
-    public class WorkflowStepTriggerFactory : IFactory<WorkflowStepData, List<ITrigger>>
+    public class WorkflowStepTriggerFactory : IFactory<WorkflowStepData, WorkflowPartData[], List<ITrigger>>
     {
         private IInstantiator m_Instantiator;
         private IIdDisposalService m_DisposalService;
@@ -44,15 +46,35 @@ namespace Aci.Unity.Workflow.Triggers
             m_DisposalService = disposalService;
         }
 
-        public List<ITrigger> Create(WorkflowStepData param)
+        public List<ITrigger> Create(WorkflowStepData param, WorkflowPartData[] parts)
         {
             List<ITrigger> triggerList = new List<ITrigger>();
             if (param.automatic)
             {
                 triggerList.Add(CreateAutoTrigger(param));
-            }else if(param.triggerId != -1)
+            }
+            else if (param.mount)
             {
-                triggerList.Add(CreateCVTrigger(param));
+                triggerList.Add(CreateMountTrigger(param));
+            }
+            else if (param.unmount)
+            {
+                triggerList.Add(CreateEndAssemblyTrigger(param));
+            }
+            else if (param.control)
+            {
+                triggerList.Add(CreateAutoTrigger(param));
+            }
+            else if(param.partId != -1)
+            {
+                if (param.gripperId != -1)
+                {
+                    triggerList.Add(CreateGripperPartTrigger(param, parts));
+                }
+                else
+                {
+                    triggerList.Add(CreateManualPartTrigger(param, parts));
+                }
             }
 
             return triggerList;
@@ -75,7 +97,70 @@ namespace Aci.Unity.Workflow.Triggers
         {
             WorkflowStepTrigger trigger = m_Instantiator.Instantiate<WorkflowStepTrigger>();
             QCCondition condition = m_Instantiator.Instantiate<QCCondition>();
-            condition.triggerId = param.triggerId;
+            condition.partId = param.partId;
+            trigger.AddCondition(condition, true);
+            trigger.advance = true;
+            trigger.mode = ConditionMode.and;
+            m_DisposalService.Register(trigger, param.id);
+            m_DisposalService.Register(condition, param.id);
+            return trigger;
+        }
+
+        private ITrigger CreateMountTrigger(WorkflowStepData param)
+        {
+            WorkflowStepTrigger trigger = m_Instantiator.Instantiate<WorkflowStepTrigger>();
+            MountCondition condition = m_Instantiator.Instantiate<MountCondition>();
+            trigger.AddCondition(condition, true);
+            trigger.advance = true;
+            trigger.mode = ConditionMode.and;
+            m_DisposalService.Register(trigger, param.id);
+            m_DisposalService.Register(condition, param.id);
+            return trigger;
+        }
+
+        private ITrigger CreateEndAssemblyTrigger(WorkflowStepData param)
+        {
+            WorkflowStepTrigger trigger = m_Instantiator.Instantiate<WorkflowStepTrigger>();
+            EndAssemblyCondition condition = m_Instantiator.Instantiate<EndAssemblyCondition>();
+            trigger.AddCondition(condition, true);
+            trigger.advance = true;
+            trigger.mode = ConditionMode.and;
+            m_DisposalService.Register(trigger, param.id);
+            m_DisposalService.Register(condition, param.id);
+            return trigger;
+        }
+
+        private ITrigger CreateGripperPartTrigger(WorkflowStepData param, WorkflowPartData[] parts)
+        {
+            WorkflowStepTrigger trigger = m_Instantiator.Instantiate<WorkflowStepTrigger>();
+            GripperPartCondition condition = m_Instantiator.Instantiate<GripperPartCondition>();
+            WorkflowPartData part = parts.Where(p => p.id == param.partId).FirstOrDefault();
+            condition.stepId = param.id;
+            condition.partId = param.partId;
+            condition.gripperId = param.gripperId;
+            condition.partPosition = part.part_position;
+            condition.pcbPosition = part.pcb_position;
+            condition.partHeight = part.partHeight;
+            condition.Initialize();
+            trigger.AddCondition(condition, true);
+            trigger.advance = true;
+            trigger.mode = ConditionMode.and;
+            m_DisposalService.Register(trigger, param.id);
+            m_DisposalService.Register(condition, param.id);
+            return trigger;
+        }
+
+        private ITrigger CreateManualPartTrigger(WorkflowStepData param, WorkflowPartData[] parts)
+        {
+            WorkflowStepTrigger trigger = m_Instantiator.Instantiate<WorkflowStepTrigger>();
+            ManualPartCondition condition = m_Instantiator.Instantiate<ManualPartCondition>();
+            WorkflowPartData part = parts.Where(p => p.id == param.partId).FirstOrDefault();
+            condition.stepId = param.id;
+            condition.partId = param.partId;
+            condition.gripperId = param.gripperId;
+            condition.partPosition = part.part_position;
+            condition.pcbPosition = part.pcb_position;
+            condition.partHeight = part.partHeight;
             trigger.AddCondition(condition, true);
             trigger.advance = true;
             trigger.mode = ConditionMode.and;

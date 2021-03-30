@@ -47,10 +47,14 @@ namespace Aci.Unity.Data.JsonModel
         {
             WorkflowStepData data = new WorkflowStepData();
 
-            data.id = param.identifiable.identifier.ToString("N");
+            data.id = param.identifiable.identifier;
             data.name = param.name;
             data.automatic = param.automatic;
-            data.triggerId = param.triggerId;
+            data.mount = param.mount;
+            data.unmount = param.unmount;
+            data.control = param.control;
+            data.partId = param.partId;
+            data.gripperId = param.gripperId;
             data.durations = new [] {param.duration.x, param.duration.y, param.duration.z};
             data.repetitions = param.repetitions;
             data.currentRepetitions = param.repetitions;

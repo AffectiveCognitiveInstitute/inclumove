@@ -31,6 +31,8 @@ namespace Aci.Unity.Util
     {
         private Dictionary<string, List<IDisposable>> m_GuidDisposables = new Dictionary<string, List<IDisposable>>();
         private Dictionary<int, List<IDisposable>> m_IntDisposables = new Dictionary<int, List<IDisposable>>();
+        private Dictionary<uint, List<IDisposable>> m_UIntDisposables = new Dictionary<uint, List<IDisposable>>();
+
         public void Register(IDisposable disposable, string id)
         {
             if(!m_GuidDisposables.ContainsKey(id))
@@ -47,6 +49,15 @@ namespace Aci.Unity.Util
             if (m_IntDisposables[id].Contains(disposable))
                 return;
             m_IntDisposables[id].Add(disposable);
+        }
+
+        public void Register(IDisposable disposable, uint id)
+        {
+            if (!m_UIntDisposables.ContainsKey(id))
+                m_UIntDisposables.Add(id, new List<IDisposable>());
+            if (m_UIntDisposables[id].Contains(disposable))
+                return;
+            m_UIntDisposables[id].Add(disposable);
         }
 
         public void Dispose(string id)
@@ -71,6 +82,18 @@ namespace Aci.Unity.Util
             }
             m_IntDisposables[id].Clear();
             m_IntDisposables.Remove(id);
+        }
+
+        public void Dispose(uint id)
+        {
+            if (!m_UIntDisposables.ContainsKey(id))
+                return;
+            foreach (IDisposable disposable in m_UIntDisposables[id])
+            {
+                disposable.Dispose();
+            }
+            m_UIntDisposables[id].Clear();
+            m_UIntDisposables.Remove(id);
         }
     }
 }

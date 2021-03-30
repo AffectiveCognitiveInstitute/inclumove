@@ -33,13 +33,16 @@ namespace Aci.Unity.Workflow.WorkflowEditor
         private TMP_InputField m_StepRepetitions;
 
         [SerializeField]
-        private TMP_InputField m_CameraTriggerId;
+        private TMP_InputField m_PartId;
 
         [SerializeField]
-        private Toggle m_AutomaticToggle;
+        private TMP_InputField m_GripperId;
 
         [SerializeField]
-        private Toggle m_CameraToggle;
+        private TMP_Dropdown m_StepTypeDropdown;
+
+        [SerializeField]
+        private CanvasGroup m_IdGroup;
 
         [SerializeField]
         private Image m_TopBar;
@@ -64,9 +67,24 @@ namespace Aci.Unity.Workflow.WorkflowEditor
             m_UnifiedDurationsToggle.SetIsOnWithoutNotify(m_DataItem.duration.x == m_DataItem.duration.y 
                 && m_DataItem.duration.y == m_DataItem.duration.z);
             m_StepRepetitions.text = m_DataItem.repetitions.ToString(m_Format);
-            m_AutomaticToggle.isOn = m_DataItem.automatic;
-            m_CameraTriggerId.text = m_DataItem.triggerId.ToString(m_Format);
-            m_CameraToggle.isOn = m_DataItem.triggerId != -1;
+            m_PartId.text = m_DataItem.partId.ToString(m_Format);
+            m_GripperId.text = m_DataItem.gripperId.ToString(m_Format);
+            m_StepTypeDropdown.SetValueWithoutNotify(GetDropdownValue());
+            if(m_StepTypeDropdown.value != 4)
+                m_IdGroup.alpha = 0;
+        }
+
+        private int GetDropdownValue()
+        {
+            if (m_DataItem.automatic)
+                return 0;
+            if (m_DataItem.mount)
+                return 1;
+            if (m_DataItem.unmount)
+                return 2;
+            if (m_DataItem.control)
+                return 3;
+            return 4;
         }
 
         private void OnDeleteButtonPressed()
@@ -124,38 +142,62 @@ namespace Aci.Unity.Workflow.WorkflowEditor
             m_DataItem.repetitions = repetitions;
         }
 
-        public void OnAutomaticToggleChanged(bool activated)
+        public void OnDropdownValueChanged(int value)
         {
-            if (m_DataItem.automatic == activated)
-                return;
-            m_DataItem.automatic = activated;
-            if (activated)
+            m_DataItem.automatic = false;
+            m_DataItem.mount = false;
+            m_DataItem.unmount = false;
+            m_DataItem.control = false;
+            m_DataItem.partId = -1;
+            m_DataItem.gripperId = -1;
+            m_PartId.text = m_DataItem.partId.ToString(m_Format);
+            m_GripperId.text = m_DataItem.gripperId.ToString(m_Format);
+            m_IdGroup.alpha = 0;
+
+            switch (value)
             {
-                m_CameraToggle.isOn = false;
+                case 0:
+                    m_DataItem.automatic = true;
+                    break;
+                case 1:
+                    m_DataItem.mount = true;
+                    break;
+                case 2:
+                    m_DataItem.unmount = true;
+                    break;
+                case 3:
+                    m_DataItem.control = true;
+                    break;
+                case 4:
+                    m_DataItem.partId = 0;
+                    m_DataItem.gripperId = 0;
+                    m_PartId.text = m_DataItem.partId.ToString(m_Format);
+                    m_GripperId.text = m_DataItem.gripperId.ToString(m_Format);
+                    m_IdGroup.alpha = 1;
+                    break;
             }
         }
 
-        public void OnCameraToggleChanged(bool activated)
+        public void OnPartIdLabelChanged(string label)
         {
-            m_DataItem.triggerId = int.Parse(m_CameraTriggerId.text, m_Format);
-            if (activated)
-            {
-                m_AutomaticToggle.isOn = false;
-                m_CameraTriggerId.interactable = true;
-            }
-            else
-            {
-                m_DataItem.triggerId = -1;
-                m_CameraTriggerId.interactable = false;
-            }
+            if (m_StepTypeDropdown.value != 4)
+                return;
+
+            int id = int.Parse(label, m_Format);
+            if (m_DataItem.partId == id)
+                return;
+            m_DataItem.partId = id;
         }
 
-        public void OnCameraTriggerIdLabelChanged(string label)
+        public void OnGripperIdLabelChanged(string label)
         {
-            int triggerId = int.Parse(label, m_Format);
-            if (m_DataItem.triggerId == triggerId)
+            if (m_StepTypeDropdown.value != 4)
                 return;
-            m_DataItem.triggerId = triggerId;
+
+            int id = int.Parse(label, m_Format);
+            if (m_DataItem.gripperId == id)
+                return;
+            m_DataItem.gripperId = id;
         }
     }
 }

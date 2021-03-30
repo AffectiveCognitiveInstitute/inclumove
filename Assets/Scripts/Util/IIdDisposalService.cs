@@ -10,8 +10,10 @@ namespace Aci.Unity.Util
     public interface IIdDisposalService
     {
         void Register(IDisposable disposable, string id);
-        void Register(IDisposable disposable, int  id);
+        void Register(IDisposable disposable, int id);
+        void Register(IDisposable disposable, uint id);
         void Dispose(string id);
-        void Dispose(int  id);
+        void Dispose(int id);
+        void Dispose(uint id);
     }
 }

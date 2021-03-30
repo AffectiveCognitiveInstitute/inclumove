@@ -37,8 +37,8 @@ MonoBehaviour:
     m_MinimumNumberOfConditions: 0
   m_QuestCounters:
     m_QuestCounters:
-    - {fileID: 1966707408245765185}
     - {fileID: 6029522005904676912}
+    - {fileID: 1966707408245765185}
   m_QuestContent:
     m_Content:
     - {fileID: 7696504928656782839}

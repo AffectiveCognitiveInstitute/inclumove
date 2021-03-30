@@ -24,6 +24,7 @@
 
 using System;
 using Aci.Unity.Events;
+using Aci.Unity.Models;
 using Aci.Unity.Networking;
 using Aci.Unity.Util;
 using UnityEngine;
@@ -35,21 +36,20 @@ namespace Aci.Unity.Workflow.Conditions
     /// <summary>
     ///     Condition that triggers on a specific qc step being true.
     /// </summary>
-    public class QCCondition : ITriggerCondition, IAciEventHandler<CVTriggerArgs>, ITickable
+    public class EndAssemblyCondition : ITriggerCondition, IAciEventHandler<Assembly_end_ack>, IAciEventHandler<Assembly_end_res>
     {
-        private TickableManager m_TickableManager;
         private IAciEventManager m_EventManager;
         private MQTTConnector m_MqttConnector;
         private float m_Delta = 0;
-        
-        public QCCondition(TickableManager tickableManager, IAciEventManager eventManager, MQTTConnector mqttConnector)
+
+        private uint m_requestId = 0;
+
+        public EndAssemblyCondition(IAciEventManager eventManager, MQTTConnector mqttConnector)
         {
-            m_TickableManager = tickableManager;
             m_EventManager = eventManager;
             m_MqttConnector = mqttConnector;
 
-            m_TickableManager.Add(this);
-            RegisterForEvents();
+            AssemblyEndProcedure();
         }
 
         /// <inheritdoc />
@@ -59,18 +59,10 @@ namespace Aci.Unity.Workflow.Conditions
         public bool state { get; private set; }
 
         /// <inheritdoc />
-        public bool reevaluate => false;
-
-        /// <inheritdoc />
-        public int partId { get; set; }
+        public bool reevaluate => true;
 
         public void Tick()
         {
-            m_Delta += Time.deltaTime;
-            if (m_Delta < 1f)
-                return;
-            m_Delta = 0;
-            m_MqttConnector.SendQCMessage(partId);
         }
 
         /// <inheritdoc />
@@ -82,28 +74,51 @@ namespace Aci.Unity.Workflow.Conditions
         /// <inheritdoc />
         public void RegisterForEvents()
         {
-            m_EventManager.AddHandler(this);
         }
 
         /// <inheritdoc />
         public void UnregisterFromEvents()
         {
-            m_EventManager.RemoveHandler(this);
         }
 
         /// <inheritdoc />
-        public void OnEvent(CVTriggerArgs arg)
+        public void OnEvent(Assembly_end_ack arg)
         {
-            if (arg.okay)
+            if (arg.req_id != m_requestId)
+                return;
+            if (arg.ack == false)
             {
-                state = true;
-                conditionStateChanged.Invoke();
-                m_TickableManager.Remove(this);
+                // do some error handling if wanted
+                return;
             }
-            else
+            m_EventManager.RemoveHandler<Assembly_end_ack>(this);
+            m_EventManager.AddHandler<Assembly_end_res>(this);
+        }
+
+        /// <inheritdoc />
+        public void OnEvent(Assembly_end_res arg)
+        {
+            if (arg.req_id != m_requestId)
+                return;
+            if(arg.result == false)
             {
-                state = false;
+                // do some error handling if wanted
+                return;
             }
+            state = true;
+            conditionStateChanged.Invoke();
+            m_EventManager.RemoveHandler<Assembly_end_res>(this);
+        }
+
+        private void AssemblyEndProcedure()
+        {
+            m_requestId = m_MqttConnector.GetNewRequestId();
+            Assembly_end_req request = new Assembly_end_req()
+            {
+                req_id = m_requestId
+            };
+            m_EventManager.AddHandler<Assembly_end_ack>(this);
+            m_MqttConnector.SendMessage(MQTTComponents.Table, $"{MQTTTopics.Request}/assembly_end_req", JsonUtility.ToJson(request));
         }
     }
 }

@@ -1,11 +1,26 @@
 {
     "name": "exampleWorkflow",
+    "orderId": 1,
+    "referenceMarks": [
+        {
+            "X": 0.0,
+            "Y": 0.0
+        },
+        {
+            "X": 5.0,
+            "Y": 5.0
+        },
+    ],
     "steps": [
         {
             "id": "71cf7bb467db432d9bf1eb6ee09e0aaf",
             "name": "introduction",
             "automatic": true,
-            "triggerId": -1,
+            "mount": false,
+            "unmount": false,
+            "control": false,
+            "partId": -1,
+            "gripperId": -1,
             "levels": 6,
             "durations": [
                 34.0,
@@ -301,7 +316,11 @@
             "id": "8cbd7c33b84b4f0ea532c8ead98658a1",
             "name": "newpcb",
             "automatic": false,
-            "triggerId": -1,
+            "mount": true,
+            "unmount": false,
+            "control": false,
+            "partId": -1,
+            "gripperId": -1,
             "levels": 7,
             "durations": [
                 20.0,
@@ -401,7 +420,11 @@
             "id": "34f978f739dd4bb0917c0dd86d061342",
             "name": "resistor",
             "automatic": false,
-            "triggerId": -1,
+            "mount": false,
+            "unmount": false,
+            "control": false,
+            "partId": 1,
+            "gripperId": 1,
             "levels": 7,
             "durations": [
                 60.0,
@@ -781,7 +804,11 @@
             "id": "231b30219d514a16a870495a706f9bcc",
             "name": "potentiometer",
             "automatic": false,
-            "triggerId": 1,
+            "mount": false,
+            "unmount": false,
+            "control": false,
+            "partId": 2,
+            "gripperId": 1,
             "levels": 7,
             "durations": [
                 60.0,
@@ -1161,7 +1188,11 @@
             "id": "0b36fc2e57c74a44b0373e08bf29f037",
             "name": "ntc",
             "automatic": false,
-            "triggerId": -1,
+            "mount": false,
+            "unmount": false,
+            "control": false,
+            "partId": 3,
+            "gripperId": 1,
             "levels": 7,
             "durations": [
                 60.0,
@@ -1625,7 +1656,11 @@
             "id": "087788fccf4746aa8f3753d0f0530511",
             "name": "pinheader",
             "automatic": false,
-            "triggerId": -1,
+            "mount": false,
+            "unmount": false,
+            "control": false,
+            "partId": 4,
+            "gripperId": 1,
             "levels": 7,
             "durations": [
                 60.0,
@@ -2005,7 +2040,11 @@
             "id": "e741393e63f04d498c55779f9edfc7e1",
             "name": "cableconnector",
             "automatic": false,
-            "triggerId": 4,
+            "mount": false,
+            "unmount": false,
+            "control": false,
+            "partId": 5,
+            "gripperId": 1,
             "levels": 7,
             "durations": [
                 60.0,
@@ -2385,7 +2424,11 @@
             "id": "cc554c22eb0c4a5fafd096cbb26cfc35",
             "name": "partfinished",
             "automatic": false,
-            "triggerId": -1,
+            "mount": false,
+            "unmount": true,
+            "control": false,
+            "partId": -1,
+            "gripperId": -1,
             "levels": 7,
             "durations": [
                 20.0,
@@ -2582,5 +2625,82 @@
             "currentRepetitions": 0
         }
     ],
+    "parts": [
+        {
+            "id": 1,
+            "pcb_position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "PSI": 0.0
+            },
+            "part_position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "PSI": 0.0
+            },
+            "psi": 0.0,
+            "partHeight": 0.0
+        },
+        {
+            "id": 2,
+            "pcb_position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "PSI": 0.0
+            },
+            "part_position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "PSI": 0.0
+            },
+            "psi": 0.0,
+            "partHeight": 0.0
+        },
+        {
+            "id": 3,
+            "pcb_position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "PSI": 0.0
+            },
+            "part_position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "PSI": 0.0
+            },
+            "psi": 0.0,
+            "partHeight": 0.0
+        },
+        {
+            "id": 4,
+            "pcb_position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "PSI": 0.0
+            },
+            "part_position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "PSI": 0.0
+            },
+            "psi": 0.0,
+            "partHeight": 0.0
+        },
+        {
+            "id": 5,
+            "pcb_position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "PSI": 0.0
+            },
+            "part_position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "PSI": 0.0
+            },
+            "psi": 0.0,
+            "partHeight": 0.0
+        },
+    ]
     "numTotalSteps": 79
 }
