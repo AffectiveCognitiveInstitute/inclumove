@@ -1,6 +1,15 @@
 # incluMOVE-Software Dokumentation
-Willkommen auf der Dokumentationsseite der incluMOVE Anwendung. Hier gibt es Informationen zu Einrichtung, Betrieb und Entwicklung der incluMOVE Unity Anwendung. <br>
-Weiterführende Informationen
+
+---
+
+For the **english version** down below, please click [here](#english).
+
+---
+
+Willkommen auf der **Dokumentationsseite der incluMOVE Anwendung**. <br>
+Hier gibt es Informationen zu Einrichtung, Betrieb und Entwicklung der incluMOVE Unity Anwendung. <br>
+
+Weiterführende Informationen:
 
  1. [Übersicht](#übersicht)
  2. [Gamification, virtueller Assistent, Chatbot](#gamification_de)
@@ -13,14 +22,11 @@ Weiterführende Informationen
 
 ---
 
-For the **english version**, please click [here](#english).
-
----
 
 ## Übersicht
 incluMOVE ist ein virtuelles Assistenzsystem, entwickelt für eine neurodivergente Nutzergruppe. Es erklärt neurodivergenten Nutzenden Arbeitsschritte mit Hilfe eines Chatbots, einem Pick-by-Light System und des virtuellen Assistenten Gregor Gouda. Gamification Elemente steigern die Motivation und bieten einen Leistungsvergleich. 
 
-![Übersichtsgrafik incluMOVE Features](/docs/images/overview_inclumove-de.jpg)
+![Übersichtsgrafik incluMOVE Features](docs/images/overview_inclumove-de.png)
 
 ---
 
@@ -95,12 +101,12 @@ Folgende wissenschaftliche Beiträge sind im Projekt entstanden:
 ## incluMOVE Graphics
 **Der virtuelle Assistent Gregor Gouda** steht auch unter der *CC-BY-SA Lizenz* zur freien Nutzung zur Verfügung. Dieses Paket enthält zusätzliche **Designs, Hintergründe und Animationen**. 
 
-https://github.com/AffectiveCognitiveInstitute/inclumove_graphics
+> https://github.com/AffectiveCognitiveInstitute/inclumove_graphics
 
 ---
 
 <a name="project_de"></a>
-## das incluMOVE Projekt
+## Das incluMOVE Projekt
 **incluMOVE** war ein Kollaborationsprojekt mit dem Inklusionsbetrieb **[Femos gGmbH](https://www.femos-zenit.de/de/)**, dem Forschungsinstitut **[Fraunhofer IPA](https://www.ipa.fraunhofer.de/)** und dem **[Affective & Cognitive Institut der Hochschule Offenburg](https://aci.hs-offenburg.de/de/)**. <br>
 Es endete im März 2021.
 
@@ -110,7 +116,7 @@ Für mehr Informationen besuchen Sie bitte die offizielle Webseite des Projektes
 
 Das incluMOVE Projekt wurde gefördert von:
 
-*insert Sponsors*
+![incluMOVE Sponsoren](docs/images/sponsors_logos-de.png)
 
 ---
 
@@ -130,7 +136,7 @@ Für Projekt bezogene Fragen kontaktieren Sie bitte die Projektleitung des inclu
 _________________________________________________________________________________________________________________
 
 <a name="english"></a>
-# incluMOVE software documentation
+# incluMOVE software documentation (english)
 
 Welcome to the documentation to the incluMOVE application. This is the setup guide, user manual and api documentation for the Unity application of incluMOVE.
 
