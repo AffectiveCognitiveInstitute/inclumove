@@ -1,9 +1,9 @@
 
-- name: Schnellstart
+- name: Quick Setup
   href: docs/schnellstart.md
-- name: Anwendungsübersicht
+- name: Features Overview
   href: docs/anwendungsuebersicht.md
-- name: Entwicklung
+- name: Development
   href: docs/entwicklung.md
 - name: API Documentation
   href: docs/api/
