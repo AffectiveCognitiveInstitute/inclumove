@@ -2,7 +2,7 @@
 
 ---
 
-*You find the [english version](#english_version) is down below.*
+*You find the [english version](#english_version) down below.*
 
 ---
 
