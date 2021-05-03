@@ -40,7 +40,7 @@ This document describes how to set up the incluMove GUI application for active d
 ## Build process
 To rebuild the application, it must be rebuilt in Unity. In the opened Unity project, the project can be rebuilt via *File > Build properties*.\
 ![Menu navigation for the build process](images/setup/file_menu_build.gif)\
-In the build settings, the scenes for the build must now be selected. The following must be selected: *scn_CUI_single*, *scn_Bootstrapper* and *scn_WorkflowEditor*.
+In the build settings, the scenes for the build must now be selected. The following must be selected: *scn_CUI_single*, *scn_Bootstrapper* and *scn_WorkflowEditor*.\
 ![scene settings](images/setup/build_scene_selection.gif)\
 The build process is carried out via the build button after selecting the output folder.\
 ![Menu flow for the build process](images/setup/build_location_selection.gif)
