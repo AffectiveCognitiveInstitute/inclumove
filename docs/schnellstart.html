@@ -72,13 +72,16 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="inclumove-schnellstart">incluMOVE Schnellstart</h1>
 
+<hr>
+<p>For the <strong>english version</strong> down below, please click <a href="#english">here</a>.</p>
+<hr>
 <p>Hier gibt es grundsätzliche Informationen über Ersteinrichtung und Konfiguration der incluMOVE Software.
 Die Software ist in zwei Versionen vorhanden. Beide sind als fertiges Release über die <a href="https://github.com/AffectiveCognitiveInstitute/inclumove">GitHub Seite</a> herunterzuladen.</p>
 <h4 id="inclumove-light">incluMOVE Light</h4>
 <p>Diese Version benötigt zusätzlich zum Installationsrechner in der Minimalkonfiguration nur einen Beamer. Hier gibt es dann keine automatisierte Überprüfung der Montageabläufe.
 Eine vereinfachte Überprüfung kann über ein simples MQTT-Netzwerkprotokoll hinzugefügt werden. Eine Softwarelösung für die Überprüfung ist nicht enthalten.</p>
 <h4 id="inclumove-extended">incluMOVE Extended</h4>
-<p>Diese Version ist in Verbindung mit dem im Projekt entstandenen Gesamttischsystem vorgesehen. Es besteht eine feste Abhängigkeit zu mehreren Systemkomponenten die Über MQTT miteinander kommunizieren.</p>
+<p>Diese Version ist in Verbindung mit dem im Projekt entstandenen Gesamttischsystem vorgesehen. Es besteht eine feste Abhängigkeit zu mehreren Systemkomponenten die über MQTT miteinander kommunizieren.</p>
 <h2 id="ersteinrichtung">Ersteinrichtung</h2>
 <p>Um die incluMOVE Software für den Betrieb startklar zu machen müssen einige Werte in den Konfigurationsdateien angelegt werden.
 In der Konfigurationsdatei müssen die korrekten Pfade für die Workflows und Workflow Assets gesetzt werden. Standardmäßig ist der Workflow Ordner mit Beispielen im Installationsordner beigefügt.</p>
@@ -88,7 +91,7 @@ In der Konfigurationsdatei müssen die korrekten Pfade für die Workflows und Wo
 ...
 </code></pre>
 <h2 id="konfiguration">Konfiguration</h2>
-<p>Hier gibts es eine Übersicht über Aufbau des Installationsordner und der wichtigen Konfigurationsdateien.</p>
+<p>Hier gibts es eine Übersicht über den Aufbau des Installationsordners und der wichtigen Konfigurationsdateien.</p>
 <h3 id="installationsordner">Installationsordner</h3>
 <p>Im gewählten Installationsordner befinden sich folgende Ordner und Dateien:</p>
 <table>
@@ -134,7 +137,7 @@ In der Konfigurationsdatei müssen die korrekten Pfade für die Workflows und Wo
 </tbody>
 </table>
 <h3 id="konfigurationsdatei">Konfigurationsdatei</h3>
-<p>Über die diese Datei werden bestimmte Einstellungen der incluMOVE Software konfiguriert.</p>
+<p>Über diese Datei werden bestimmte Einstellungen der incluMOVE Software konfiguriert.</p>
 <table>
 <thead>
 <tr>
@@ -227,7 +230,7 @@ In der Konfigurationsdatei müssen die korrekten Pfade für die Workflows und Wo
 <tr>
 <th>Konfigurationswert</th>
 <th>Werte</th>
-<th>Beispiel/ <em>Zulässige Werte</em></th>
+<th>Beispiel / <em>Zulässige Werte</em></th>
 <th>Funktion</th>
 </tr>
 </thead>
@@ -273,6 +276,213 @@ In der Konfigurationsdatei müssen die korrekten Pfade für die Workflows und Wo
 <td>Textstring</td>
 <td>&quot;Balloons&quot;</td>
 <td>Letzte gewählte Belohnung des Nutzers</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><a name="english"></a></p>
+<h1 id="inclumove-quick-start">incluMOVE Quick start</h1>
+<p>Here you will find basic information about the initial setup and configuration of the incluMOVE software.
+The software is available in two versions. Both can be downloaded as a finished release via the <a href="https://github.com/AffectiveCognitiveInstitute/inclumove">GitHub page</a>.</p>
+<h4 id="inclumove-light-1">incluMOVE Light</h4>
+<p>This version requires only a beamer in addition to the installation computer in the minimum configuration. There is no automated verification of the installation processes then.
+A simplified check can be added via a simple MQTT network protocol. A software solution for the check is not included.</p>
+<h4 id="inclumove-extended-1">incluMOVE Extended</h4>
+<p>This version is intended to be used in conjunction with the overall table system created in the project. There is a fixed dependency on several system components that communicate with each other via MQTT.</p>
+<h2 id="initial-setup">Initial setup</h2>
+<p>In order to make the incluMOVE software ready for operation, some values must be created in the configuration files.
+The correct paths for the workflows and workflow assets must be set in the configuration file. As standard, the workflow folder with examples is included in the installation folder.</p>
+<pre><code class="lang-json">...
+&quot;assetsUrl&quot;: &quot;D://incluMOVE/workflows/workflow-files&quot;
+&quot;workflowDirectory&quot;: &quot;D://incluMOVE/workflows&quot;
+...
+</code></pre>
+<h2 id="configuration">Configuration</h2>
+<p>Here is an overview of the structure of the installation folder and the important configuration files.</p>
+<h3 id="installation-folder">Installation folder</h3>
+<p>The following folders and files are located in the selected installation folder:</p>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>incluMOVE_Data/</td>
+<td>Application data</td>
+</tr>
+<tr>
+<td>MonoBleedingEdge/</td>
+<td>Script libraries</td>
+</tr>
+<tr>
+<td>workflows/</td>
+<td>Standard Workflow folder</td>
+</tr>
+<tr>
+<td>config.json</td>
+<td>incluMOVE Configuration file</td>
+</tr>
+<tr>
+<td>incluMOVE.exe</td>
+<td>Application executable</td>
+</tr>
+<tr>
+<td>UnityCrashhandler64.exe</td>
+<td>Crash manager</td>
+</tr>
+<tr>
+<td>UnityPlayer.dll</td>
+<td>Unity-Engine library</td>
+</tr>
+<tr>
+<td>user.prf</td>
+<td>Example user file</td>
+</tr>
+</tbody>
+</table>
+<h3 id="configuration-file">Configuration file</h3>
+<p>This file is used to configure certain settings of the incluMOVE software.</p>
+<table>
+<thead>
+<tr>
+<th>Configuration Value</th>
+<th>Values</th>
+<th>Example / <em>Allowed Values</em></th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>webcamDevice</td>
+<td>text string</td>
+<td>&quot;Logitech C920&quot;</td>
+<td>Name of webcam device</td>
+</tr>
+<tr>
+<td>resolutionWidth</td>
+<td>integer</td>
+<td>1280</td>
+<td>Webcam resolution width (device dependent)</td>
+</tr>
+<tr>
+<td>resolutionHeight</td>
+<td>integer</td>
+<td>720</td>
+<td>Webcam resolution height (device-dependent)</td>
+</tr>
+<tr>
+<td>fps</td>
+<td>integer</td>
+<td>30</td>
+<td>Webcam refresh rate (device-dependent)</td>
+</tr>
+<tr>
+<td>assetsUrl</td>
+<td>text string</td>
+<td>&quot;D://incluMove/workflows/workflow-files&quot;</td>
+<td>Absolute path to default asset folder</td>
+</tr>
+<tr>
+<td>workflowDirectory</td>
+<td>text string</td>
+<td>&quot;D://incluMove/workflows&quot;</td>
+<td>Absolute path to the workflow folder</td>
+</tr>
+<tr>
+<td>mode</td>
+<td>text string</td>
+<td><em>&quot;kiosk&quot;, &quot;guest &quot;</em></td>
+<td>Operating mode (kiosk = default, guest = mode without user profiles)</td>
+</tr>
+<tr>
+<td>UseUsbProfile</td>
+<td>boolean</td>
+<td><em>true, false</em></td>
+<td>User profiles via USB stick (otherwise uses user.prf file in installation folder)</td>
+</tr>
+<tr>
+<td>SkipIntro</td>
+<td>boolean</td>
+<td><em>true, false</em></td>
+<td>Jumps directly into workflow without greeting</td>
+</tr>
+<tr>
+<td>adaptivityTimeThreshold</td>
+<td>floating point</td>
+<td>30.75</td>
+<td>Minimum time between chatbot requests to change adaptivity in seconds</td>
+</tr>
+<tr>
+<td>adaptivityRepeatThreshold</td>
+<td>integer</td>
+<td>2</td>
+<td>Minimum steps above threshold before suggesting an adaptivity change</td>
+</tr>
+<tr>
+<td>standardWorkflow</td>
+<td>text string</td>
+<td>&quot;example.work&quot;</td>
+<td>filename of the worfklow that is added by default for new users</td>
+</tr>
+</tbody>
+</table>
+<p>To reset the configuration file, simply delete it from the folder. The software then automatically generates a new file.</p>
+<h3 id="user-files">User files</h3>
+<p>User files store the work history of users and define which workflow they can process.</p>
+<table>
+<thead>
+<tr>
+<th>Configuration Value</th>
+<th>Values</th>
+<th>Example / <em>Allowed Values</em></th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>text string</td>
+<td>&quot;sample person&quot;</td>
+<td>display name of user</td>
+</tr>
+<tr>
+<td>profilePicture</td>
+<td>byte array</td>
+<td>[140,138,142,255,...]</td>
+<td>profile picture data</td>
+</tr>
+<tr>
+<td>isAdmin</td>
+<td>boolean</td>
+<td><em>true, false</em></td>
+<td>admin user (enables workflow editor)</td>
+</tr>
+<tr>
+<td>workflows</td>
+<td>text string array</td>
+<td>[&quot;example.work&quot;]</td>
+<td>Workflows to which the user has access</td>
+</tr>
+<tr>
+<td>badgeHistory</td>
+<td>history data</td>
+<td>--------------</td>
+<td>user history data</td>
+</tr>
+<tr>
+<td>adaptivityLevel</td>
+<td>integer</td>
+<td><em>0,1,2</em></td>
+<td>Last selected adaptivity level of the user</td>
+</tr>
+<tr>
+<td>selectedReward</td>
+<td>text string</td>
+<td>&quot;Balloons&quot;</td>
+<td>Last selected reward of the user</td>
 </tr>
 </tbody>
 </table>
