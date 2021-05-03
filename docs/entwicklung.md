@@ -2,7 +2,7 @@
 
 ---
 
-For the **english version** down below, please click [here](#english).
+For the **English version** down below, please click [here](#english).
 
 ---
 
