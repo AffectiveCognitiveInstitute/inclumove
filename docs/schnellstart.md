@@ -47,20 +47,20 @@ Im gewählten Installationsordner befinden sich folgende Ordner und Dateien:
 ### Konfigurationsdatei
 Über diese Datei werden bestimmte Einstellungen der incluMOVE Software konfiguriert.
 
-| Konfigurationswert        | Werte          | Beispiel/ *Zulässige Werte*              | Funktion                                                                              |
-| -------------             | -------------  | -------------                            | -------------                                                                         |
-| webcamDevice              | Textstring     | "Logitech C920"                          | Name des Webcam-Device                                                                |
-| resolutionWidth           | Ganzzahl       | 1280                                     | Webcam Auflösung Breite (Geräteabhängig)                                              |
-| resolutionHeight          | Ganzzahl       | 720                                      | Webcam Auflösung Höhe (Geräteabhängig)                                                | 
-| fps                       | Ganzzahl       | 30                                       | Webcam Bildwiederholrate (Geräteabhängig)                                             |
-| assetsUrl                 | Textstring     | "D://incluMove/workflows/workflow-files" | Absoluter Pfad zum Standardassetordner                                                |
-| workflowDirectory         | Textstring     | "D://incluMove/workflows"                | Absoluter Pfad zum Workflowordner                                                     |
-| mode                      | Textstring     | *"kiosk", "guest"*                       | Betriebsmodus (kiosk = Standard, guest = Modus ohne Nutzerprofile)                    |
-| UseUsbProfile             | boolean        | *true, false*                            | Nutzerprofile über USB-Stick (Nutzt ansonsten user.prf Datei im Installationsordner)  |
-| SkipIntro                 | boolean        | *true, false*                            | Springt direkt in Workflow ohne Begrüßung                                             |
-| adaptivityTimeThreshold   | Gleitkommazahl | 30.75                                    | Mindestdauer zwischen Chatbot-Anfragen zur Änderung der Adaptivität in Sekunden       |
-| adaptivityRepeatThreshold | Ganzzahl       | 2                                        | Mindestschritte über dem Grenzwert bevor eine Adaptivitäts-Änderung vorgschlagen wird |
-| standardWorkflow          | Textstring     | "example.work"                           | Dateiname des Worfklows der bei neuen Nutzern standardmäßig hinzugefügt wird          |
+| Konfigurationswert        | Werte          | Beispiel / *Zulässige Werte*              | Funktion                                                                             |
+| -------------             | -------------  | -------------                             | -------------                                                                        |
+| webcamDevice              | Textstring     | "Logitech C920"                           | Name des Webcam-Device                                                               |
+| resolutionWidth           | Ganzzahl       | 1280                                      | Webcam Auflösung Breite (Geräteabhängig)                                             |
+| resolutionHeight          | Ganzzahl       | 720                                       | Webcam Auflösung Höhe (Geräteabhängig)                                               | 
+| fps                       | Ganzzahl       | 30                                        | Webcam Bildwiederholrate (Geräteabhängig)                                            |
+| assetsUrl                 | Textstring     | "D://incluMove/workflows/workflow-files"  | Absoluter Pfad zum Standardassetordner                                               |
+| workflowDirectory         | Textstring     | "D://incluMove/workflows"                 | Absoluter Pfad zum Workflowordner                                                    |
+| mode                      | Textstring     | *"kiosk", "guest"*                        | Betriebsmodus (kiosk = Standard, guest = Modus ohne Nutzerprofile)                   |
+| UseUsbProfile             | boolean        | *true, false*                             | Nutzerprofile über USB-Stick (Nutzt ansonsten user.prf Datei im Installationsordner) |
+| SkipIntro                 | boolean        | *true, false*                             | Springt direkt in Workflow ohne Begrüßung                                            |
+| adaptivityTimeThreshold   | Gleitkommazahl | 30.75                                     | Mindestdauer zwischen Chatbot-Anfragen zur Änderung der Adaptivität in Sekunden      |
+| adaptivityRepeatThreshold | Ganzzahl       | 2                                         | Mindestschritte über dem Grenzwert bevor eine Adaptivitäts-Änderung vorgschlagen wird|
+| standardWorkflow          | Textstring     | "example.work"                            | Dateiname des Worfklows der bei neuen Nutzern standardmäßig hinzugefügt wird         |
 
 Um die Konfigurationsdatei zurückzusetzen kann sie einfach aus dem Ordner gelöscht werden. Die Software generiert dann automatisch eine neue Datei.
 
