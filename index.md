@@ -1,8 +1,9 @@
 # incluMOVE-Software Dokumentation
 
+
 ---
 
-For the **english version** down below, please click [here](#english).
+For the **English version** down below, please click [here](#english).
 
 ---
 
@@ -14,7 +15,7 @@ Weiterführende Informationen:
  1. [Übersicht](#übersicht)
  2. [Gamification, virtueller Assistent, Chatbot](#gamification_de)
  3. [Software Pakete](#software_de)
- 4. [MIT Lizenz](#license_de)
+ 4. [MIT-Lizenz](#license_de)
  5. [Publikationen](#publications_de)
  6. [incluMOVE Graphics](#graphics_de)
  7. [Das incluMOVE Projekt](#project_de)
@@ -23,6 +24,7 @@ Weiterführende Informationen:
 ---
 
 
+<a name="übersicht"></a>
 ## Übersicht
 incluMOVE ist ein virtuelles Assistenzsystem, entwickelt für eine neurodivergente Nutzergruppe. Es erklärt neurodivergenten Nutzenden Arbeitsschritte mit Hilfe eines Chatbots, einem Pick-by-Light System und des virtuellen Assistenten Gregor Gouda. Gamification Elemente steigern die Motivation und bieten einen Leistungsvergleich. 
 
@@ -40,7 +42,7 @@ https://www.youtube.com/watch?v=qUG8vzNHk2M
 #### Chatbot
 Der Chatbot begleitet Nutzende durch die einzelnen Arbeitsschritte. Diese Arbeitsschritte sind frei editierbar (Editor Tool) und es können Text, Audio, Bilder und Videos eingebunden werden, um die einzelnen Schritte zu erklären. 
 #### Gregor Gouda
-Der virtuelle Assistent Gregor Gouda ist Teil des Chatbots und übernimmt die Rolle des Erklärenden der Arbeitsschritte. Zusätzlich sind Animationen wie z.B. Begrüßung und Abschied eingebaut.
+Der virtuelle Assistent Gregor Gouda ist Teil des Chatbots und übernimmt die Rolle des Erklärenden der Arbeitsschritte. Zusätzlich sind Animationen wie z. B. Begrüßung und Abschied eingebaut.
 #### Zeitleiste
 Eine Zeitleiste im Chatbot selbst gibt Aufschluss darüber, in welchem Arbeitsschritt man sich gerade befindet und ob man in der Zeit liegt. Zusätzlich gibt es eine Zähler Anzeige, wie viele Durchläufe man bereits absolviert hat.
 #### Gamification
@@ -68,9 +70,9 @@ incluMOVE Extended ist die work-in-progress Version des incluMOVE Projektes und 
 ---
 
 <a name="license_de"></a>
-## MIT Lizenz
+## MIT-Lizenz
 
-Der incluMOVE Software Code steht unter der **MIT Lizenz**. 
+Der incluMOVE Software Code steht unter der **MIT-Lizenz**. 
 Nähere Informationen finden sich dazu [hier](LICENSE.md).
 
 Die **incluMOVE Software**, ihr User Interface Design und die Gamification Konzepte wurden vom Projektpartner **[Affective & Cognitive Institute](https://aci.hs-offenburg.de/)** der [Hochschule Offenburg](https://www.hs-offenburg.de/) entwickelt. 
@@ -138,6 +140,135 @@ ________________________________________________________________________________
 <a name="english"></a>
 # incluMOVE software documentation (english)
 
-Welcome to the documentation to the incluMOVE application. This is the setup guide, user manual and api documentation for the Unity application of incluMOVE.
+Welcome to the **documentation to the incluMOVE application**. <br>
+This is the setup guide, user manual and api documentation for the Unity application of incluMOVE. <br>
 
 For more Information please visit the [official project website](https://inclumove.de).
+
+
+Welcome to the **Documentation page of the incluMOVE application**. <br>
+This is where you can find information on setting up, operating and developing the incluMOVE Unity application. <br>
+
+Further information:
+
+ 1. [Overview](#overview)
+ 2. [Gamification, virtual assistant, chatbot](#gamification_en)
+ 3. [Software packages](#software_en)
+ 4. [MIT licence](#license_en)
+ 5. [Publications](#publications_en)
+ 6. [incluMOVE Graphics](#graphics_en)
+ 7. [The incluMOVE Project](#project_en)
+ 8. [Contact](#contact_en)
+
+---
+
+
+<a name="overview"></a>
+## Overview
+incluMOVE is a virtual assistance system developed for a neurodivergent user group. It explains work steps to neurodivergent users with the help of a chatbot, a pick-by-light system and the virtual assistant Gregor Gouda. Gamification elements increase motivation and offer a performance comparison. 
+
+![Overview graphic incluMOVE features](docs/images/overview_inclumove-en.png)
+
+---
+
+<a name="gamification_en"></a>
+## Gamification, virtual assistant, chatbot
+incluMOVE combines a didactic user interface with gamification elements. More detailed descriptions of the individual screens can be found in the menu item Application Overview.
+A general overview of the user interface is explained in this video.
+
+https://www.youtube.com/watch?v=qUG8vzNHk2M 
+
+#### Chatbot
+The chatbot accompanies users through the individual work steps. These steps are freely editable (Editor Tool) and text, audio, images and videos can be integrated to explain the individual steps. 
+#### Gregor Gouda
+The virtual assistant Gregor Gouda is part of the chatbot and takes on the role of explaining the work steps. In addition, animations such as greetings and farewells are incorporated.
+#### Timeline
+A timeline in the chatbot itself provides information about which work step you are currently in and whether you are on time. In addition, there is a counter displaying how many rounds you have already completed.
+#### Gamification
+Each session, users can collect so-called badges that reflect their speed, endurance and performance. These badges offer users a way to keep track of their performance and are redeemed at the end of the session into a colourful reward animation. 
+Over a longer period of time, users receive so-called milestones that reward iterative work with incluMOVE.
+Animations are an important part of the user interface experience. Special animations are played every time a workflow is completed or badges are collected. Animations are also built into the performance overview towards the end. 
+#### Editor Tool
+The Editor Tool offers the possibility to design all displays in the chatbot (image, text, sound, video), pick-by-light projections and the time of a workflow step and to add new entries. 
+In addition, the adaptivity of each element can be edited to display additional help offers if needed. 
+
+
+---
+
+<a name="software_en"></a>
+## Software packages
+The software code is available in two different packages.
+
+#### incluMOVE Light
+incluMOVE Light is the **Basic Edition of the assistance system**. It contains all functions and user interface elements developed in the project. 
+Only a *PC, a table surface for projection and a beamer* are required for use.
+
+#### incluMOVE Extended
+incluMOVE Extended is the work-in-progress version of the incluMOVE project and offers additional communication interfaces to hardware components of the Fraunhofer IPA such as the placement aid and the placement table. <br>
+*We recommend the incluMOVE Extended version for further development of the research approach of the incluMOVE project.
+
+---
+
+<a name="license_en"></a>
+## MIT licence
+
+The incluMOVE software code is licensed under the **MIT licence**. 
+More information can be found [here](LICENSE.md).
+
+The **incluMOVE software**, its user interface design and the gamification concepts were developed by the project partner **[Affective & Cognitive Institute](https://aci.hs-offenburg.de/)** of the [Offenburg University of Applied Sciences](https://www.hs-offenburg.de/). 
+
+The following ACI staff members worked on the incluMOVE software:
+
+**Concept:** Moritz Umfahrer, Jonas Grund, Lea Buchweitz <br>
+**Design:** Jonas Grund <br>
+**Programming:** Moritz Umfahrer, James Gay, Hubert Njuacha <br>
+**Direction:** Prof. Dr. Oliver Korn <br>
+
+We would like to thank our partners **Femos gGmbH** for their feedback and on-site user studies, as well as **Fraunhofer IPA** for developing the object recognition and hardware components of the *incluMOVE Extended* version!
+
+
+---
+
+<a name="publications_en"></a>
+## Publications 
+The following scientific contributions have been produced in the project:
+
+> Grund J., Umfahrer M., Buchweitz L., Gay J., Theil A., and Korn O. (2020) <br>
+> A gamified and adaptive learning system for neurodivergent workers in electronic assembling tasks. In Proceedings of the Conference on Mensch und Computer* <br>.
+> (MuC '20). Association for Computing Machinery, New York, NY, USA, 491-494. <br>
+> https://doi.org/10.1145/3404983.3410420 <br>
+
+---
+
+<a name="graphics_en"></a>
+## incluMOVE Graphics
+**The virtual assistant Gregor Gouda** is also available for free use under the *CC-BY-SA licence*. This package includes additional **designs, backgrounds and animations**. 
+
+> https://github.com/AffectiveCognitiveInstitute/inclumove_graphics
+
+---
+
+<a name="project_en"></a>
+## The incluMOVE project
+**incluMOVE** was a collaboration project with the inclusion company **[Femos gGmbH](https://www.femos-zenit.de/de/)**, the research institute **[Fraunhofer IPA](https://www.ipa.fraunhofer.de/)** and the **[Affective & Cognitive Institute of the University of Applied Sciences Offenburg](https://aci.hs-offenburg.de/de/)**. <br>
+It ended in March 2021.
+
+For more information, please visit the project's official website: 
+**[incluMOVE.de](http://inclumove.de/)**.
+
+
+The incluMOVE project was funded by:
+
+![incluMOVE Sponsors](docs/images/sponsors_logos-en.png)
+
+---
+
+<a name="contact_en"></a>
+## Contact
+
+For further questions about the incluMOVE software code, please contact our ACI contacts: <br>
+> https://aci.hs-offenburg.de/contact/ <br>
+
+For project related questions, please contact the incluMOVE project management. <br>
+
+> http://inclumove.de/kontakt/
