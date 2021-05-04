@@ -16,8 +16,8 @@ Das System startet in den Idle Screen. Wird ein USB-Stick eingesteckt, bzw. ist 
 ![Ansicht Registrierungsscreen](images/screens/registration.png)\
 Neue Nutzer werden zur Wahl eines Nutzernamens aufgefordert. In der Mitte ist der Livefeed einer angeschlossenen Webcam zu sehen. Kann die Webcam nicht geladen werden, wird ein Platzhalter verwendet. Nach Bestätigung wird das Bild als Profilbild des Nutzers festgelegt und auf den Begrüßungsscreen weitergeleitet.
 
-## Begrüßungs Screen
-![Ansicht Begrüßungs-Screen](images/screens/greeting.png)\
+## Begrüßungsscreen
+![Ansicht Begrüßungsscreen](images/screens/greeting.png)\
 Bei der Begrüßung werden die vom Nutzer gewählten Belohnungsanimationen abgespielt. Danach wird der Nutzer durch Gregor begrüßt. Durch Drücken auf den Startknopf kann der Nutzer nun den freigeschalteten Workflow starten.
 
 ## Workflow Screen
@@ -133,7 +133,7 @@ Schritt 6 und 7 haben wieder 0 Wiederholungen.
 Die Schritte werden also in folgender Abfolge ausgeführt:
 1 - 2 - 3 - 4 - 5 - 3 - 4 - 5 - 3 - 4 - 5 - 6 - 7
 ```
-- **Schritt-typ**\
+- **Schritt-Typ**\
 Im Gegensatz zu incluMOVe Extended gibt es verschiedene Schritt-Typen für die verschiedenen Systemabläufe.\
     - Automatisch\
     Ein automatischer Schritt wird nach Ablauf der Orientierungsdauer automatisch beendet. 
@@ -311,4 +311,5 @@ The workflow name can be changed via the header. This changes both the file name
 
 ### Edit step elements
 Each step element can be moved in the scene by left-clicking. In addition, various properties of the individual elements can be changed as desired using the Editor Tool.
+
 ![View Editor Tool](images/screens/editor/editor_01.png)
