@@ -138,7 +138,7 @@ Für Projekt bezogene Fragen kontaktieren Sie bitte die Projektleitung des inclu
 _________________________________________________________________________________________________________________
 
 <a name="english"></a>
-# incluMOVE software documentation (english)
+# incluMOVE software documentation (English)
 
 Welcome to the **documentation to the incluMOVE application**. <br>
 This is the setup guide, user manual and api documentation for the Unity application of incluMOVE. <br>
@@ -170,6 +170,7 @@ incluMOVE is a virtual assistance system developed for a neurodivergent user gro
 ![Overview graphic incluMOVE features](docs/images/overview_inclumove-en.png)
 
 ---
+
 
 <a name="gamification_en"></a>
 ## Gamification, virtual assistant, chatbot
