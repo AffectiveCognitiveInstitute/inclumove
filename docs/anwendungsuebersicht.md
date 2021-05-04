@@ -311,4 +311,4 @@ The workflow name can be changed via the header. This changes both the file name
 
 ### Edit step elements
 Each step element can be moved in the scene by left-clicking. In addition, various properties of the individual elements can be changed as desired using the Editor Tool.
-View Editor Tool](images/screens/editor/editor_01.png)
+![View Editor Tool](images/screens/editor/editor_01.png)
