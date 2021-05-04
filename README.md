@@ -13,7 +13,7 @@ Mehr Informationen über das **Projekt incluMOVE** finden Sie auf der offizielle
 > [inclumove.de](http://inclumove.de/)
 
 ### Lizenz
-Die Inhalte dieses Repository sind frei verfügbar unter der **[MIT Lizenz](LICENSE.md)**. 
+Die Inhalte dieses Repository sind frei verfügbar unter der **[MIT Lizenz](inclumove/LICENSE.md)**. 
 
 ### Dokumentation
 Ausführlichere Informationen über die **Anwendung, Features und Installation** stehen in unserer Dokumentation zur Verfügung.
@@ -40,4 +40,4 @@ More detailed information about the **application, features and installation** i
 > [Documentation incluMOVE](https://affectivecognitiveinstitute.github.io/inclumove/index.html)
 
 ### Release 
-Release Date: 05.05.2021 - [LICENSE](LICENSE.md) 
+Release Date: 05.05.2021 - [LICENSE](inclumove/LICENSE.md) 
