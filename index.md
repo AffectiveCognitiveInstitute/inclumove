@@ -140,12 +140,6 @@ ________________________________________________________________________________
 <a name="english"></a>
 # incluMOVE software documentation (English)
 
-Welcome to the **documentation to the incluMOVE application**. <br>
-This is the setup guide, user manual and api documentation for the Unity application of incluMOVE. <br>
-
-For more Information please visit the [official project website](https://inclumove.de).
-
-
 Welcome to the **Documentation page of the incluMOVE application**. <br>
 This is where you can find information on setting up, operating and developing the incluMOVE Unity application. <br>
 
