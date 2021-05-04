@@ -20,7 +20,7 @@ Ausführlichere Informationen über die **Anwendung, Features und Installation**
 > [Dokumentation incluMOVE](https://affectivecognitiveinstitute.github.io/inclumove/index.html)
 
 ### Release 
-Release Date: 05.05.2021 - [LICENSE](LICENSE)
+Release Date: 30.03.2021 - [LICENSE](LICENSE)
 _________________________________________________________________________________________________________________
 
 <a name="english_version"></a>
@@ -40,4 +40,4 @@ More detailed information about the **application, features and installation** i
 > [Documentation incluMOVE](https://affectivecognitiveinstitute.github.io/inclumove/index.html)
 
 ### Release 
-Release Date: 05.05.2021 - [LICENSE](LICENSE) 
+Release Date: 30.03.2021 - [LICENSE](LICENSE) 
