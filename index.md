@@ -185,7 +185,7 @@ Over a longer period of time, users receive so-called milestones that reward ite
 Animations are an important part of the user interface experience. Special animations are played every time a workflow is completed or badges are collected. Animations are also built into the performance overview towards the end. 
 #### Editor Tool
 The Editor Tool offers the possibility to design all displays in the chatbot (image, text, sound, video), pick-by-light projections and the time of a workflow step and to add new entries. 
-In addition, the adaptivity of each element can be edited to display additional help offers if needed. 
+In addition, the adaptivity of each element can be edited to display additional assistance if needed. 
 
 
 ---
